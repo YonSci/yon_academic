@@ -6,13 +6,15 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-
 {% include base_path %}
 
 General Information 
 ======
 
-I am a Ph.D. student at the Ethiopian Institute of Water Resources (EIWR), Addis Ababa University (AAU), where my research focuses on understanding `land surface driven processes` and `land-atmosphere feedbacks` through the use of `Earth System Models`, specifically the `Community Land Model (CLM)` and `Regional Climate Model (RegCM)`. I'm also investigating extreme hydro-climate events, particularly `drought`, and its relationships with `large-scale ocean-atmosphere oscillations` such as ENSO, IOD, MJO, and NAO over Ethiopia.
+I am a Ph.D. student at the Ethiopian Institute of Water Resources (EIWR), Addis Ababa University (AAU), where my research focuses on understanding `land surface driven processes` and `land-atmosphere feedbacks` through the use of `Earth System Models`, specifically the `Community Land Model (CLM)` and `Regional Climate Model (RegCM)`. I'm also investigating the characteristics of `extreme hydro-climate events`  and their relationships with `large-scale ocean-atmosphere oscillations` like ENSO, IOD, MJO, and NAO over Ethiopia.
+
+CV 
+======
 
 Education
 ======
