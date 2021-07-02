@@ -7,7 +7,7 @@ venue: "University 1, Department"
 date: 2014-01-01
 location: "City, Country"
 ---
-![image](https://github.com/YonSci/yon_academic/blob/master/images/yon.jpeg)
+[image](https://github.com/YonSci/yon_academic/blob/master/images/con.PNG)
 
 This is a description of a teaching experience. You can use markdown like any other post.
 
