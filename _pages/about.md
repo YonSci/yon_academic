@@ -7,20 +7,16 @@ redirect_from:
   - /about/
   - /about.html
 ---
+##### This page provides: 
 
-# Markdown
-Syntax highlighted code block
+   - computer model guides
+   - installation procedures
+   - workflows
+   - links to different scientific datasets and papers 
+   - data analysis and interpretation methods in the fields of meteorology, hydrology, climate, remote sensing, and geographic information systems (GIS). 
+   
+ ##### My goal is to share `well documented`, `reproducible`, and scientific data analysis approaches based on `open source` philosophy. 
 
-# Header 1
-## Header 2
-### This page provides computer model guides, installation procedures, workflows, links to different scientific datasets and papers, data analysis and interpretation methods in the fields of meteorology, hydrology, climate, remote sensing, and geographic information systems (GIS). My goal is to share well documented, reproducible and scientific data analysis approaches based on open source philosophy. 
-
-
-
-
-
-- Bulleted
-- List
 
 1. Numbered
 2. List
