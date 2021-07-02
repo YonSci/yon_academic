@@ -1,8 +1,5 @@
 # main links links
 main:
-  #- title: "Tutorial"
-  #  url: /Tutorial/
-
   - title: "Portfolio"
     url: /portfolio/
 
