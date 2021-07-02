@@ -9,7 +9,7 @@ redirect_from:
 ---
 This page provides: 
 
-   - _computer model guides/workflows and installation procedures_
+   - _computer model workflows and installation procedures_
    - _links to different scientific datasets and papers_ 
    - _data analysis and interpretation methods_ 
   
