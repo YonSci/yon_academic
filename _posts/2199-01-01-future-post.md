@@ -1,11 +1,13 @@
 ---
-title: 'Future Blog Post'
-date: 2199-01-01
+title: 'Shared blogs'
 permalink: /posts/2012/08/blog-post-4/
 tags:
   - cool posts
   - category1
   - category2
 ---
-
-This post will show up by default. To disable scheduling of future posts, edit `config.yml` and set `future: false`. 
+[AI Vs Analog-forecasting](https://eos.org/articles/combining-ai-and-analog-forecasting-to-predict-extreme-weather)
+[Deep-learning weather-predictions](https://towardsdatascience.com/how-deep-learning-is-helping-weather-predictions-and-climate-models-389ba226b7ab)
+[building-cesm](http://hannahlab.org/cesm-building-cesm-1-2-on-mac-osx/)
+[machine-learning-for-delineating-waterbodies](https://hatarilabs.com/ih-en/delineate-water-bodies-lakes-from-landsat-8-using-machine-learning-with-python-and-qgis-tutorial)
+[Why-Fortran](https://partee.io/2021/02/21/climate-model-response/)
