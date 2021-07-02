@@ -9,6 +9,7 @@ location: "City, Country"
 ---
 [image](images/conn.jpg)
 [](images/con.PNG)
+[](https://github.com/YonSci/yon_academic/tree/master/images/images/con.PNG)
 
 This is a description of a teaching experience. You can use markdown like any other post.
 
