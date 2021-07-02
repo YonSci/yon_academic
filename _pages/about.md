@@ -7,24 +7,23 @@ redirect_from:
   - /about/
   - /about.html
 ---
-##### This page provides: 
+This page provides: 
 
-   - computer model guides
-   - installation procedures
-   - workflows
-   - links to different scientific datasets and papers 
-   - data analysis and interpretation methods in the fields of meteorology, hydrology, climate, remote sensing, and geographic information systems (GIS). 
+   - _computer model guides/workflows and installation procedures_
+   - _links to different scientific datasets and papers_ 
+   - _data analysis and interpretation methods_ 
+  
+  in the fields of meteorology, hydrology, climate, remote sensing, and geographic information systems (GIS). 
    
- ##### My goal is to share `well documented`, `reproducible`, and scientific data analysis approaches based on `open source` philosophy. 
+##### My goal is to share `well documented`, `reproducible`, and scientific data analysis approaches based on `open source` philosophy. 
 
 
 1. Numbered
 2. List
 
-**Bold** and _Italic_ and `Code` text
+{**Bold** and _Italic_ and `Code` text}
 
 [Link](https://github.com/YonSci/Beamer-Tutorial). and ![Image](src)
-
 
 A data-driven personal website
 ======
