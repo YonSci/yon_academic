@@ -80,10 +80,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
-  avatar           : "profile.png"
+  name             : ""
+  avatar           : "IMG_20181115_195405_918.jpg"
   bio              : "PhD candidate at Ethiopian Institute of Water Resources (EIWR), Addis Ababa University(AAU)"
-  location         : "Location"
+  location         : " Addis Ababa,Ethiopian"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "http://yourfullgooglescholarurl.com"
