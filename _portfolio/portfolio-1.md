@@ -1,7 +1,8 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Beamer_tutorial_v1"
 collection: portfolio
 ---
+This is a step by step BEAMER Presentation tutorial . It includes latex file named `Beamer_Presentation_Mannual.tex` that  explains how to make and edit  beamer presentations. 
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+The files can be accessed either from: [GitHub](https://github.com/YonSci/Beamer-Tutorial), [GitLab](https://gitlab.com/YonSci/Beamer-Tutorial), & 
+[Bitbucket](https://bitbucket.org/YonSci/beamer-tutorial)
