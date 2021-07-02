@@ -1,10 +1,12 @@
 ---
 permalink: /Tutorial/
+title: "Tutorial"
 author_profile: true
 redirect_from: 
   - /md/
   - /Tutorial.html
 ---
+
 # Beamer
 This is a step by step BEAMER Presentation tutorial . It includes latex file named `Beamer_Presentation_Mannual.tex` that  explains how to make and edit  beamer presentations. 
 
