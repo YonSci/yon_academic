@@ -2,6 +2,7 @@
 main:
   - title: "Tutorial"
     url: /markdown/
+    url: /Tutorial/
 
   - title: "Teaching"
     url: /teaching/  
