@@ -85,7 +85,7 @@ author:
   bio              : "PhD candidate at Ethiopian Institute of Water Resources (EIWR), Addis Ababa University(AAU)"
   location         : " Addis Ababa,Ethiopian"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+ # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=OxQh78kAAAAJ"
   email            : "yonas.mersha1@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
