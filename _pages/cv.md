@@ -16,19 +16,23 @@ CV
 ======
 
 ### Education
+
 * Ph.D. candidate at Ethiopian Institute of Water Resources (EIWR), Addis Ababa University
 * M.S. in in Environmental and Land Planning Engineering, Politecnico Di Milano, 2011
 * B.S. in Meteorology, Arba Minch University, 2009
 
 ### Work experience
 
-Lecturer: 2007 – Present
+Lecturer: 
+* 2007 – Present
 * Arba Minch University, Ethiopia
 
-Software Instructor: 2013-Jan – 2013-Dec
+Software Instructor: 
+* 2013-Jan – 2013-Dec
 * ZAGET Consulting and Training PLC, Arba Minch, Ethiopia
 
-Environmental Engineer: 2014/Jan – 2014/Oct
+Environmental Engineer: 
+* 2014/Jan – 2014/Oct
 * ME Consulting Engineers (MECE), Addis Ababa, Ethiopia
 
 Skills
