@@ -18,8 +18,8 @@ CV
 ### Education
 
 * Ph.D. candidate at Ethiopian Institute of Water Resources (EIWR), Addis Ababa University
-* M.S. in in Environmental and Land Planning Engineering, Politecnico Di Milano, 2011
-* B.S. in Meteorology, Arba Minch University, 2009
+* MSc. in in Environmental and Land Planning Engineering, Politecnico Di Milano, 2011
+* BSc. in Meteorology, Arba Minch University, 2009
 
 ### Work experience
 
@@ -45,10 +45,9 @@ Skills
 
 Publications
 ======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
+### MSc. Thesis:
+Sustainable development by improvement of ribb basin management in Ethiopia: a possible irrigation scheme and a flood control structure, 2011, Poliecnico Di Milano, Italy  
+
 Talks
 ======
   <ul>{% for post in site.talks %}
