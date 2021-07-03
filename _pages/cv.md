@@ -17,30 +17,29 @@ CV
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+
+* Ph.D Ph.D. candidate at Ethiopian Institute of Water Resources (EIWR), Addis Ababa University
+* M.S. in in Environmental and Land Planning Engineering, Politecnico Di Milano, 2011
+* B.S. in Meteorology, Arba Minch University, 2009
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Lecturer: 2007 – Present
+* Arba Minch University, Ethiopia
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
+* 2013-Jan – 2013-Dec: Software Instructor
+* ZAGET Consulting and Training PLC, Arba Minch, Ethiopia
+
+* 2014/Jan – 2014/Oct: Environmental Engineer
+* ME Consulting Engineers (MECE), Addis Ababa, Ethiopia
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Operating System: [Linux & Windows]
+* programming language: [Python, R, MATLAB, Fortran, C, Shell scripts]
+* Earth system models: [RegCM, CLM]
+* Post-processing tools: [NCL, NCO, CDO, Grads, Panoply, MeteoInfo]
+* GIS Software’s: [ARC-GIS, Q-GIS, GRASS-GIS, ERDAS-IMAGINE, ILWIS, SAGA-GIS]
 
 Publications
 ======
@@ -63,3 +62,13 @@ Teaching
 Service and leadership
 ======
 * Currently signed in to 43 different slack teams
+
+References
+======
+Dr. Gulilat Tefera
+* Specialization: Regional Climate Modelling
+* Environment and Climate Change Canada, Dorval, Canada
+* Email: Gulilattef@gmail.com
+
+Mobile: +15144678507
+
