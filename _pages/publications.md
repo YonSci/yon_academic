@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Publications"
+title: "Scientific datasets & Publications"
 permalink: /publications/
 author_profile: true
 ---
