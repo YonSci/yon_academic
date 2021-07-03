@@ -45,24 +45,9 @@ Skills
 
 Publications
 ======
-### MSc. Thesis:
-Sustainable development by improvement of ribb basin management in Ethiopia: a possible irrigation scheme and a flood control structure, 2011, Poliecnico Di Milano, Italy  
+### [MSc. Thesis](https://scholar.google.com/scholar?oi=bibs&cluster=14337889031741235872&btnI=1&hl=en)
 
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+Sustainable development by improvement of ribb basin management in Ethiopia: a possible irrigation scheme and a flood control structure, 2011, Poliecnico Di Milano, Italy  
 
 References
 ======
@@ -71,3 +56,7 @@ Dr. Gulilat Tefera
 * Environment and Climate Change Canada, Dorval, Canada
 * Email: Gulilattef@gmail.com
 
+Prof. Priscila Escobar Rojo
+* Department of Hydraulic Engineering and Environment, Infrastructures and Surveying
+* Poliecnico Di Milano, Italy  
+* Email: priscila.escobar@polimi.it
