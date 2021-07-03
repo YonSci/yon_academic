@@ -16,7 +16,7 @@ CV
 ======
 
 ### Education
-* Ph.D Ph.D. candidate at Ethiopian Institute of Water Resources (EIWR), Addis Ababa University
+* Ph.D. candidate at Ethiopian Institute of Water Resources (EIWR), Addis Ababa University
 * M.S. in in Environmental and Land Planning Engineering, Politecnico Di Milano, 2011
 * B.S. in Meteorology, Arba Minch University, 2009
 
