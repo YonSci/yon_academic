@@ -17,6 +17,7 @@ This page provides:
   
   My goal is to share `well documented` and `reproducible` scientific data analysis approaches based on `open source` philosophy. 
 
+ ![Tux, the Linux mascot](/images/tux.png)
 
 <!---1. Numbered
 <!---2. List
