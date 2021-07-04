@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Climate_datasets_1"
+title: "Climate_datasets_1.md"
 permalink: /datasets/
 author_profile: true
 ---
