@@ -1,5 +1,5 @@
 ---
-permalink: /https://github.com/YonSci/yon_academic/blob/27eb87a335fb6904eb98b16a8a232261e089096c/_datasets/datasets_1.md
+permalink: /https://github.com/YonSci/yon_academic/blob/27eb87a335fb6904eb98b16a8a232261e089096c/_datasets/ 
 title: "datasets"
 author_profile: true
 redirect_from: 
