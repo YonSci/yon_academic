@@ -4,7 +4,6 @@ title: "Contact"
 permalink: /Contact/
 author_profile: true
 ---
-## Contact
 
 Yonas Mersha<br/>
 Ethiopian Institute of Water Resources (EIWR)<br/>
