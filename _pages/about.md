@@ -14,7 +14,7 @@ This page provides:
    - _data analysis and interpretation methods_ 
   
   in the fields of meteorology, hydrology, climate, remote sensing, and geographic information systems (GIS). 
-   
+   (https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/apple/21/smiling-face-with-sunglasses_1f60e.png)
 My goal is to share `well documented` and `reproducible` scientific data analysis approaches based on `open source` philosophy. 
 
 
