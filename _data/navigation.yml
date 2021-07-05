@@ -5,19 +5,16 @@ main:
     
   - title: "Projects & Research"
     url: /Projects-Research/
-
-  - title: "Teaching"
-    url: /teaching/  
-
-  - title: "Data analysis"
-    url: /talks/  
-
-  - title: "Blog Posts"
-    url: /year-archive/
     
   - title: "Scientific datasets"
     url: /datasets/
+     
+  - title: "Blog Posts"
+    url: /year-archive/
 
+  - title: "Teaching"
+    url: /teaching/  
+    
   - title: "CV"
     url: /cv/
     
