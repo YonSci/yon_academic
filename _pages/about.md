@@ -17,15 +17,14 @@ This page provides:
   
   My goal is to share `well documented` and `reproducible` scientific data analysis approaches based on `open source` philosophy. 
   
-  <script
-  async
-  src="https://utteranc.es/client.js"
-  repo="<OWNER>/<NAME>"
-  issue-term="title"
-  theme="github-light"
-  crossorigin="anonymous"
-></script>
 
+<script src="https://utteranc.es/client.js"
+        repo="[YonSci/yon_academic]"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
 <!---![Tux, the Linux mascot](/images/tux.png)
 
 <!---1. Numbered
