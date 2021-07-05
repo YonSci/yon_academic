@@ -17,7 +17,8 @@ This page provides:
   
   My goal is to share `well documented` and `reproducible` scientific data analysis approaches based on `open source` philosophy. 
 
-~~~ <script src="https://utteranc.es/client.js"
+~~~ 
+<script src="https://utteranc.es/client.js"
         repo="[YonSci/yon_academic]"
         issue-term="pathname"
         theme="github-light"
