@@ -26,6 +26,7 @@ This page provides:
         async>
 </script> 
 ~~~
+{{ addcomments }}
 
 <!---![Tux, the Linux mascot](/images/tux.png)
 
