@@ -2,6 +2,9 @@
 main:
   - title: "Tutorial"
     url: /portfolio/
+    
+  - title: "Projects & Research"
+    url: /Projects-Research/
 
   - title: "Teaching"
     url: /teaching/  
