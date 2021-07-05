@@ -16,15 +16,16 @@ This page provides:
   in the fields of meteorology, hydrology, climate, remote sensing, and geographic information systems (GIS). 
   
   My goal is to share `well documented` and `reproducible` scientific data analysis approaches based on `open source` philosophy. 
-  
 
-<script src="https://utteranc.es/client.js"
+~~~ <script src="https://utteranc.es/client.js"
         repo="[YonSci/yon_academic]"
         issue-term="pathname"
         theme="github-light"
         crossorigin="anonymous"
         async>
-</script>
+</script> 
+~~~
+
 <!---![Tux, the Linux mascot](/images/tux.png)
 
 <!---1. Numbered
