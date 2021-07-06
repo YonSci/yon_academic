@@ -16,11 +16,12 @@ This page provides:
   in the fields of meteorology, hydrology, climate, remote sensing, and geographic information systems (GIS). 
   
   My goal is to share `well documented` and `reproducible` scientific data analysis approaches based on `open source` philosophy. 
+  
 
 {% include comments.html %}
 
 ```
-
+:EMOJICODE: 😄
 <!---![Tux, the Linux mascot](/images/tux.png)
 
 <!---1. Numbered
