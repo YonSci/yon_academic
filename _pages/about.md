@@ -21,8 +21,8 @@ This page provides:
 {% include comments.html %}
 
 ```
-<!--- :EMOJICODE: 😄
-<!--- [Tux, the Linux mascot](/images/tux.png)
+<!---:EMOJICODE:
+<!---[Tux, the Linux mascot](/images/tux.png)
 
 <!---1. Numbered
 <!---2. List
