@@ -20,25 +20,3 @@ This page provides:
 
 {% include comments.html %}
 
-```
-<!---:EMOJICODE:
-<!---[Tux, the Linux mascot](/images/tux.png)
-
-<!---1. Numbered
-<!---2. List
-
-<!---{**Bold** and _Italic_ and `Code` text} --->
-
-<!---[Link](https://github.com/YonSci/Beamer-Tutorial). and ![Image](src)
-
-<!--- A data-driven personal website
-Getting started
-======
-Site-wide configuration
-------
-Create content & metadata
-------
-**Markdown generator**
-How to edit your site's GitHub repository
-------
-![Editing a markdown file for a talk](/images/editing-talk.png)--->
