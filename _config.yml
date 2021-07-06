@@ -30,7 +30,7 @@ comments:
     appid                : 335040264869443
     num_posts            : 8 # 5 (default)
     colorscheme          : "light"  # "light" (default), "dark"
-    order_by             : "time"
+    order_by             : "reverse_time"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "gh-pages" # "master", "gh-pages"
