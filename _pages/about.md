@@ -17,13 +17,8 @@ This page provides:
   
   My goal is to share `well documented` and `reproducible` scientific data analysis approaches based on `open source` philosophy. 
 
-{{ addcomments }}
+{% include comments.html %}
 
-```html
-<p>
-    This is a paragraph with **markdown bold** which will be ignored.
-    This is the next line but there was no break tag so it is on the same line.
-</p>
 ```
 
 <!---![Tux, the Linux mascot](/images/tux.png)
