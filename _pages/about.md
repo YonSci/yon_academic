@@ -13,7 +13,7 @@ This page provides:
    - Tutorials & installation procedures of post-processing software's such as `NCL`, `NCO`, `CDO`, `Grads`, `Panoply`, & `MeteoInfo`, etc. 
    - Links to different `scientific datasets`  
    - Lecture notes 
-   - Some blogs to share the recent knowledge & whatever comes to my mind...
+   - Some blogs to share the recent knowledge & whatever comes to my mind 😎 ...
        
   in the fields of `meteorology`, `hydrology`, `climate`, `remote sensing`, and `geographic information systems (GIS)`. 
   
