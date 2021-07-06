@@ -60,3 +60,6 @@ Prof. Priscila Escobar Rojo
 * Department of Hydraulic Engineering and Environment, Infrastructures and Surveying
 * Poliecnico Di Milano, Italy  
 * Email: priscila.escobar@polimi.it
+
+{% include social-share.html %} 
+{% include comments.html %}
