@@ -7,3 +7,6 @@ permalink: /posts/2012/08/blog-post-4/
 - [Building-cesm](http://hannahlab.org/cesm-building-cesm-1-2-on-mac-osx/)
 - [Machine-learning-for-delineating-waterbodies](https://hatarilabs.com/ih-en/delineate-water-bodies-lakes-from-landsat-8-using-machine-learning-with-python-and-qgis-tutorial)
 - [Why-Fortran](https://partee.io/2021/02/21/climate-model-response/)
+
+{% include social-share.html %}
+{% include comments.html %}
