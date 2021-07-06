@@ -28,8 +28,9 @@ comments:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
     appid                : 335040264869443
-    num_posts            : 5 # 5 (default)
+    num_posts            : 8 # 5 (default)
     colorscheme          : "light"  # "light" (default), "dark"
+    order_by             : "time"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "gh-pages" # "master", "gh-pages"
