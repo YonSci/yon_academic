@@ -9,11 +9,13 @@ redirect_from:
 ---
 This page provides: 
 
-   - _computer model workflows and installation procedures_
-   - _links to different scientific datasets and papers_ 
-   - _data analysis and interpretation methods_ 
-  
-  in the fields of meteorology, hydrology, climate, remote sensing, and geographic information systems (GIS). 
+   - Data analysis & visualization methods mainly using `Python` & `R` programming languages.
+   - Tutorials & installation procedures of post-processing software's such as `NCL`, `NCO`, `CDO`, `Grads`, `Panoply`, & `MeteoInfo`, etc. 
+   - Links to different `scientific datasets`  
+   - Lecture notes 
+   - Some blogs to share the recent knowledge & whatever comes to my mind...
+       
+  in the fields of `meteorology`, `hydrology`, `climate`, `remote sensing`, and `geographic information systems (GIS)`. 
   
   My goal is to share `well documented` and `reproducible` scientific data analysis approaches based on `open source` philosophy. 
   
