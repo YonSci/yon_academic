@@ -200,6 +200,28 @@ This tag shows **bold text**.
 Getting our science styling on with H<sub>2</sub>O, which should push the "2" down.
 
 ### Superscript Tag
+```
+<!---:EMOJICODE:
+<!---[Tux, the Linux mascot](/images/tux.png)
+
+<!---1. Numbered
+<!---2. List
+
+<!---{**Bold** and _Italic_ and `Code` text} --->
+
+<!---[Link](https://github.com/YonSci/Beamer-Tutorial). and ![Image](src)
+
+<!--- A data-driven personal website
+Getting started
+======
+Site-wide configuration
+------
+Create content & metadata
+------
+**Markdown generator**
+How to edit your site's GitHub repository
+------
+![Editing a markdown file for a talk](/images/editing-talk.png)--->
 
 Still sticking with science and Isaac Newton's E = MC<sup>2</sup>, which should lift the 2 up.
 
