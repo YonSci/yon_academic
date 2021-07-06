@@ -17,5 +17,4 @@ This page provides:
   
   My goal is to share `well documented` and `reproducible` scientific data analysis approaches based on `open source` philosophy. 
   
-{% include sidebar.html %}
 {% include comments.html %}
