@@ -16,7 +16,7 @@ Step:1 Enabling Windows Subsystem for Linux:
 * Now click on the **Turn Windows features on or off** option 
 <img src="https://github.com/YonSci/yon_academic/blob/d7777f423e10db672c48d7d03b301bcac15ec94e/images/b4.png?raw=true" width="800" height="800" />
 * Check the **Windows Subsystem for Linux option**  
-<img src="?raw=true" width="800" height="800" />
+<img src="https://github.com/YonSci/yon_academic/blob/0261fdd94511c123ce57c8a6194a1bb1a64c6bf8/images/b5.png?raw=true" width="800" height="800" />
 * Click the **OK** button
 * Click the **Restart** 
 This will complete the enabling process of **WSL** 
