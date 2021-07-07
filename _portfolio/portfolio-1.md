@@ -7,7 +7,8 @@ collection: Tutorial
 <!--### Windows-10 Subsystem for Linux (WSL) installation"-->
 
 Step:1 Enabling Windows Subsystem for Linux:
-> * Open your windows **Setting**  
+> * Open your windows **Settings**  
+> []
 > * Click on **Apps & features**   
 > * Under the **Related settings** section, click the **Programs and Features** option  
 > * Click the **Turn Windows features on or off** option from the left pane
