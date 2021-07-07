@@ -23,11 +23,12 @@ collection: Tutorial
 This will complete the enabling process of **WSL** on Windows 10 
 
 ### Step:2 Installing Ubuntu Linux distro from Microsoft Store:
-> * Open **Microsoft Store** 
-> * Search & select either **Ubuntu 18.04 LTS** or **Ubuntu 20.04 LTS**
-> * Click the **Get** button
-> * Click the **Launch** button 
-> * Enter **username** and **password** for the new Ubuntu distribution
-> * Repeat the **password** and press Enter to confirm
+* Open **Microsoft Store** from the start menu  
+<img src="?raw=true" width="500" height="500" /> 
+* Search & select either **Ubuntu 18.04 LTS** or **Ubuntu 20.04 LTS**
+* Click the **Get** button
+* Click the **Launch** button 
+* Enter **username** and **password** for the new Ubuntu distribution
+* Repeat the **password** and press Enter to confirm
 
 You've successfully installed Ubuntu on your Windows-10!!! ㊗️ (congratulation in Chinese)
