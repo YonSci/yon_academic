@@ -33,6 +33,7 @@ This will complete the enabling process of **WSL** on Windows 10
 * The **ubuntu terminal** will open & you will be asked to wait for a few minutes to complete the remaining installation 
 * Then, you will be asked to create a **user account** & **password**
   * Type username & press `<Enter>`, then type a new password & press `<Enter>`
-  * Repeat the password & press `<Enter>` to confirm
+  * Repeat the password & press `<Enter>` to confirm    
+<img src="https://github.com/YonSci/yon_academic/blob/240632a6787d7d334c969e67e62fd7c7673f76b9/images/b10.png?raw=true" width="500" height="500" />
 
 You've successfully installed Ubuntu on your Windows-10!!! ㊗️㊗️㊗️ (congratulation in Chinese)
