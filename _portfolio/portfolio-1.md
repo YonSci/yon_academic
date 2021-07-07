@@ -4,7 +4,6 @@ author_profile: true
 title: "Windows-10 Subsystem for Linux (WSL) installation"
 collection: Tutorial
 ---
-
 Step:1 Enabling Windows Subsystem for Linux:
 > * Open your windows **Setting**  
 > * Click on **Apps & features**   
@@ -13,7 +12,6 @@ Step:1 Enabling Windows Subsystem for Linux:
 > * Check the **Windows Subsystem for Linux option**
 > * Click the **OK** button
 > * Click the **Restart** 
-
 This will complete the enabling process of **WSL** 
 
 Step:2 Installing __**Ubuntu Linux**__ distro from Microsoft Store:
