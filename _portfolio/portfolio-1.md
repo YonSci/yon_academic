@@ -8,18 +8,7 @@ collection: Tutorial
 
 Step:1 Enabling Windows Subsystem for Linux:
 > * Open your windows **Settings**  
-> ![Image1](_portfolio/a1.jpg) 
-> ![Image2](https://github.com/YonSci/yon_academic/blob/3d428672244cb119c5c9b5aaf8e28620f854d8bd/_portfolio/a1.jpg)
-> ![Image3](images/a1.jpg)
-> ![Image4](https://github.com/YonSci/yon_academic/blob/d02de418057b38e3bc947d5adb82f26eee2c09ee/images/a1.jpg)
-> ![Image5](a1.jpg)
-> ![Image6](https://github.com/YonSci/yon_academic/blob/3d428672244cb119c5c9b5aaf8e28620f854d8bd/_portfolio/a1.jpg)
-> 
-> <img src="https://github.com/YonSci/yon_academic/blob/3d428672244cb119c5c9b5aaf8e28620f854d8bd/_portfolio/a1.jpg?raw=true" width="100" height="100" />
-> <img src="_portfolio/a1.jpg?raw=true" width="200" height="200" />
-> <img src="images/a1.jpg?raw=true" width="300" height="300" />
-> <img src="https://github.com/YonSci/yon_academic/blob/d02de418057b38e3bc947d5adb82f26eee2c09ee/images/a1.jpg?raw=true" width="400" height="400" />
-> <img src="a1.jpg?raw=true" width="500" height="500" />
+> <img src="https://github.com/YonSci/yon_academic/blob/3d428672244cb119c5c9b5aaf8e28620f854d8bd/_portfolio/a1.jpg?raw=true" width="800" height="800" />
 > * Click on **Apps & features**   
 > * Under the **Related settings** section, click the **Programs and Features** option  
 > * Click the **Turn Windows features on or off** option from the left pane
