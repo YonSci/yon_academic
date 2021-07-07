@@ -6,7 +6,7 @@ collection: Tutorial
 ---
 <!--### Windows-10 Subsystem for Linux (WSL) installation"-->
 
-Step:1 Enabling Windows Subsystem for Linux:
+### Step:1 Enabling Windows Subsystem for Linux:
 * From the start menu open windows **Settings**    
 <img src="https://github.com/YonSci/yon_academic/blob/78b86dd6c2f4b519ec98eb380e339e252e5ea92b/images/b1.png?raw=true" width="300" height="300" />
 * From windows settings, select **Apps**  
@@ -22,7 +22,7 @@ Step:1 Enabling Windows Subsystem for Linux:
 
 This will complete the enabling process of **WSL** on Windows 10 
 
-Step:2 Installing __**Ubuntu Linux**__ distro from Microsoft Store:
+### Step:2 Installing __**Ubuntu Linux**__ distro from Microsoft Store:
 > * Open **Microsoft Store** 
 > * Search & select either **Ubuntu 18.04 LTS** or **Ubuntu 20.04 LTS**
 > * Click the **Get** button
