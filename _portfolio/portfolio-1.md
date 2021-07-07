@@ -18,7 +18,7 @@ collection: Tutorial
 * Check the **Windows Subsystem for Linux option** & click **OK** button   
 <img src="https://github.com/YonSci/yon_academic/blob/0261fdd94511c123ce57c8a6194a1bb1a64c6bf8/images/b5.png?raw=true" width="500" height="500" />
 * Click the **Restart** tab       
-<img src="https://github.com/YonSci/yon_academic/blob/0dc308df2717e0f8557bc60d0fbcbd5a0ecc0410/images/b6.png?raw=true" width="500" height="500" /> 
+<img src="https://github.com/YonSci/yon_academic/blob/0dc308df2717e0f8557bc60d0fbcbd5a0ecc0410/images/b6.png?raw=true" width="400" height="400" /> 
 
 This will complete the enabling process of **WSL** on Windows 10 
 
@@ -28,7 +28,7 @@ This will complete the enabling process of **WSL** on Windows 10
 * In the search bar type **Ubuntu** & select either **Ubuntu 18.04 LTS** or **Ubuntu 20.04 LTS**      
 <img src="https://github.com/YonSci/yon_academic/blob/2910e813d40a898621fde28185318a161e3f3f67/images/b8.png?raw=true" width="500" height="500" /> 
 * Then, click on **Get** or **Install** button, this may take a while to complete  
-<img src="https://github.com/YonSci/yon_academic/blob/55301ca7259af6c0261fa4c5946648b7b986db90/images/b9.png?raw=true" width="500" height="500" />
+<img src="https://github.com/YonSci/yon_academic/blob/55301ca7259af6c0261fa4c5946648b7b986db90/images/b9.png?raw=true" width="600" height="600" />
 * When the installation completed, click the **Launch** button 
 * The **ubuntu terminal** will open & you will be asked to wait for a few minutes to complete the remaining installation 
 * Then, you will be asked to create a **user account** & **password**
@@ -37,3 +37,6 @@ This will complete the enabling process of **WSL** on Windows 10
 <img src="https://github.com/YonSci/yon_academic/blob/240632a6787d7d334c969e67e62fd7c7673f76b9/images/b10.png?raw=true" width="500" height="500" />
 
 You've successfully installed Ubuntu on your Windows-10!!! ㊗️㊗️㊗️ (congratulation in Chinese)
+
+{% include social-share.html %}
+{% include comments.html %}
