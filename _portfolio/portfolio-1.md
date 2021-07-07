@@ -15,7 +15,7 @@ Step:1 Enabling Windows Subsystem for Linux:
 > ![Image5](a1.jpg)
 > ![Image6](https://github.com/YonSci/yon_academic/blob/3d428672244cb119c5c9b5aaf8e28620f854d8bd/_portfolio/a1.jpg)
 > 
-> <img src="images/a1.jpg?raw=true" width="100" height="100" />
+> <img src="https://github.com/YonSci/yon_academic/blob/3d428672244cb119c5c9b5aaf8e28620f854d8bd/_portfolio/a1.jpg?raw=true" width="100" height="100" />
 > * Click on **Apps & features**   
 > * Under the **Related settings** section, click the **Programs and Features** option  
 > * Click the **Turn Windows features on or off** option from the left pane
