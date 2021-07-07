@@ -7,10 +7,10 @@ collection: Tutorial
 <!--### Windows-10 Subsystem for Linux (WSL) installation"-->
 
 Step:1 Enabling Windows Subsystem for Linux:
-* Open your windows **Settings** 
-* <img src="https://github.com/YonSci/yon_academic/blob/78b86dd6c2f4b519ec98eb380e339e252e5ea92b/images/b1.png?raw=true" width="300" height="300" />
+* Open your windows **Settings**    
+<img src="https://github.com/YonSci/yon_academic/blob/78b86dd6c2f4b519ec98eb380e339e252e5ea92b/images/b1.png?raw=true" width="300" height="300" />
 * Click on **Apps & features**  
-* <img src="https://github.com/YonSci/yon_academic/blob/3d428672244cb119c5c9b5aaf8e28620f854d8bd/_portfolio/a1.jpg?raw=true" width="800" height="800" />
+* <img src="https://github.com/YonSci/yon_academic/blob/3d428672244cb119c5c9b5aaf8e28620f854d8bd/_portfolio/a1.jpg?raw=true" width="300" height="300" />
 * Under the **Related settings** section, click the **Programs and Features** option  
 * Click the **Turn Windows features on or off** option from the left pane
 * Check the **Windows Subsystem for Linux option**
