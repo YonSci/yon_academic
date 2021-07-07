@@ -18,8 +18,8 @@ Step:1 Enabling Windows Subsystem for Linux:
 * Check the **Windows Subsystem for Linux option** & click **OK** button   
 <img src="https://github.com/YonSci/yon_academic/blob/0261fdd94511c123ce57c8a6194a1bb1a64c6bf8/images/b5.png?raw=true" width="700" height="700" />
 * Click the **Restart** tab       
-<img src="https://github.com/YonSci/yon_academic/blob/0261fdd94511c123ce57c8a6194a1bb1a64c6bf8/images/b5.png?raw=true" width="700" height="700" />
-This will complete the enabling process of **WSL** 
+<img src="https://github.com/YonSci/yon_academic/blob/0dc308df2717e0f8557bc60d0fbcbd5a0ecc0410/images/b6.png?raw=true" width="700" height="700" />  
+This will complete the enabling process of **WSL** on Windows 10 
 
 Step:2 Installing __**Ubuntu Linux**__ distro from Microsoft Store:
 > * Open **Microsoft Store** 
