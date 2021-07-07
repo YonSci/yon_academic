@@ -1,10 +1,10 @@
 ---
 layout: default
 author_profile: true
-title: "WSL installation"
+title: "Windows-10 Subsystem for Linux (WSL) installation"
 collection: Tutorial
 ---
-### Windows-10 Subsystem for Linux (WSL) installation"
+<!--### Windows-10 Subsystem for Linux (WSL) installation"-->
 
 Step:1 Enabling Windows Subsystem for Linux:
 > * Open your windows **Setting**  
