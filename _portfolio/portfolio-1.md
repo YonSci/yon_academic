@@ -29,7 +29,7 @@ This will complete the enabling process of **WSL** on Windows 10
 * Then, click on **Get** or **Install** button   
 <img src=https://github.com/YonSci/yon_academic/blob/2910e813d40a898621fde28185318a161e3f3f67/images/b8.png"?raw=true" width="500" height="500" /> 
 * When the installation completed, click on the **Launch** button or go to the start menu and type Ubuntu
-<img src=https://github.com/YonSci/yon_academic/blob/2910e813d40a898621fde28185318a161e3f3f67/images/b8.png"?raw=true" width="500" height="500" />
+<img src=https://github.com/YonSci/yon_academic/blob/55301ca7259af6c0261fa4c5946648b7b986db90/images/b9.png"?raw=true" width="500" height="500" />
 * Enter **username** and **password** for the new Ubuntu distribution
 * Repeat the **password** and press Enter to confirm
 
