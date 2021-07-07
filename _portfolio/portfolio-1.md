@@ -22,7 +22,7 @@ collection: Tutorial
 
 This will complete the enabling process of **WSL** on Windows 10 
 
-### Step:2 Installing __**Ubuntu Linux**__ distro from Microsoft Store:
+### Step:2 Installing Ubuntu Linux distro from Microsoft Store:
 > * Open **Microsoft Store** 
 > * Search & select either **Ubuntu 18.04 LTS** or **Ubuntu 20.04 LTS**
 > * Click the **Get** button
