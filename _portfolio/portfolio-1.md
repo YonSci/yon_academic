@@ -8,7 +8,7 @@ collection: Tutorial
 
 Step:1 Enabling Windows Subsystem for Linux:
 > * Open your windows **Settings**  
-> [Image](https://github.com/YonSci/yon_academic/blob/master/_portfolio/a1.jpg)
+> [Image](/_portfolio/a1.jpg)
 > * Click on **Apps & features**   
 > * Under the **Related settings** section, click the **Programs and Features** option  
 > * Click the **Turn Windows features on or off** option from the left pane
