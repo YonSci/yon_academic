@@ -9,9 +9,9 @@ redirect_from:
 ---
 This page provides: 
 
+   - [Tutorials & installation](https://yonsci.github.io/yon_academic//portfolio/) procedures of post-processing software's such as `NCL`, `NCO`, `CDO`, `Grads`, `Panoply`, & `MeteoInfo`, etc. 
+   - Links to different [scientific datasets](https://yonsci.github.io/yon_academic//datasets/)
    - Data analysis & visualization methods mainly using `Python` & `R` programming languages.
-   - Tutorials & installation procedures of post-processing software's such as `NCL`, `NCO`, `CDO`, `Grads`, `Panoply`, & `MeteoInfo`, etc. 
-   - Links to different `[scientific datasets](https://yonsci.github.io/yon_academic//datasets/)`
    - [Lecture notes](https://yonsci.github.io/yon_academic//teaching/) 
    - Some [blogs](https://yonsci.github.io/yon_academic//year-archive/) to share the recent knowledge & whatever comes to my mind 😎 ...
        
