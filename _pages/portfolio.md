@@ -11,5 +11,8 @@ author_profile: true
  
 ## [Anaconda Installation](https://yonsci.github.io/yon_academic//portfolio/portfolio-2/)
 
+<div align="justify"> Anaconda is  an open-source distribution for  programming languages such as python and R . It provides cross-platform package manager,  python packages/libraries, & IDE/editors. It is mainly used for data science & scientific computing applications. The primary benefit of Anaconda for our field is that it enables us to easily install and run various computing software packages and all dependencies in separate environments, preventing package conflict.
+Anaconda is  an open-source distribution for  programming languages such as python and R . It provides cross-platform package manager,  python packages/libraries, & IDE/editors. It is mainly used for data science & scientific computing applications. The primary benefit of Anaconda for our field is that it enables us to easily install and run various computing software packages and all dependencies in separate environments, preventing package conflict.  </div>
+
 {% include social-share.html %}
 {% include comments.html %}
