@@ -38,7 +38,8 @@ Environmental Engineer:
 Skills
 ======
 * Operating System: [Linux & Windows]
-* Programming language: [Python, R, MATLAB, Fortran, C, Shell scripts]
+* Programming languages: [Python, R, MATLAB, Fortran, Shell scripts]
+* Web programming languages: [HTML, CSS, Markdown] 
 * Earth system models: [RegCM, CLM]
 * Post-processing tools: [NCL, NCO, CDO, Grads, Panoply, MeteoInfo]
 * GIS Software’s: [ARC-GIS, Q-GIS, GRASS-GIS, ERDAS-IMAGINE, ILWIS, SAGA-GIS]
