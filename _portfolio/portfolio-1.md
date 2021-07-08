@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: default
 title: "Windows-10 Subsystem for Linux (WSL) installation"
 collection: Tutorial
 author_profile: true
