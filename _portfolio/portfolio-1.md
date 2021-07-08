@@ -34,4 +34,5 @@ collection: portfolio
 
 You've successfully installed Ubuntu on your Windows-10!!! ㊗️㊗️㊗️ (congratulation in Chinese)
 
+{% include comments.html %}
  
