@@ -1,6 +1,5 @@
 ---
 title: "Windows-10 Subsystem for Linux (WSL) installation"
-author_profile: true
 collection: portfolio
 ---
 
