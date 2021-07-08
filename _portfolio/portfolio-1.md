@@ -37,10 +37,6 @@ You've successfully installed Ubuntu on your Windows-10!!! ㊗️㊗️㊗️ (c
 
 {% include base_path %}
 
-{% for post in site.portfolio %}
-
-  {% include archive-single.html %}
-{% endfor %}
 
 {% include social-share.html %}
 {% include comments.html %}
