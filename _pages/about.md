@@ -11,9 +11,9 @@ This page provides:
 
    - Data analysis & visualization methods mainly using `Python` & `R` programming languages.
    - Tutorials & installation procedures of post-processing software's such as `NCL`, `NCO`, `CDO`, `Grads`, `Panoply`, & `MeteoInfo`, etc. 
-   - Links to different [scientific datasets](https://yonsci.github.io/yon_academic//datasets/)
-   - Lecture notes 
-   - Some blogs to share the recent knowledge & whatever comes to my mind 😎 ...
+   - Links to different `[scientific datasets](https://yonsci.github.io/yon_academic//datasets/)`
+   - [Lecture notes](https://yonsci.github.io/yon_academic//teaching/) 
+   - Some [blogs](https://yonsci.github.io/yon_academic//year-archive/) to share the recent knowledge & whatever comes to my mind 😎 ...
        
   in the fields of `meteorology`, `hydrology`, `climate`, `remote sensing`, and `geographic information systems (GIS)`. 
   
