@@ -11,7 +11,7 @@ This page provides:
 
    - Data analysis & visualization methods mainly using `Python` & `R` programming languages.
    - Tutorials & installation procedures of post-processing software's such as `NCL`, `NCO`, `CDO`, `Grads`, `Panoply`, & `MeteoInfo`, etc. 
-   - Links to different `scientific datasets`  [scientific datasets]()
+   - Links to different `scientific datasets`  [scientific datasets](https://github.com/YonSci/yon_academic/blob/master/_pages/datasets.md)
    - Lecture notes 
    - Some blogs to share the recent knowledge & whatever comes to my mind 😎 ...
        
