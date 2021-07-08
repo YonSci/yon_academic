@@ -36,3 +36,4 @@ collection: Tutorial
 You've successfully installed Ubuntu on your Windows-10!!! ㊗️㊗️㊗️ (congratulation in Chinese)
 
   {% include archive-single.html %}
+  {% include comments.html %}
