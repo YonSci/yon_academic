@@ -4,8 +4,8 @@ collection: portfolio
 ---
 ### Step: 1 Installing Wget package
 
-Before installing Anaconda, it's important to download Wget package which is primarily used for downloading data & files using HTTP, HTTPS, and FTP protocols from various servers. Wget has a number of options for downloading data. A separate tutorial on how to use Wget package will be added to the site in the near future. In this case, we'll use wget to download the Anaconda package. Let's begin by downloading and installing the wget package.
-
+<div align="justify"> Before installing Anaconda, it's important to download Wget package which is primarily used for downloading data & files using HTTP, HTTPS, and FTP protocols from various servers. Wget has a number of options for downloading data. A separate tutorial on how to use Wget package will be added to the site in the near future. In this case, we'll use wget to download the Anaconda package. Let's begin by downloading and installing the wget package. <div/>   
+  
 Open the ubuntu terminal & type in:  
 > sudo apt-get update -y  
 > sudo apt-get install -y wget  
