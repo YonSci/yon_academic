@@ -11,19 +11,19 @@ Open the ubuntu terminal & enter the following:
 > apt-get install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6
 
 ### Step: 3 Installing Wget package in order to easily download the Anaconda package:
-Wget package is primarily used for downloading data & files using HTTP, HTTPS, & FTP protocols from various servers. In this case, we'll use wget to download the Anaconda package. Let's begin by downloading & installing the wget package.
+Wget package is primarily used for downloading data & files using HTTP, HTTPS, & FTP protocols from various servers. In this case, we'll use wget to download the Anaconda package.
 
-On the ubuntu terminal type in:<br>      
-> sudo apt-get update -y  
+Let's begin by installing the wget package:<br>       
 > sudo apt-get install -y wget  
 
 Once installation finished check its version by running:<br>         
 > wget --version
 
-The general wget syntax of wget:<br>       
-> wget [option][URL]
+### Step: 4 Download the anaconda installation script via wget: 
+First, move to the `/tmp` directory to place the script file   
+> cd /tmp 
+Then, download the Anaconda installation script, it may take some time 
+> wget -P /tmp https://repo.anaconda.com/archive/Anaconda3-2020.02-Linux-x86_64.sh
 
-To download file to specific directory use the -P option:<br>      
-> wget -P [wanted_directory] [URL]
 
 {% include comments.html %}
