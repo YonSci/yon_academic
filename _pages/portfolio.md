@@ -5,4 +5,7 @@ permalink: /portfolio/
 author_profile: true
 ---
 
-### [Windows-10 Subsystem for Linux (WSL) installation](https://yonsci.github.io/yon_academic//portfolio/portfolio-1/)
+## [Windows-10 Subsystem for Linux (WSL) installation](https://yonsci.github.io/yon_academic//portfolio/portfolio-1/)
+
+{% include social-share.html %}
+{% include comments.html %}
