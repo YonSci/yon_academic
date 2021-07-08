@@ -34,7 +34,3 @@ author_profile: true
 <img src="https://github.com/YonSci/yon_academic/blob/240632a6787d7d334c969e67e62fd7c7673f76b9/images/b10.png?raw=true" width="600" height="600" />
 
 You've successfully installed Ubuntu on your Windows-10!!! ㊗️㊗️㊗️ (congratulation in Chinese)
-
-
-{% include social-share.html %}
-{% include comments.html %}
