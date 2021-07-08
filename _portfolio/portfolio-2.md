@@ -44,11 +44,57 @@ You should see an output like the following:
 Continue by pressing `<ENTER>` until you are prompted to accept the license terms: 
 > Do you approve the license terms? [yes|no]  
 
-Accept the license agreement by typing `yes`, & you'll be prompted to select an installation location as follow:
+Accept the license agreement by typing `yes`, & you'll be prompted to select an installation location & press `<ENTER>` to confirm the location
 > Anaconda3 will now be installed into this location:
 > /home/linuxize/anaconda3
-
+>
 >   - Press ENTER to confirm the location
 >   - Press CTRL-C to abort the installation
 >   - Or specify a different location below
+   
+Next,  you'll be asked if you want to run `conda init` & type `yes` again  
+> Installation finished.
+> Do you wish the installer to initialize Anaconda3
+> by running conda init? [yes|no]  
+  
+This step will add the command-line tool conda to your system's PATH .
+
+To activate the Anaconda installation type:  
+> source ~/.bashrc
+ 
+This will put you in the standard base environment
+
+Cheers!!! You have now successfully installed Anaconda on your Ubuntu system.
+
+Some more conda command lines:
+
+To view the installation conditions, type:
+> conda info
+
+To updating conda:
+> conda update conda
+or 
+> conda update --all
+
+To updating anaconda:
+> conda update anaconda
+
+To create environment:
+> conda create -- name  env_name
+
+To activate conda environment named env_name:
+> conda activate env_name
+
+To deactivate the conda environment:
+> conda deactivate
+
+To see the available environments, type:
+> conda info --envs
+
+To list installed packages:
+> conda list
+
+To start Anaconda GUI type: 
+> anaconda-navigator
+
 {% include comments.html %}
