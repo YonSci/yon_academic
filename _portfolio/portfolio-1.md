@@ -35,8 +35,6 @@ author_profile: true
 
 You've successfully installed Ubuntu on your Windows-10!!! ㊗️㊗️㊗️ (congratulation in Chinese)
 
-{% include base_path %}
-
 
 {% include social-share.html %}
 {% include comments.html %}
