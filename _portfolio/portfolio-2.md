@@ -72,14 +72,17 @@ This will put Anaconda in the standard base environment
 
 ### Some important `conda command lines`:
 
+To verify your Anaconda installation, type:  
+<textarea disabled="true" style="border: none;background-color:gray;">
+<h5 style="color: red;">conda info</h5>   
+</textarea>
+
+
 To verify your Anaconda installation, type:   
 <textarea disabled> conda info </textarea>
 
 
-To verify your Anaconda installation, type:  
-<textarea disabled="true" style="border: none;background-color:gray;">
-    conda info
-</textarea>
+
 
 
 To verify your Anaconda installation, type:
