@@ -87,7 +87,6 @@ To updating conda
 conda update --all
 </textarea>  
 or  
-To updating conda
 <textarea style="border: none;background-color:DodgerBlue;">
 conda update conda
 </textarea>
