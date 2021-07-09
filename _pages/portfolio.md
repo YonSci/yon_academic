@@ -15,5 +15,7 @@ author_profile: true
 
 ## [Installation of various climate data post processing tools](https://yonsci.github.io/yon_academic//portfolio/portfolio-3/)
 
+This tutorial includes [CDO](https://yonsci.github.io/yon_academic//portfolio/portfolio-3/), [NCO](https://yonsci.github.io/yon_academic//portfolio/portfolio-3/), & [NCL](https://yonsci.github.io/yon_academic//portfolio/portfolio-3/) installation steps with conda package manager. If you have not previously installed Anaconda on your system, you can do so by following the previous [tutorial](https://yonsci.github.io/yon_academic//portfolio/portfolio-2/).
+
 {% include social-share.html %}
 {% include comments.html %}
