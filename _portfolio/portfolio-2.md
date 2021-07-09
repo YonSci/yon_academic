@@ -42,7 +42,7 @@ You should see an output like the following:
 > Please, press ENTER to continue 
 
 Continue by pressing `<ENTER>` until you are prompted to accept the license terms: 
-> Do you approve the license terms? [yes|no]  
+> Do you approve the license terms? [yes,no]  
 
 Accept the license agreement by typing `yes`, then `<ENTER>`, you'll be prompted to select an installation location & ou should see an output like the following:  
 > Anaconda3 will now be installed into this location:
@@ -144,5 +144,12 @@ To start Anaconda GUI type:
 anaconda-navigator
 </code>
 </pre>
+    
+<p>This is the <code>Panel</code> constructor:</p>
+<pre><code>function Panel(element, canClose, closeHandler) {
+      this.element = element;
+      this.canClose = canClose;
+      this.closeHandler = function () { if (closeHandler) closeHandler() };
+    }</code></pre>
     
 {% include comments.html %}
