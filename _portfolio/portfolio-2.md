@@ -73,10 +73,9 @@ This will put Anaconda in the standard base environment
 ### Some important `conda command lines`:
 
 To verify your Anaconda installation, type:  
-<textarea disabled="true" style="border: none;background-color:orange;">
+<textarea disabled="false" style="border: none;background-color:orange;">
 conda info
 </textarea>
-
 
 To verify your Anaconda installation, type:   
 <textarea disabled> conda info </textarea>
@@ -96,13 +95,28 @@ To verify your Anaconda installation, type:
 conda info
 </textarea>
 
-
-
-
-<textarea rows="4" cols="50" disabled="false", style="border: none;background-color:#99FFFF;">
-At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
+To verify your Anaconda installation, type:  
+<textarea disabled="true" style="border: none;background-color:#000000;">
+conda info
 </textarea>
 
+
+To verify your Anaconda installation, type:  
+<textarea disabled="true" style="border: none;background-color:#00b71d;">
+conda info
+</textarea>
+
+To verify your Anaconda installation, type:  
+<textarea disabled="true" style="border: none;background-color:#ff0000;">
+conda info
+</textarea>
+
+
+
+To verify your Anaconda installation, type:  
+<textarea disabled="true" style="border: none;background-color:#0000ff;">
+conda info
+</textarea>
 
 
 To verify your Anaconda installation, type:
