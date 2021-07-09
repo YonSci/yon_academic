@@ -52,24 +52,27 @@ Accept the license agreement by typing `yes`, & you'll be prompted to select an 
 >   - Press CTRL-C to abort the installation
 >   - Or specify a different location below
    
-Next,  you'll be asked if you want to run `conda init` & type `yes` again  
+Next,  you'll be asked if you want to run `conda init`, type `yes` & press `<ENTER>`   
 > Installation finished.
 > Do you wish the installer to initialize Anaconda3
 > by running conda init? [yes|no]  
   
-This step will add the command-line tool conda to your system's PATH .
+This will add `conda command-line` tool to your system's PATH
 
 To activate the Anaconda installation type:  
 > source ~/.bashrc
  
-This will put you in the standard base environment
+This will put Anaconda in the standard base environment
 
 Cheers!!! You have now successfully installed Anaconda on your Ubuntu system.
 
 Some more conda command lines:
 
-To view the installation conditions, type:
+To verify your Anaconda installation, type:  
 > conda info
+
+To view the conda version:
+> conda --version
 
 To updating conda:
 > conda update conda
@@ -79,7 +82,7 @@ or
 To updating anaconda:
 > conda update anaconda
 
-To create environment:
+To create new environment called `env_name`:  
 > conda create -- name  env_name
 
 To activate conda environment named env_name:
@@ -88,7 +91,7 @@ To activate conda environment named env_name:
 To deactivate the conda environment:
 > conda deactivate
 
-To see the available environments, type:
+To see a list of all available environments, type:  
 > conda info --envs
 
 To list installed packages:
