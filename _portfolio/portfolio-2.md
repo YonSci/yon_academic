@@ -82,7 +82,7 @@ To view the conda version:
 conda --version
 </textarea>
 
-To updating conda
+To update conda
 <textarea style="border: none;background-color:DodgerBlue;">
 conda update --all
 </textarea>  
@@ -91,7 +91,7 @@ or
 conda update conda
 </textarea>
 
-To updating anaconda:
+To update anaconda:
 <textarea style="border: none;background-color:DodgerBlue;">
 conda update anaconda
 </textarea>
