@@ -77,7 +77,7 @@ To verify your Anaconda installation, type:
 
 
 To verify your Anaconda installation, type:  
-<textarea disabled="true" style="border: none;background-color:white;">
+<textarea disabled="true" style="border: none;background-color:gray;">
     conda info
 </textarea>
 
@@ -88,10 +88,7 @@ To verify your Anaconda installation, type:
 ```      
 
 To view the conda version:    
-<code>
-    <span><</span>conda --version/><br>
-</code>      
-
+conda --version
 
 To updating conda
 <pre><code>
