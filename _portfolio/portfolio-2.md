@@ -71,7 +71,53 @@ This will put Anaconda in the standard base environment
 **_Cheers!!!🥇🥇🥇 You have now successfully installed Anaconda on your Ubuntu system_**
 
 ### Some important `conda command lines`:
+
+display :block;
  
+<!-- language: lang-none -->
+
+<xmp>
+// your codes ..
+</xmp>
+
+
+<pre>
+  This text has
+</pre>
+
+<pre>
+  <code>
+    My pre-formatted code
+    here.
+  </code>
+</pre>
+
+<blockquote>
+  <pre>
+    <code>
+        My pre-formatted "quoted" code here.
+    </code>
+  </pre>
+</blockquote>
+
+pre{
+  font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+  margin-bottom: 10px;
+  overflow: auto;
+  width: auto;
+  padding: 5px;
+  background-color: #eee;
+  width: 650px!ie7;
+  padding-bottom: 20px!ie7;
+  max-height: 600px;
+}
+
+```some code here ...
+```
+
+
+
+
 To verify your Anaconda installation, type:
 <pre>
   <code>
