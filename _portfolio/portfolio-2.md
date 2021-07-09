@@ -26,13 +26,13 @@ First, move to the `/tmp` directory to place the script file
 Then, download the Anaconda installation script, it may take some time   
 > wget -P /tmp https://repo.anaconda.com/archive/Anaconda3-2020.02-Linux-x86_64.sh
 
-Verify the download script via `sha256sum` command    
+### Step: 5 Verify the downloaded script via `sha256sum` command:    
 > sha256sum /tmp/Anaconda3–2020.02–Linux–x86_64.sh
 
 You should see an output that looks similar to this:  
 > 2b9f088b2022edb474915d9f69a803d6449d5fdb4c303041f60ac4aefcc208bb  /tmp/Anaconda3-2020.02-Linux-x86_64.sh
 
-Run the following command to begin the installation process; this may also take some time: 
+## Step: 6 Begin the installation process by running the following command: 
 > bash /tmp/Anaconda3-2020.02-Linux-x86_64.sh
 
 You should see an output like the following:  
@@ -44,14 +44,17 @@ You should see an output like the following:
 Continue by pressing `<ENTER>` until you are prompted to accept the license terms: 
 > Do you approve the license terms? [yes|no]  
 
-Accept the license agreement by typing `yes`, & you'll be prompted to select an installation location & press `<ENTER>` to confirm the location
+Accept the license agreement by typing `yes`, then `<ENTER>`, you'll be prompted to select an installation location & ou should see an output like the following:  
 > Anaconda3 will now be installed into this location:
 > /home/linuxize/anaconda3
 >
 >   - Press ENTER to confirm the location
 >   - Press CTRL-C to abort the installation
 >   - Or specify a different location below
-   
+
+Confirm the location by press `<ENTER>`
+
+### Step: 7 Adding  `conda command-line`:
 Next,  you'll be asked if you want to run `conda init`, type `yes` & press `<ENTER>`   
 > Installation finished.
 > Do you wish the installer to initialize Anaconda3
@@ -59,45 +62,87 @@ Next,  you'll be asked if you want to run `conda init`, type `yes` & press `<ENT
   
 This will add `conda command-line` tool to your system's PATH
 
+### Step: 8 Activate Anaconda:
 To activate the Anaconda installation type:  
 > source ~/.bashrc
  
 This will put Anaconda in the standard base environment
 
-Cheers!!! You have now successfully installed Anaconda on your Ubuntu system.
+**_Cheers!!!🥇🥇🥇 You have now successfully installed Anaconda on your Ubuntu system_**
 
-Some more conda command lines:
-
-To verify your Anaconda installation, type:  
-> conda info
-
+### Some important `conda command lines`:
+ 
+To verify your Anaconda installation, type:
+<pre>
+  <code>
+conda info
+  </code>
+ </pre>
 To view the conda version:
-> conda --version
+<pre>
+ <code>
+conda --version
+ </code>
+</pre>
 
-To updating conda:
-> conda update conda
-or 
-> conda update --all
-
+To updating conda
+<pre><code>
+conda update --all
+    </code>
+ </pre>
+ or
+ <pre><code>
+ conda update conda
+ </code>
+ </pre>
+ 
 To updating anaconda:
-> conda update anaconda
+<pre>
+ <code>
+conda update anaconda
+</code>
+</pre>
 
-To create new environment called `env_name`:  
-> conda create -- name  env_name
+To create new environment called `env_name`: 
+<pre>
+ <code>
+conda create -- name  env_name
+</code>
+</pre>
 
 To activate conda environment named env_name:
-> conda activate env_name
+<pre>
+ <code>
+conda activate env_name
+</code>
+</pre>
 
 To deactivate the conda environment:
-> conda deactivate
+<pre>
+ <code>
+conda deactivate
+</code>
+</pre>
 
-To see a list of all available environments, type:  
-> conda info --envs
+To see a list of all available environments, type:
+<pre>
+ <code>
+conda info --envs
+</code>
+</pre>
 
 To list installed packages:
-> conda list
+<pre>
+ <code>
+conda list
+</code>
+</pre>
 
 To start Anaconda GUI type: 
-> anaconda-navigator
-
+<pre>
+ <code>
+anaconda-navigator
+</code>
+</pre>
+    
 {% include comments.html %}
