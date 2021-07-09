@@ -72,87 +72,30 @@ This will put Anaconda in the standard base environment
 
 ### Some important `conda command lines`:
 
-display :block;
  
-<!-- language: lang-none -->
-
-<xmp>
-// your codes ..
-</xmp>
-
-
-<pre>
-  This text has
-</pre>
-
-function escapeHTML(string)
-    { 
-        var pre = document.createElement('pre');
-        var text = document.createTextNode(string);
-        pre.appendChild(text);
-        return pre.innerHTML;
-}//end escapeHTML
-
 <textarea disabled> code </textarea>
 
-<textarea disabled="true" style="border: none;background-color:white;">
-    <p>test</p>
-</textarea>
 
 <textarea disabled="true" style="border: none;background-color:white;">
-    <?php echo '<p>test</p>'; ?>
+    test
 </textarea>
 
 <code>
-    <span><</span>meta property="og:title" content="A very fine cuisine" /><br>
+    <span><</span> /><br>
     <span><</span>meta property="og:image" content="http://www.example.com/image.png" />
 </code>
-      
-<pre>
-  <code>
-    My pre-formatted code
-    here.
-  </code>
-</pre>
-
-<blockquote>
-  <pre>
-    <code>
-        My pre-formatted "quoted" code here.
-    </code>
-  </pre>
-</blockquote>
-
-pre{
-  font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
-  margin-bottom: 10px;
-  overflow: auto;
-  width: auto;
-  padding: 5px;
-  background-color: #eee;
-  width: 650px!ie7;
-  padding-bottom: 20px!ie7;
-  max-height: 600px;
-}
 
 ```some code here ...
 ```
 
-
-
-
 To verify your Anaconda installation, type:
-<pre>
-  <code>
-conda info
-  </code>
- </pre>
+```conda info
+```      
 To view the conda version:
-<pre>
- <code>
-conda --version
- </code>
-</pre>
+<code>
+    <span><</span>conda --version/><br>
+</code>      
+
 
 To updating conda
 <pre><code>
