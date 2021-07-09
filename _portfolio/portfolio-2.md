@@ -73,94 +73,58 @@ This will put Anaconda in the standard base environment
 ### Some important `conda command lines`:
 
 To verify your Anaconda installation, type:  
-<textarea cols="50" style="border: none;background-color:orange;">
-conda info
-</textarea>
-
-To verify your Anaconda installation, type:  
 <textarea style="border: none;background-color:DodgerBlue;">
 conda info
 </textarea>
 
-To verify your Anaconda installation, type:  
-<textarea style="border: none;background-color:Tomato;">
-conda info
-</textarea>
-
-To verify your Anaconda installation, type:  
-<textarea style="border: none;background-color:#00b71d;">
-conda info
-</textarea>
-  
-
-To view the conda version:    
+To view the conda version:   
+<textarea style="border: none;background-color:DodgerBlue;">
 conda --version
+</textarea>
 
 To updating conda
-<pre><code>
+<textarea style="border: none;background-color:DodgerBlue;">
 conda update --all
-    </code>
- </pre>
- or
- <pre><code>
- conda update conda
- </code>
- </pre>
- 
+</textarea>  
+or  
+To updating conda
+<textarea style="border: none;background-color:DodgerBlue;">
+conda update conda
+</textarea>
+
 To updating anaconda:
-<pre>
- <code>
+<textarea style="border: none;background-color:DodgerBlue;">
 conda update anaconda
-</code>
-</pre>
+</textarea>
 
 To create new environment called `env_name`: 
-<pre>
- <code>
+<textarea style="border: none;background-color:DodgerBlue;">
 conda create -- name  env_name
-</code>
-</pre>
+</textarea>
 
 To activate conda environment named env_name:
-<pre>
- <code>
+<textarea style="border: none;background-color:DodgerBlue;">
 conda activate env_name
-</code>
-</pre>
+</textarea>
 
 To deactivate the conda environment:
-<pre>
- <code>
+<textarea style="border: none;background-color:DodgerBlue;">
 conda deactivate
-</code>
-</pre>
+</textarea>
 
 To see a list of all available environments, type:
-<pre>
- <code>
+<textarea style="border: none;background-color:DodgerBlue;">
 conda info --envs
-</code>
-</pre>
+</textarea>
 
 To list installed packages:
-<pre>
- <code>
+<textarea style="border: none;background-color:DodgerBlue;">
 conda list
-</code>
-</pre>
+</textarea>
 
 To start Anaconda GUI type: 
-<pre>
- <code>
+<textarea style="border: none;background-color:DodgerBlue;">
 anaconda-navigator
-</code>
-</pre>
-    
-<p>This is the <code>Panel</code> constructor:</p>
-<pre><code>function Panel(element, canClose, closeHandler) {
-      this.element = element;
-      this.canClose = canClose;
-      this.closeHandler = function () { if (closeHandler) closeHandler() };
-    }</code></pre>
+</textarea>
     
 {% include comments.html %}
