@@ -77,14 +77,6 @@ To verify your Anaconda installation, type:
 conda info
 </textarea>
 
-To verify your Anaconda installation, type:   
-<textarea disabled> conda info </textarea>
-
-To verify your Anaconda installation, type:  
-<textarea style="border: none;background-color:SlateBlue;">
-conda info
-</textarea>
-
 To verify your Anaconda installation, type:  
 <textarea style="border: none;background-color:DodgerBlue;">
 conda info
@@ -96,31 +88,10 @@ conda info
 </textarea>
 
 To verify your Anaconda installation, type:  
-<textarea style="border: none;background-color:#000000;">
-conda info
-</textarea>
-
-
-To verify your Anaconda installation, type:  
 <textarea style="border: none;background-color:#00b71d;">
 conda info
 </textarea>
-
-To verify your Anaconda installation, type:  
-<textarea style="border: none;background-color:#ff0000;">
-conda info
-</textarea>
-
-To verify your Anaconda installation, type:  
-<textarea style="border: none;background-color:#0000ff;">
-conda info
-</textarea>
-
-
-To verify your Anaconda installation, type:
-
-```conda info
-```      
+  
 
 To view the conda version:    
 conda --version
