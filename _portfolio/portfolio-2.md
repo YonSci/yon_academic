@@ -81,40 +81,38 @@ To verify your Anaconda installation, type:
 <textarea disabled> conda info </textarea>
 
 To verify your Anaconda installation, type:  
-<textarea disabled="true" style="border: none;background-color:SlateBlue;">
+<textarea style="border: none;background-color:SlateBlue;">
 conda info
 </textarea>
 
 To verify your Anaconda installation, type:  
-<textarea disabled="true" style="border: none;background-color:DodgerBlue;">
+<textarea style="border: none;background-color:DodgerBlue;">
 conda info
 </textarea>
 
 To verify your Anaconda installation, type:  
-<textarea disabled="true" style="border: none;background-color:Tomato;">
+<textarea style="border: none;background-color:Tomato;">
 conda info
 </textarea>
 
 To verify your Anaconda installation, type:  
-<textarea disabled="true" style="border: none;background-color:#000000;">
+<textarea style="border: none;background-color:#000000;">
 conda info
 </textarea>
 
 
 To verify your Anaconda installation, type:  
-<textarea disabled="true" style="border: none;background-color:#00b71d;">
+<textarea style="border: none;background-color:#00b71d;">
 conda info
 </textarea>
 
 To verify your Anaconda installation, type:  
-<textarea disabled="true" style="border: none;background-color:#ff0000;">
+<textarea style="border: none;background-color:#ff0000;">
 conda info
 </textarea>
 
-
-
 To verify your Anaconda installation, type:  
-<textarea disabled="true" style="border: none;background-color:#0000ff;">
+<textarea style="border: none;background-color:#0000ff;">
 conda info
 </textarea>
 
