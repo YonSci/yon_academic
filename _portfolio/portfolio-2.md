@@ -85,6 +85,29 @@ display :block;
   This text has
 </pre>
 
+function escapeHTML(string)
+    { 
+        var pre = document.createElement('pre');
+        var text = document.createTextNode(string);
+        pre.appendChild(text);
+        return pre.innerHTML;
+}//end escapeHTML
+
+<textarea disabled> code </textarea>
+
+<textarea disabled="true" style="border: none;background-color:white;">
+    <p>test</p>
+</textarea>
+
+<textarea disabled="true" style="border: none;background-color:white;">
+    <?php echo '<p>test</p>'; ?>
+</textarea>
+
+<code>
+    <span><</span>meta property="og:title" content="A very fine cuisine" /><br>
+    <span><</span>meta property="og:image" content="http://www.example.com/image.png" />
+</code>
+      
 <pre>
   <code>
     My pre-formatted code
