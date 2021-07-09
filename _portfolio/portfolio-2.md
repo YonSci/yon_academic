@@ -74,7 +74,7 @@ This will put Anaconda in the standard base environment
 
 To verify your Anaconda installation, type:  
 <textarea disabled="true" style="border: none;background-color:gray;">
-<h5 style="color: red;">conda info</h5>   
+<b> <em> conda info</em> </b>
 </textarea>
 
 
