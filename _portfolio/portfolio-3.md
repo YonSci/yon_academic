@@ -8,37 +8,32 @@ collection: portfolio
 
 This tutorial includes CDO installation steps with conda package manager. If you have not previously installed Anaconda on your system, you can do so by following the previous [tutorial](https://yonsci.github.io/yon_academic//portfolio/portfolio-2/).
 
-To do so, launch Ubuntu Terminal and type the following commands:
-
+To do so, launch Ubuntu Terminal and type the following commands:  
 <textarea style="border: none;background-color:DodgerBlue;">
 conda create --name cdo_stable --envs
-</textarea>
+</textarea>  
+Choose y when prompted 
 
-Choose y when prompted. Once the environment is created, activate it by typing:
-
+Once the environment is created, activate it by typing:  
 <textarea style="border: none;background-color:DodgerBlue;">
 conda activate cdo_stable	
 </textarea>
 
-Install the CDO package:
-
+Install the CDO package:  
 <textarea style="border: none;background-color:DodgerBlue;">
 conda install -c conda-forge cdo
 </textarea>
 
-To update CDO environment to its latest version:
-
+To update CDO environment to its latest version:  
 <textarea style="border: none;background-color:DodgerBlue;">
 source activate cdo_stable
-</textarea>
-
+</textarea>  
 <textarea style="border: none;background-color:DodgerBlue;">
 conda update --all  
-</textarea>
-
+</textarea>  
 Choose y to approve of the udpates
 
-To know cdo version:
+To know cdo version:  
 <textarea style="border: none;background-color:DodgerBlue;">
 cdo -V 
 </textarea>
