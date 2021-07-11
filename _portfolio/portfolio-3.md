@@ -38,6 +38,15 @@ To know cdo version:
 cdo -V 
 </textarea>
 
+To get help with cdo command lines, type:  
+<textarea style="border: none;background-color:DodgerBlue;">
+cdo -h
+</textarea>
+
+You have now successfully installed cdo. To exit from `cdo_stable` environment, simply type:  
+<textarea style="border: none;background-color:DodgerBlue;">
+conda deactivate
+</textarea>
 
                                                                
 ### Setting up NCO
