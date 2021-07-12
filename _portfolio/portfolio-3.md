@@ -8,7 +8,7 @@ collection: portfolio
 
 This tutorial includes CDO installation steps with conda package manager. If you have not previously installed Anaconda on your system, you can do so by following the previous [tutorial](https://yonsci.github.io/yon_academic//portfolio/portfolio-2/).
 
-To do so, launch Ubuntu Terminal and type the following commands:  
+To install CDO, launch Ubuntu Terminal and type the following commands:  
 <textarea style="border: none;background-color:orange;">
 conda create --name cdo_stable --envs
 </textarea>  
@@ -54,11 +54,10 @@ conda deactivate
 
 This tutorial includes `NCO` installation steps with `conda package manager`. If you have not previously installed Anaconda on your system, you can do so by following the previous [tutorial](https://yonsci.github.io/yon_academic//portfolio/portfolio-2/).
 
-To do so, launch Ubuntu Terminal and type the following commands:  
+To install NCO, launch ubuntu terminal and type the following commands:  
 <textarea style="border: none;background-color:orange;">
 conda create --name nco_stable	
 </textarea>  
-
 Choose y when prompted
 
 Once the environment is created, activate it by typing:  
@@ -82,6 +81,44 @@ You have now successfully installed NCO. To exit from `nco_stable` environment, 
 conda deactivate
 </textarea>
 
-### Setting up NCL
+### Setting up NCAR Command Language(NCL)
+
+NCL is an interpreted language developed by [National Center for Atmospheric Research](https://ncar.ucar.edu/) for the analysis &  visualization of climate & weather data. It supports importing and exporting files in a variety of formats, including NetCDF, GRIB, HDF, HDF-EOS, & shapefile data. It is also capable of producing high-quality plots.
+
+This tutorial includes `NCL` installation steps with `conda package manager`. If you have not previously installed Anaconda on your system, you can do so by following the previous [tutorial](https://yonsci.github.io/yon_academic//portfolio/portfolio-2/).
+
+To install NCL, launch ubuntu terminal and type the following commands:  
+
+To create NCL environment:
+<textarea style="border: none;background-color:orange;">
+onda create --name ncl_stable  
+</textarea>  
+Choose y when prompted
+
+Once the environment is created, activate it by typing:
+<textarea style="border: none;background-color:orange;">
+conda activate ncl_stable  
+</textarea>
+
+Install the NCL package:
+<textarea style="border: none;background-color:orange;">
+conda install -c conda-forge ncl
+</textarea>
+
+To update NCL environment to its latest version:
+<textarea style="border: none;background-color:orange;">
+conda update --all
+</textarea>
+choose y to approve of the udpates
+
+To check the version:
+<textarea style="border: none;background-color:orange;">
+ncl -V
+</textarea>
+
+You have now successfully installed `NCL`. To exit from `ncl_stable` environment, simply type:  
+<textarea style="border: none;background-color:orange;">
+conda deactivate
+</textarea>
 
 {% include comments.html %}
