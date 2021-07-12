@@ -2,7 +2,7 @@
 title: "Conda based installation of various climate & weather data processing tools"
 collection: portfolio
 ---
-### Setting up CDO
+## Setting up CDO
 
 `Climate Data Operators(CDO)`: is a collection of command line operators for manipulating & analyzing climate model & observational data. Various formats like `GRIB1/2`, `netCDF 3/4`, `SERVICE`, `EXTRA`, & `IEG`. It is equipped with over 600 operators that are vital for climate studies. 
 
@@ -48,7 +48,7 @@ conda deactivate
 </textarea>
 
                                                                
-### Setting up NCO
+## Setting up NCO
 `NCO (NetCDF Operators)` is a set of open source command-line tools for analyzing, processing, viewing, & manipulating netCDF files. It was developed by atmospheric scientists at UC-Irvine.
 
 This tutorial includes `NCO` installation steps with `conda package manager`. If you have not previously installed Anaconda on your system, you can do so by following the previous [tutorial](https://yonsci.github.io/yon_academic//portfolio/portfolio-2/).
@@ -82,7 +82,7 @@ You have now successfully installed NCO. To exit from `nco_stable` environment, 
 conda deactivate
 </textarea>
 
-### Setting up NCAR Command Language(NCL)
+## Setting up NCAR Command Language(NCL)
 
 NCL is an interpreted language developed by [National Center for Atmospheric Research](https://ncar.ucar.edu/) for the analysis &  visualization of climate & weather data. It supports importing and exporting files in a variety of formats, including NetCDF, GRIB, HDF, HDF-EOS, & shapefile data. It is also capable of producing high-quality plots.
 
