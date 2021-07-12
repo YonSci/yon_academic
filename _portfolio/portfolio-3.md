@@ -122,4 +122,6 @@ You have now successfully installed `NCL`. To exit from `ncl_stable` environment
 conda deactivate
 </textarea>
 
+##### Well done! 🥇🥇🥇 Good luck! 
+
 {% include comments.html %}
