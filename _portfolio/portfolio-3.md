@@ -12,7 +12,7 @@ To install CDO, launch ubuntu terminal and type the following commands:
 
 First create CDO environment:
 <textarea style="border: none;background-color:orange;">
-conda create --name cdo_stable --envs
+conda create --name cdo_stable
 </textarea>  
 Choose y when prompted 
 
@@ -27,9 +27,6 @@ conda install -c conda-forge cdo
 </textarea>
 
 To update CDO environment to its latest version:  
-<textarea style="border: none;background-color:orange;">
-source activate cdo_stable
-</textarea>  
 <textarea style="border: none;background-color:orange;">
 conda update --all  
 </textarea>  
