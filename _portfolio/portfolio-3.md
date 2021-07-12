@@ -9,42 +9,42 @@ collection: portfolio
 This tutorial includes CDO installation steps with conda package manager. If you have not previously installed Anaconda on your system, you can do so by following the previous [tutorial](https://yonsci.github.io/yon_academic//portfolio/portfolio-2/).
 
 To do so, launch Ubuntu Terminal and type the following commands:  
-<textarea style="border: none;background-color:DodgerBlue;">
+<textarea style="border: none;background-color:orange;">
 conda create --name cdo_stable --envs
 </textarea>  
 Choose y when prompted 
 
 Once the environment is created, activate it by typing:  
-<textarea style="border: none;background-color:DodgerBlue;">
+<textarea style="border: none;background-color:orange;">
 conda activate cdo_stable	
 </textarea>
 
 Install the CDO package:  
-<textarea style="border: none;background-color:DodgerBlue;">
+<textarea style="border: none;background-color:orange;">
 conda install -c conda-forge cdo
 </textarea>
 
 To update CDO environment to its latest version:  
-<textarea style="border: none;background-color:DodgerBlue;">
+<textarea style="border: none;background-color:orange;">
 source activate cdo_stable
 </textarea>  
-<textarea style="border: none;background-color:DodgerBlue;">
+<textarea style="border: none;background-color:orange;">
 conda update --all  
 </textarea>  
 Choose y to approve of the udpates
 
 To know cdo version:  
-<textarea style="border: none;background-color:DodgerBlue;">
+<textarea style="border: none;background-color:orange;">
 cdo -V 
 </textarea>
 
 To get help with cdo command lines, type:  
-<textarea style="border: none;background-color:DodgerBlue;">
+<textarea style="border: none;background-color:orange;">
 cdo -h
 </textarea>
 
 You have now successfully installed CDO. To exit from `cdo_stable` environment, simply type:  
-<textarea style="border: none;background-color:DodgerBlue;">
+<textarea style="border: none;background-color:orange;">
 conda deactivate
 </textarea>
 
@@ -78,7 +78,7 @@ conda update --all
 Choose y to approve of the udpates
 
 You have now successfully installed NCO. To exit from `nco_stable` environment, simply type:  
-<textarea style="border: none;background-color:DodgerBlue;">
+<textarea style="border: none;background-color:orange;">
 conda deactivate
 </textarea>
 
