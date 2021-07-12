@@ -8,7 +8,9 @@ collection: portfolio
 
 This tutorial includes CDO installation steps with conda package manager. If you have not previously installed Anaconda on your system, you can do so by following the previous [tutorial](https://yonsci.github.io/yon_academic//portfolio/portfolio-2/).
 
-To install CDO, launch Ubuntu Terminal and type the following commands:  
+To install CDO, launch ubuntu terminal and type the following commands:  
+
+First create CDO environment:
 <textarea style="border: none;background-color:orange;">
 conda create --name cdo_stable --envs
 </textarea>  
@@ -55,6 +57,8 @@ conda deactivate
 This tutorial includes `NCO` installation steps with `conda package manager`. If you have not previously installed Anaconda on your system, you can do so by following the previous [tutorial](https://yonsci.github.io/yon_academic//portfolio/portfolio-2/).
 
 To install NCO, launch ubuntu terminal and type the following commands:  
+
+First create NCO environment:
 <textarea style="border: none;background-color:orange;">
 conda create --name nco_stable	
 </textarea>  
@@ -89,7 +93,7 @@ This tutorial includes `NCL` installation steps with `conda package manager`. If
 
 To install NCL, launch ubuntu terminal and type the following commands:  
 
-To create NCL environment:
+First create NCL environment:
 <textarea style="border: none;background-color:orange;">
 onda create --name ncl_stable  
 </textarea>  
