@@ -43,13 +43,14 @@ To get help with cdo command lines, type:
 cdo -h
 </textarea>
 
-You have now successfully installed cdo. To exit from `cdo_stable` environment, simply type:  
+You have now successfully installed CDO. To exit from `cdo_stable` environment, simply type:  
 <textarea style="border: none;background-color:DodgerBlue;">
 conda deactivate
 </textarea>
 
                                                                
 ### Setting up NCO
+NCO (NetCDF Operators) is a set of open source command-line tools for analyzing, processing, viewing, and manipulating netCDF files. It was developed by atmospheric scientists at UC-Irvine.
 
 ### Setting up NCL
 
