@@ -21,6 +21,7 @@ This page provides:
   
 <meta  property="fb:app_id"  content="335040264869443"  />
 <meta  property="og:url"  content="https://yonsci.github.io/yon_academic/"  />
+<meta  property="og:image"  content="https://yonsci.github.io/yon_academic//images/yon.jpeg"  />
 
 {% include social-share.html %}
 {% include comments.html %}
