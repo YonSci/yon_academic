@@ -19,5 +19,8 @@ This page provides:
   
   My goal is to share `well documented` and `reproducible` scientific data analysis approaches based on `open source` philosophy. 
   
+<meta  property="fb:app_id"  content="335040264869443"  />
+<meta  property="fb:admins"  content="yonas.mersha"/>
+
 {% include social-share.html %}
 {% include comments.html %}
