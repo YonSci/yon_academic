@@ -23,6 +23,7 @@ collection: portfolio
   <code>
   <span class="kn">  import </span> <span class="nn">socket</span> 
   <span class="kn">import</span> <span class="nn">hashlib</span>
+  <SPAN STYLE="font-size:18.0pt">import</SPAN>
 </code>
   </h3>
 </pre>
