@@ -23,11 +23,8 @@ collection: portfolio
  <div class="highlight">
   <pre class="highlight">
   <code>
-  <span class="kn">  import </span> <span class="nn">socket</span> 
-  <span class="kn">import</span> <span class="nn">hashlib</span>
-  <span style="font-size: 250%"> > </span> <span style="font-size: 150%;background:#ff00ff">micro average ROC</span> 
-  <span style="font-size: 150%;color:#0000ff">macro average ROC</span> 
-  <SPAN STYLE="font-size:18.0pt">import</SPAN>
+  <span style="font-size: 250%"> > </span> <span style="font-size: 150%;background:#ff00ff">conda create --name geopandas_stable</span> 
+  <span style="font-size: 250%;color:#0000ff">conda create --name geopandas_stable</span> 
 </code>
 </pre>
 </div>
