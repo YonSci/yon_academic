@@ -16,10 +16,18 @@ collection: portfolio
  - Shapefile clipping  
  - Exporting shapefile  
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">socket</span> 
-<span class="kn">import</span> <span class="nn">hashlib</span>
-</code></pre></div></div>
+<div class="language-python highlighter-rouge">
+ <div class="highlight">
+  <pre class="highlight">
+  <code>
+  <span class="kn"> <h3 import </h3> </span> <span class="nn">socket</span> 
+  <span class="kn">import</span> <span class="nn">hashlib</span>
+</code>
+</pre>
+</div>
+</div>
 
+<h3 id="used-modules">Used Modules</h3>
 
   <pre>
    <code>
