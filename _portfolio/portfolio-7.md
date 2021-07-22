@@ -17,7 +17,7 @@ collection: portfolio
  - Exporting shapefile  
  
 <pre class="highlight"><code>
-<span class="kn"> conda create --name geopandas_stable </span> <span class="nn">_thread</span>
+<span class="kn"> conda create --name geopandas_stable </span>
 </code></pre>
 
 # Installing Geopandas package
