@@ -16,10 +16,12 @@ collection: portfolio
  - Shapefile clipping  
  - Exporting shapefile  
 
- <div class="highlight"><pre class="highlight"><code>
-<textarea> <span class="kn">  conda update --all </span>  </textarea>  
-</code></pre></div>
-
+<div class="language-python highlighter-rouge">
+<pre class="highlight">
+<code>
+<span class="kn"> conda create --name geopandas_stable </span>
+</code>
+</pre>
 
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Import required modules
