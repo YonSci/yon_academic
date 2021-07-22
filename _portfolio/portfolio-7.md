@@ -86,8 +86,7 @@ Check the Geopandas version:
 </div>
 </div> 
 
-<p>You have successfully installed Geopandas if you receive the version number. Finally, for reading & writing shapefiles, you can use any Python Notebook or IDE, such as Jupyter-Notebook & Spyder.<br>
-As you can see, two breaks add the space above.</p>
+<p>You have successfully installed Geopandas if you receive the version number. Finally, for reading & writing shapefiles, you can use any Python Notebook or IDE, such as Jupyter-Notebook & Spyder.</p>
    
 <h1 id="coding-in-python">Reading & manipulating shapefile dataframes</h1>
  
