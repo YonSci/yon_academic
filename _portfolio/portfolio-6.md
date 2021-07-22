@@ -1,4 +1,7 @@
-## Setting up NCAR Command Language(NCL)
+---
+title: "Setting up NCAR Command Language(NCL)"
+collection: portfolio
+---
 
 NCL is an interpreted language developed by [National Center for Atmospheric Research](https://ncar.ucar.edu/) for the analysis &  visualization of climate & weather data. It supports importing and exporting files in a variety of formats, including NetCDF, GRIB, HDF, HDF-EOS, & shapefile data. It is also capable of producing high-quality plots.
 
