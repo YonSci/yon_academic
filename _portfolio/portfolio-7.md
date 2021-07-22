@@ -102,9 +102,12 @@ Import the matplotlib library for visualization purposes:
 </div>
 </div> 
 
-All the shapefiles for this tutorial  have all been compressed and saved at the URL listed below. <a href="https://yonsci.github.io/yon_academic//files/Geopandas_data" target="_top"> </a> 
+All the shapefiles for this tutorial  have all been compressed and saved at the URL listed below. href="https://yonsci.github.io/yon_academic//files/Geopandas_data"> 
 
-###  There are two methods to read the data:   
+All the shapefiles for this tutorial  have all been compressed and saved at the URL listed below. <a href="https://yonsci.github.io/yon_academic//portfolio/portfolio-2/" target="_top">post</a>
+ 
+ 
+There are two methods to read the data:   
 - You can download & extract the compressed shapefiles from the above [link](https://yonsci.github.io/yon_academic//files/Geopandas_data/) to your local directory & use this local directory to locate the shapefiles  
 
 - Or you can directly read the compressed shapefiles from the above [site](https://yonsci.github.io/yon_academic//files/Geopandas_data/) using the following code: 
