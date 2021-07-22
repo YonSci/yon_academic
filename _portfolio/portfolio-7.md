@@ -54,7 +54,7 @@ Activate the geopandas_stable environment:
 </div>
 </div> 
  
-Install Geopandas package:
+Install Geopandas package with python-3:
 <div class="language-python highlighter-rouge">
  <div class="highlight">
   <pre class="highlight">
@@ -64,34 +64,36 @@ Install Geopandas package:
 </pre>
 </div>
 </div> 
- 
-Activate the environment
+
+Import the `Geopandas` library: 
 <div class="language-python highlighter-rouge">
  <div class="highlight">
   <pre class="highlight">
   <code>
-  <span style="font-size: 250%;color:#0000ff">conda activate geopandas_stable</span> 
+  <span style="font-size: 250%;color:#0000ff">import geopandas as gpd</span> 
 </code>
 </pre>
 </div>
 </div> 
 
-## Importing libraries
+Check the Geopandas version: 
+<div class="language-python highlighter-rouge">
+ <div class="highlight">
+  <pre class="highlight">
+  <code>
+  <span style="font-size: 250%;color:#0000ff">print(gpd.__version__)</span> 
+</code>
+</pre>
+</div>
+</div> 
 
-### Import the `Geopandas` library to read & write `shapefiles`
-
-```python
-import geopandas as gpd
-```
-
-### Import the `matplotlib` library for visualization purposes: 
-
-
-```python
-import matplotlib.pyplot as plt
-```
+You have successfully installed Geopandas if you receive the version number. Finally, for reading & writing shapefiles, you can use any `Python Notebook` or `IDE`, such as `Jupyter-Notebook` & `Spyder`.
 
 # Reading & manipulating shapefile dataframes
+ 
+### Import the `matplotlib` library for visualization purposes: 
+```python
+import matplotlib.pyplot as plt
 
 ### All of the shapefiles for this lesson have been compressed & stored, & can be found at the link below: https://yonsci.github.io/yon_academic//files/Geopandas_data
 
