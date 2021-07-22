@@ -16,6 +16,28 @@ collection: portfolio
  - Shapefile clipping  
  - Exporting shapefile  
 
+  <pre>
+   <code>
+    <span class="kn">conda create --name geopandas_stable</span>
+   </code>
+  </pre>
+
+<div class="language-python highlighter-rouge">
+  <pre>
+   <code>
+    <span class="kn">conda create --name geopandas_stable</span>
+   </code>
+  </pre>
+ </div>
+
+<div class="language-python highlighter-rouge">
+  <pre class="highlight">
+   <code>
+    <span class="kn">conda create --name geopandas_stable</span>
+   </code>
+  </pre>
+ </div>
+
 <div class="language-python highlighter-rouge">
  <div class="highlight"> 
   <pre class="highlight">
