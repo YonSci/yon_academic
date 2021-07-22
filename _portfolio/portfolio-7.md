@@ -17,7 +17,8 @@ collection: portfolio
  - Exporting shapefile  
 
 <div class="language-python highlighter-rouge">
- <div class="highlight" 
+ ::before
+ <div class="highlight"> 
   <pre class="highlight">
    <code>
     <span class="kn"> conda create --name geopandas_stable </span>
