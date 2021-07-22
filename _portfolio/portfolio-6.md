@@ -2,7 +2,6 @@
 title: "Setting up NCAR Command Language(NCL)"
 collection: portfolio
 ---
-
 NCL is an interpreted language developed by [National Center for Atmospheric Research](https://ncar.ucar.edu/) for the analysis &  visualization of climate & weather data. It supports importing and exporting files in a variety of formats, including NetCDF, GRIB, HDF, HDF-EOS, & shapefile data. It is also capable of producing high-quality plots.
 
 This tutorial includes `NCL` installation steps with `conda package manager`. If you have not previously installed Anaconda on your system, you can do so by following the previous [tutorial](https://yonsci.github.io/yon_academic//portfolio/portfolio-2/).
@@ -42,5 +41,4 @@ conda deactivate
 </textarea>
 
 #### Well done! 🥇🥇🥇 Good luck! 
-
-{% include social-share.html %}
+{% include comments.html %}
