@@ -30,6 +30,11 @@ collection: portfolio
 <span class="n">os</span><span class="p">.</span><span class="n">chdir</span><span class="p">(</span><span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="n">et</span><span class="p">.</span><span class="n">io</span><span class="p">.</span><span class="n">HOME</span><span class="p">,</span> <span class="s">'earth-analytics'</span><span class="p">))</span>
 </code></pre><button class="btn copybtn" data-tooltip="Copy" title="Copy" data-clipboard-target="#codeblock1"><img src="/images/copy-button.svg" width="17" alt="Copy to clipboard"></button></div></div>
 
+
+<div class="language-python input highlighter-rouge"><div class="highlight"><pre class="highlight" id="codeblock4"><code><span class="c1"># close the file connection
+</span><span class="n">lidar_dem</span><span class="p">.</span><span class="n">close</span><span class="p">()</span>
+</code></pre><button class="btn copybtn" data-tooltip="Copy" title="Copy" data-clipboard-target="#codeblock4"><img src="/images/copy-button.svg" width="17" alt="Copy to clipboard"></button></div></div>
+
 # Installing Geopandas package
 
 ### To install the latest version of `GeoPandas`:
