@@ -19,10 +19,12 @@ collection: portfolio
 <div class="language-python highlighter-rouge">
  <div class="highlight">
   <pre class="highlight">
+  <h3
   <code>
-  <h3 <span class="kn">  import </span> <span class="nn">socket</span></h3> 
+  <span class="kn">  import </span> <span class="nn">socket</span> 
   <span class="kn">import</span> <span class="nn">hashlib</span>
 </code>
+  </h3>
 </pre>
 </div>
 </div>
