@@ -19,7 +19,8 @@ collection: portfolio
 
 <div align="justify"> To install the latest version of GeoPandas, the conda package manager will be utilized. If you haven't already  installed Anaconda on your PC , you can install it by following the previous <a href="https://yonsci.github.io/yon_academic//portfolio/portfolio-2/" target="_top">post</a>.
  
-### Launch ubuntu terminal and type the following commands:  
+### Launch ubuntu terminal and type the following commands:
+ 
 <div class="language-python highlighter-rouge">
  <div class="highlight">
   <pre class="highlight">
