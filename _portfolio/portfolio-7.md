@@ -4,9 +4,9 @@ code-block-font-size: \normalsize
 collection: portfolio
 ---
 
-### Geopandas combines the ability of `pandas` & `shapely` for manipulating geographic data mainly vector data such as points, polylines, & polygons. Geopandas can read & write vector data types mainly the ESRI shapefile format `(.shp)`, & others such as `KML`, `GeoJSON`.
+### <div align="justify"> Geopandas combines the ability of `pandas` & `shapely` for manipulating geographic data mainly vector data such as points, polylines, & polygons. Geopandas can read & write vector data types mainly the ESRI shapefile format `(.shp)`, & others such as `KML`, `GeoJSON`. </div>
 
-### 🎓 Learning objectives:
+## 🎓 Learning objectives:
  - Installing Geopandas package    
  - Reading & manipulating shapefile geodataframes    
  - Shapefile plotting  
@@ -15,18 +15,12 @@ collection: portfolio
  - Shapefile dissolving  
  - Shapefile clipping  
  - Exporting shapefile  
+ 
+# Installing Geopandas package:
 
+### <div align="justify"> To install the latest version of `GeoPandas`, the conda package manager will be utilized. If you haven't already  installed Anaconda on your PC , you can install it by following the previous [post]() </div>
 
-<div class="language-python highlighter-rouge">
- <div class="highlight">
-  <pre class="highlight">
-  <code>
-  <span style="font-size: 250%;color:#0000ff"> </span> <span style="font-size: 250%;background:#ff00ff">conda create --name geopandas_stable</span> 
-</code>
-</pre>
-</div>
-</div>
-
+### To install the latest version of `GeoPandas`:
 
 <div class="language-python highlighter-rouge">
  <div class="highlight">
@@ -37,59 +31,6 @@ collection: portfolio
 </pre>
 </div>
 </div>
-
-<pre class="highlight">
- <code>
-   <span class="kn">conda create --name geopandas_stable</span> 
- </code>
-</pre>
-
-<pre class="highlight">
- <code>
-     <span style="font-size: 150%;color:#0000ff">conda create --name geopandas_stable</span> 
- </code>
-</pre>
-
-
-<h3 id="used-modules">Used Modules</h3>
-
-  <pre>
-   <code>
-    <span class="kn">conda create --name geopandas_stable</span>
-   </code>
-  </pre>
-
-<div class="language-python highlighter-rouge">
-  <pre>
-   <code>
-    <span class="kn">conda create --name geopandas_stable</span>
-   </code>
-  </pre>
- </div>
-
-<div class="language-python highlighter-rouge">
-  <pre class="highlight">
-   <code>
-    <span class="kn">conda create --name geopandas_stable</span>
-   </code>
-  </pre>
- </div>
-
-<div class="language-python highlighter-rouge">
- <div class="highlight"> 
-  <pre class="highlight">
-   <code>
-    <span class="kn">conda create --name geopandas_stable</span>
-   </code>
-  </pre>
- </div>
-</div>
-
-
-
-# Installing Geopandas package
-
-### To install the latest version of `GeoPandas`:
 
 #### Create a new environment variable called "geopandas_stable"
 ```python
