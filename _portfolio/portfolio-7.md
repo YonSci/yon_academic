@@ -107,13 +107,18 @@ Import the matplotlib library for visualization purposes:
 <a href="https://www.sitebulb.com"><span></span></a>
 
 <a href="https://www.sitebulb.com" id="test-link" rel="prev"></a>
+
  
 
 All the shapefiles for this tutorial  have all been compressed and saved at the URL listed below. href="https://yonsci.github.io/yon_academic//files/Geopandas_data"> 
 
+<a href="https://yonsci.github.io/yon_academic//files/Geopandas_data">https://yonsci.github.io/yon_academic//files/Geopandas_data</a>
+ 
 https://yonsci.github.io/yon_academic//files/Geopandas_data
  
 All the shapefiles for this tutorial  have all been compressed and saved at the URL listed below. <a href="https://yonsci.github.io/yon_academic//portfolio/portfolio-2/" target="_top">post</a>
+ 
+<a href="https://yonsci.github.io/yon_academic//portfolio/portfolio-2/" target="_top">https://yonsci.github.io/yon_academic//portfolio/portfolio-2/</a> 
  
 <a href="https://yonsci.github.io/yon_academic//portfolio/portfolio-2/"></a> 
  
