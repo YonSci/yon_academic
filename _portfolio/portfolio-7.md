@@ -17,7 +17,7 @@ collection: portfolio
  
 # Installing Geopandas package:
 
-### <div align="justify"> To install the latest version of GeoPandas, the conda package manager will be utilized. If you haven't already  installed Anaconda on your PC , you can install it by following the previous [post](https://yonsci.github.io/yon_academic//portfolio/portfolio-2/) </div>
+<div align="justify"> To install the latest version of GeoPandas, the conda package manager will be utilized. If you haven't already  installed Anaconda on your PC , you can install it by following the previous [post](https://yonsci.github.io/yon_academic//portfolio/portfolio-2/) </div>
 
 ### To install the latest version of `GeoPandas`:
 
