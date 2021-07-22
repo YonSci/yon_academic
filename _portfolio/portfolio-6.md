@@ -44,4 +44,3 @@ conda deactivate
 #### Well done! 🥇🥇🥇 Good luck! 
 
 {% include social-share.html %}
-{% include comments.html %}
