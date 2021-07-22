@@ -90,10 +90,12 @@ You have successfully installed Geopandas if you receive the version number. Fin
  
 <h1 id="coding-in-python">Reading & manipulating shapefile dataframes</h1>
  
-### Import the `matplotlib` library for visualization purposes: 
-```python
+Import the matplotlib library for visualization purposes:
+ 
 import matplotlib.pyplot as plt
 
+ 
+ 
 ### All of the shapefiles for this lesson have been compressed & stored, & can be found at the link below: https://yonsci.github.io/yon_academic//files/Geopandas_data
 
 ###  There are two methods to read the data:   
