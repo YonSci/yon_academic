@@ -86,7 +86,7 @@ Check the Geopandas version:
 </div>
 </div> 
 
-You have successfully installed Geopandas if you receive the version number. Finally, for reading & writing shapefiles, you can use any `Python Notebook` or `IDE`, such as `Jupyter-Notebook` & `Spyder`.
+You have successfully installed Geopandas if you receive the version number. Finally, for reading & writing shapefiles, you can use any Python Notebook or IDE, such as Jupyter-Notebook & Spyder.
 
 # Reading & manipulating shapefile dataframes
  
