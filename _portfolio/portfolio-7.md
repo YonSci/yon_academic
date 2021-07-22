@@ -20,25 +20,29 @@ collection: portfolio
 ### To install the latest version of `GeoPandas`:
 
 #### Create a new environment variable called "geopandas_stable"
+```python
 conda create --name geopandas_stable
+```
 
 #### Activate the geopandas_stable environment
+```python
 conda activate geopandas_stable 
-
+```
 #### Add and set conda-forge channel
+```python
 conda config --env --add channels conda-forge  
 conda config --env --set channel_priority strict
-
+```
 #### Install Geopandas 
+```python
 conda install python=3 geopandas
-
+```
 #### activate the environment
 conda activate geopandas_stable
 
 ## Importing libraries
 
 ### Import the `Geopandas` library to read & write `shapefiles`
-
 
 ```python
 import geopandas as gpd
