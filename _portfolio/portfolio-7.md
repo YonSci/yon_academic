@@ -108,6 +108,9 @@ All the shapefiles for this tutorial  have all been compressed and saved at the 
  
 <a href="https://yonsci.github.io/yon_academic//portfolio/portfolio-2/"></a> 
  
+<a href="http://www.facebook.com/ladygaga" target="_blank"><div style="width:1em; height:1em; display:inline-block"></div></a>
+
+ 
 There are two methods to read the data:   
 - You can download & extract the compressed shapefiles from the above [link](https://yonsci.github.io/yon_academic//files/Geopandas_data/) to your local directory & use this local directory to locate the shapefiles  
 
