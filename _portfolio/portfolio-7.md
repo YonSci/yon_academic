@@ -22,43 +22,7 @@ collection: portfolio
 <span class="kn"> conda create --name geopandas_stable </span>
 </code>
 </pre>
-
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Import required modules
-</span><span class="kn">import</span> <span class="nn">socket</span>
-<span class="kn">import</span> <span class="nn">_thread</span>
-<span class="kn">import</span> <span class="nn">threading</span>
-<span class="kn">import</span> <span class="nn">hashlib</span>
-<span class="kn">import</span> <span class="nn">json</span>
-<span class="kn">import</span> <span class="nn">sys</span>
-</code></pre></div></div>
- 
-<pre class="highlight">
- <code>
-   <span class="c1"># Import required modules </span>
-
-<span class="kn">import</span> <span class="nn">socket</span>
-<span class="kn">import</span> <span class="nn">_thread</span>
-<span class="kn">import</span> <span class="nn">threading</span>
-<span class="kn">import</span> <span class="nn">hashlib</span>
-<span class="kn">import</span> <span class="nn">json</span>
-<span class="kn">import</span> <span class="nn">sys</span>
-</code>
-</pre>
-
-<div class="highlight"><pre class="highlight"><code><span class="c1"># Import required modules
-</span><span class="kn">import</span> <span class="nn">socket</span>
-<span class="kn">import</span> <span class="nn">_thread</span>
-<span class="kn">import</span> <span class="nn">threading</span>
-<span class="kn">import</span> <span class="nn">hashlib</span>
-<span class="kn">import</span> <span class="nn">json</span>
-<span class="kn">import</span> <span class="nn">sys</span>
-</code></pre></div>
-
-<pre class="highlight">
-<code>
-<span class="kn"> conda create --name geopandas_stable </span>
-</code></pre>
+</div>
 
 <pre class="highlight">
  <code>
