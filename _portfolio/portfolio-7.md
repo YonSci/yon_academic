@@ -111,7 +111,7 @@ There are two methods to read the data:
  <li>Or you can directly read the compressed shapefiles from the above <a href="https://yonsci.github.io/yon_academic//files/Geopandas_data" target="_top">site</a> if you are connected to internate </li>
 </ul>
  
-Load the shapefile using <em>gpd.read_file</em> function 
+Load the shapefile using <b> <em>gpd.read_file</em> </b> function 
 <div class="language-python highlighter-rouge">
  <div class="highlight">
   <pre class="highlight">
