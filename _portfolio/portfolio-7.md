@@ -17,7 +17,7 @@ collection: portfolio
  - Exporting shapefile  
 
  <div class="highlight"><pre class="highlight"><code>
-<span class="kn"> <textarea> conda update --all </textarea>  </span> 
+<textarea> <span class="kn">  conda update --all </span>  </textarea>  
 </code></pre></div>
 
 
