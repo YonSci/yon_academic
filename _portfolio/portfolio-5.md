@@ -2,7 +2,6 @@
 title: "Setting up NCO"
 collection: portfolio
 ---
-
 `NCO (NetCDF Operators)` is a set of open source command-line tools for analyzing, processing, viewing, & manipulating netCDF files. It was developed by atmospheric scientists at UC-Irvine.
 This tutorial includes `NCO` installation steps with `conda package manager`. If you have not previously installed Anaconda on your system, you can do so by following the previous [tutorial](https://yonsci.github.io/yon_academic//portfolio/portfolio-2/).
 
@@ -36,5 +35,4 @@ conda deactivate
 </textarea>
 
 #### Well done! 🥇🥇🥇 Good luck!
-
-{% include social-share.html %}
+{% include comments.html %}
