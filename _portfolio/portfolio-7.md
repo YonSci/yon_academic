@@ -38,8 +38,9 @@ conda config --env --set channel_priority strict
 conda install python=3 geopandas
 ```
 #### activate the environment
+```python
 conda activate geopandas_stable
-
+```
 ## Importing libraries
 
 ### Import the `Geopandas` library to read & write `shapefiles`
