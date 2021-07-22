@@ -3,11 +3,9 @@ title: "Python `Geopandas` package for `shapefile` management"
 collection: portfolio
 ---
 
-### Geopandas combines the ability of `pandas` & `shapely` for manipulating geographic data mainly vector data such as points, polylines, & polygons.
+### Geopandas combines the ability of `pandas` & `shapely` for manipulating geographic data mainly vector data such as points, polylines, & polygons. Geopandas can read & write vector data types mainly the ESRI shapefile format `(.shp)`, & others such as `KML`, `GeoJSON`.
 
-### Geopandas can read & write vector data types mainly the ESRI shapefile format `(.shp)`, & others such as `KML`, `GeoJSON`.
-
-### Learning objectives:
+### 🎓 Learning objectives:
  - Installing Geopandas package    
  - Reading & manipulating shapefile geodataframes    
  - Shapefile plotting  
