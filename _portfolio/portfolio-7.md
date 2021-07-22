@@ -1,5 +1,6 @@
 ---
 title: "Python `Geopandas` package for `shapefile` management"
+code-block-font-size: \tiny
 collection: portfolio
 ---
 
