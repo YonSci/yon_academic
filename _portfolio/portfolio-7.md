@@ -21,7 +21,7 @@ collection: portfolio
  <div class="highlight">
   <pre class="highlight">
   <code>
-  <span style="font-size: 250%"> </span> <span style="font-size: 150%;background:#ff00ff">conda create --name geopandas_stable</span> 
+  <span style="font-size: 250%;color:#0000ff"> </span> <span style="font-size: 250%;background:#ff00ff">conda create --name geopandas_stable</span> 
 </code>
 </pre>
 </div>
