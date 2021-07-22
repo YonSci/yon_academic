@@ -34,3 +34,5 @@ You have now successfully installed NCO. To exit from `nco_stable` environment, 
 <textarea style="border: none;background-color:orange;">
 conda deactivate
 </textarea>
+
+#### Well done! 🥇🥇🥇 Good luck! 
