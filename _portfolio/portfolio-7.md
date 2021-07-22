@@ -38,6 +38,19 @@ collection: portfolio
 </div>
 </div>
 
+<pre class="highlight">
+ <code>
+   <span class="kn">conda create --name geopandas_stable</span> 
+ </code>
+</pre>
+
+<pre class="highlight">
+ <code>
+     <span style="font-size: 250%;color:#0000ff">conda create --name geopandas_stable</span> 
+ </code>
+</pre>
+
+
 <h3 id="used-modules">Used Modules</h3>
 
   <pre>
@@ -72,12 +85,7 @@ collection: portfolio
  </div>
 </div>
 
-<pre class="highlight">
- <code>
-   <span class="c1"># Import required modules </span>
-   <span class="kn">import</span> 
- </code>
-</pre>
+
 
 # Installing Geopandas package
 
