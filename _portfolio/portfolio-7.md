@@ -111,7 +111,7 @@ There are two methods to read the data:
  <li>Or you can directly read the compressed shapefiles from the above <a href="https://yonsci.github.io/yon_academic//files/Geopandas_data" target="_top">site</a> if you are connected to internate </li>
 </ul>
  
-Load the shapefile using <b> <em>gpd.read_file</em> </b> function 
+Load the shapefile using <b> <em>gpd.read_file</em> </b> function: 
 <div class="language-python highlighter-rouge">
  <div class="highlight">
   <pre class="highlight">
@@ -123,16 +123,16 @@ Load the shapefile using <b> <em>gpd.read_file</em> </b> function
 </div>
 </div>  
 
-
-### Inspect the attribute table of the data by typing:
-
-
-```python
-ET_basin
-```
-
-
-
+Inspect the attribute table of the data by typing:
+<div class="language-python highlighter-rouge">
+ <div class="highlight">
+  <pre class="highlight">
+  <code>
+  <span style="font-size: 200%;color:#0000ff">ET_basin</span> 
+</code>
+</pre>
+</div>
+</div>  
 
 <div>
 <style scoped>
