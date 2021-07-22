@@ -24,7 +24,7 @@ To start, add a new environment variable named geopandas_stable. Start ubuntu te
  <div class="highlight">
   <pre class="highlight">
   <code>
-  <span style="font-size: 250%;color:#0000ff">conda create --name geopandas_stable</span> 
+  <span style="font-size: 200%;color:#0000ff">conda create --name geopandas_stable</span> 
 </code>
 </pre>
 </div>
@@ -35,7 +35,7 @@ Activate the geopandas_stable environment:
  <div class="highlight">
   <pre class="highlight">
   <code>
-  <span style="font-size: 250%;color:#0000ff">conda activate geopandas_stable</span> 
+  <span style="font-size: 200%;color:#0000ff">conda activate geopandas_stable</span> 
 </code>
 </pre>
 </div>
@@ -46,8 +46,8 @@ Activate the geopandas_stable environment:
  <div class="highlight">
   <pre class="highlight">
   <code>
-  <span style="font-size: 250%;color:#0000ff">conda config --env --add channels conda-forge</span> 
-  <span style="font-size: 250%;color:#0000ff">conda config --env --set channel_priority strict</span> 
+  <span style="font-size: 200%;color:#0000ff">conda config --env --add channels conda-forge</span> 
+  <span style="font-size: 200%;color:#0000ff">conda config --env --set channel_priority strict</span> 
 </code>
 </pre>
 </div>
@@ -58,7 +58,7 @@ Install Geopandas package with python-3:
  <div class="highlight">
   <pre class="highlight">
   <code>
-  <span style="font-size: 250%;color:#0000ff">conda install python=3 geopandas</span> 
+  <span style="font-size: 200%;color:#0000ff">conda install python=3 geopandas</span> 
 </code>
 </pre>
 </div>
@@ -69,7 +69,7 @@ Import the Geopandas library:
  <div class="highlight">
   <pre class="highlight">
   <code>
-  <span style="font-size: 250%;color:#0000ff">import geopandas as gpd</span> 
+  <span style="font-size: 200%;color:#0000ff">import geopandas as gpd</span> 
 </code>
 </pre>
 </div>
@@ -80,7 +80,7 @@ Check the Geopandas version:
  <div class="highlight">
   <pre class="highlight">
   <code>
-  <span style="font-size: 250%;color:#0000ff">print(gpd.__version__)</span> 
+  <span style="font-size: 200%;color:#0000ff">print(gpd.__version__)</span> 
 </code>
 </pre>
 </div>
