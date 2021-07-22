@@ -1,7 +1,8 @@
 ---
-title: "Windows-10 Subsystem for Linux (WSL) installation"
+title: "Python `Geopandas` package for `shapefile` management"
 collection: portfolio
 ---
+
 # Python `Geopandas` package for `shapefile` management
 
 ### Geopandas combines the ability of `pandas` & `shapely` for manipulating geographic data mainly vector data such as points, polylines, & polygons.
