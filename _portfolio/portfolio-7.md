@@ -106,6 +106,7 @@ All the shapefiles for this tutorial  have all been compressed and saved at the 
 
 All the shapefiles for this tutorial  have all been compressed and saved at the URL listed below. <a href="https://yonsci.github.io/yon_academic//portfolio/portfolio-2/" target="_top">post</a>
  
+<a href="https://yonsci.github.io/yon_academic//portfolio/portfolio-2/"></a> 
  
 There are two methods to read the data:   
 - You can download & extract the compressed shapefiles from the above [link](https://yonsci.github.io/yon_academic//files/Geopandas_data/) to your local directory & use this local directory to locate the shapefiles  
