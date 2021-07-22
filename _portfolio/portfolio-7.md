@@ -16,16 +16,19 @@ collection: portfolio
  - Shapefile clipping  
  - Exporting shapefile  
 
+
+
+
 <div class="language-python highlighter-rouge">
  <div class="highlight">
   <pre class="highlight">
-  <h3
   <code>
   <span class="kn">  import </span> <span class="nn">socket</span> 
   <span class="kn">import</span> <span class="nn">hashlib</span>
+  <span style="font-size: 250%"> > </span> <span style="font-size: 150%;background:#ff00ff">micro average ROC</span> 
+  <span style="font-size: 150%;color:#0000ff">macro average ROC</span> 
   <SPAN STYLE="font-size:18.0pt">import</SPAN>
 </code>
-  </h3>
 </pre>
 </div>
 </div>
