@@ -33,7 +33,7 @@ collection: portfolio
 
 <div class="language-python input highlighter-rouge"><div class="highlight"><pre class="highlight" id="codeblock4"><code><span class="c1"># close the file connection
 </span><span class="n">lidar_dem</span><span class="p">.</span><span class="n">close</span><span class="p">()</span>
-</code></pre><button class="btn copybtn" data-tooltip="Copy" title="Copy" data-clipboard-target="#codeblock4"><img src="/images/copy-button.svg" width="17" alt="Copy to clipboard"></button></div></div>
+</code></pre><button class="btn copybtn" data-tooltip="Copy" title="Copy" data-clipboard-target="#codeblock4"><img src="https://github.com/YonSci/yon_academic/blob/aa5f37d7e88a7e67bad9c8f942929900e1dd68b9/images/copy-button1.png" width="17" alt="Copy to clipboard"></button></div></div>
 
 # Installing Geopandas package
 
