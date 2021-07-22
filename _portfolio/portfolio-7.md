@@ -102,29 +102,8 @@ Import the matplotlib library for visualization purposes:
 </div>
 </div> 
  
-<a href="https://www.sitebulb.com"></a>
-
-<a href="https://www.sitebulb.com"><span></span></a>
-
-<a href="https://www.sitebulb.com" id="test-link" rel="prev"></a>
-
- 
-
-All the shapefiles for this tutorial  have all been compressed and saved at the URL listed below. href="https://yonsci.github.io/yon_academic//files/Geopandas_data"> 
-
-<a href="https://yonsci.github.io/yon_academic//files/Geopandas_data">https://yonsci.github.io/yon_academic//files/Geopandas_data</a>
- 
-https://yonsci.github.io/yon_academic//files/Geopandas_data
- 
-All the shapefiles for this tutorial  have all been compressed and saved at the URL listed below. <a href="https://yonsci.github.io/yon_academic//portfolio/portfolio-2/" target="_top">post</a>
- 
-<a href="https://yonsci.github.io/yon_academic//portfolio/portfolio-2/" target="_top">https://yonsci.github.io/yon_academic//portfolio/portfolio-2/</a> 
- 
-<a href="https://yonsci.github.io/yon_academic//portfolio/portfolio-2/"></a> 
- 
-<a href="http://www.facebook.com/ladygaga" target="_blank"><div style="width:1em; height:1em; display:inline-block"></div></a>
-
- 
+ All of the shapefiles used in this tutorial have been compressed and saved at this URL <a href="https://yonsci.github.io/yon_academic//files/Geopandas_data">https://yonsci.github.io/yon_academic//files/Geopandas_data</a>
+  
 There are two methods to read the data:   
 - You can download & extract the compressed shapefiles from the above [link](https://yonsci.github.io/yon_academic//files/Geopandas_data/) to your local directory & use this local directory to locate the shapefiles  
 
