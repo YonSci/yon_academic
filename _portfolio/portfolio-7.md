@@ -24,6 +24,8 @@ collection: portfolio
 ```python
 conda create --name geopandas_stable
 ```
+<font size="5">conda create --name geopandas_stable</font>
+
 
 #### Activate the geopandas_stable environment
 ```python
