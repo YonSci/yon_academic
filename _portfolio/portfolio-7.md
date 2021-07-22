@@ -26,7 +26,23 @@ conda create --name geopandas_stable
 ```
 <font size="5">conda create --name geopandas_stable</font>
 
+<html>
+  <head>
+     <title>conda create --name geopandas_stable</title>
+   </head>
 
+At the command prompt, type `nano`.	
+ 
+At the command prompt, type <code>nano</code>.
+ 
+``Use `code` in your Markdown file.
+ 
+``	<code>Use `code` in your Markdown file.</code>
+ 
+ <html>
+      <head>
+      </head>
+    </html>
 #### Activate the geopandas_stable environment
 ```python
 conda activate geopandas_stable 
