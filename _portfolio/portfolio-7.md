@@ -17,11 +17,10 @@ collection: portfolio
  - Exporting shapefile  
 
  <div class="highlight"><pre class="highlight"><code>
-<span class="kn">import</span> 
+<span class="kn"> <textarea style="border: none;background-color:orange;"> conda update --all </textarea>  </span> 
 </code></pre></div>
 
-<textarea style="border: none;background-color:orange;"> conda update --all
-</textarea>
+
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Import required modules
 </span><span class="kn">import</span> <span class="nn">socket</span>
