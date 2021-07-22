@@ -64,7 +64,7 @@ Install Geopandas package with python-3:
 </div>
 </div> 
 
-Import the `Geopandas` library: 
+Import the Geopandas library: 
 <div class="language-python highlighter-rouge">
  <div class="highlight">
   <pre class="highlight">
@@ -88,7 +88,7 @@ Check the Geopandas version:
 
 You have successfully installed Geopandas if you receive the version number. Finally, for reading & writing shapefiles, you can use any Python Notebook or IDE, such as Jupyter-Notebook & Spyder.<br>
  
-# Reading & manipulating shapefile dataframes
+<h2 id="coding-in-python">Reading & manipulating shapefile dataframes</h2>
  
 ### Import the `matplotlib` library for visualization purposes: 
 ```python
