@@ -88,6 +88,7 @@ Check the Geopandas version:
 
 You have successfully installed Geopandas if you receive the version number. Finally, for reading & writing shapefiles, you can use any Python Notebook or IDE, such as Jupyter-Notebook & Spyder.<br>
  
+ 
 <h1 id="coding-in-python">Reading & manipulating shapefile dataframes</h1>
  
 Import the matplotlib library for visualization purposes:
