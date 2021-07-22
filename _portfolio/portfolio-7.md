@@ -148,7 +148,7 @@ Inspect the attribute table of the data by typing:
         text-align: right;
     }
 </style>
-<table border="1" class="dataframe">
+<table border="1" width="100%" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
