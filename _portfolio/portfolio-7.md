@@ -17,11 +17,13 @@ collection: portfolio
  - Exporting shapefile  
 
 <div class="language-python highlighter-rouge">
-<pre class="highlight">
-<code>
-<span class="kn"> conda create --name geopandas_stable </span>
-</code>
-</pre>
+ <div class="highlight" 
+  <pre class="highlight">
+   <code>
+    <span class="kn"> conda create --name geopandas_stable </span>
+   </code>
+  </pre>
+ </div>
 </div>
 
 <pre class="highlight">
