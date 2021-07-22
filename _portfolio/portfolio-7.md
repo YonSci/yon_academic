@@ -15,6 +15,20 @@ collection: portfolio
  - Shapefile dissolving  
  - Shapefile clipping  
  - Exporting shapefile  
+ 
+<div class="language-python input highlighter-rouge"><div class="highlight"><pre class="highlight" id="codeblock1"><code><span class="c1"># import necessary packages to work with spatial data in Python
+</span><span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="n">np</span>
+<span class="kn">import</span> <span class="nn">geopandas</span> <span class="k">as</span> <span class="n">gpd</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="n">plt</span>
+<span class="kn">import</span> <span class="nn">matplotlib.lines</span> <span class="k">as</span> <span class="n">mlines</span>
+<span class="kn">from</span> <span class="nn">matplotlib.colors</span> <span class="kn">import</span> <span class="n">ListedColormap</span>
+<span class="kn">import</span> <span class="nn">earthpy</span> <span class="k">as</span> <span class="n">et</span> 
+
+<span class="c1"># set home directory and download data
+</span><span class="n">et</span><span class="p">.</span><span class="n">data</span><span class="p">.</span><span class="n">get_data</span><span class="p">(</span><span class="s">"spatial-vector-lidar"</span><span class="p">)</span>
+<span class="n">os</span><span class="p">.</span><span class="n">chdir</span><span class="p">(</span><span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="n">et</span><span class="p">.</span><span class="n">io</span><span class="p">.</span><span class="n">HOME</span><span class="p">,</span> <span class="s">'earth-analytics'</span><span class="p">))</span>
+</code></pre><button class="btn copybtn" data-tooltip="Copy" title="Copy" data-clipboard-target="#codeblock1"><img src="/images/copy-button.svg" width="17" alt="Copy to clipboard"></button></div></div>
 
 # Installing Geopandas package
 
