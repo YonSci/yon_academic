@@ -16,9 +16,17 @@ collection: portfolio
  - Shapefile clipping  
  - Exporting shapefile  
  
-<pre class="highlight"><code>
+<pre class="highlight">
+<code>
 <span class="kn"> conda create --name geopandas_stable </span>
 </code></pre>
+
+<pre class="highlight">
+ <code>
+   <span class="c1"># Import required modules </span>
+   <span class="kn">import</span> 
+ </code>
+</pre>
 
 # Installing Geopandas package
 
