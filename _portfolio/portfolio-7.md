@@ -103,6 +103,10 @@ Import the matplotlib library for visualization purposes:
 </div>
 </div> 
  
+<p>This sentence contains  example text.<br>
+<br>
+As you can see, two breaks add the space above.</p>
+ 
  
 ### All of the shapefiles for this lesson have been compressed & stored, & can be found at the link below: https://yonsci.github.io/yon_academic//files/Geopandas_data
 
