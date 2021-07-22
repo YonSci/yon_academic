@@ -102,21 +102,31 @@ Import the matplotlib library for visualization purposes:
 </div>
 </div> 
  
-<p> All of the shapefiles used in this tutorial have been compressed & saved at this <a href="https://yonsci.github.io/yon_academic//files/Geopandas_data" target="_top">URL</a></p>  
+All of the shapefiles used in this tutorial have been compressed & saved at this <a href="https://yonsci.github.io/yon_academic//files/Geopandas_data" target="_top">URL</a> 
 
 There are two methods to read the data:
  <ul>
-  <li>You can download & extract the compressed shapefiles from the above [link](https://yonsci.github.io/yon_academic//files/Geopandas_data/) to your local directory & use this local directory to locate the shapefiles</li>
-  
- <li>Or you can directly read the compressed shapefiles from the above [site](https://yonsci.github.io/yon_academic//files/Geopandas_data/) using the following code </li>
+  <li>You can download the compressed shapefiles from the above <a href="https://yonsci.github.io/yon_academic//files/Geopandas_data" target="_top">link</a> to your local directory, extract it, & use this local directory to locate the path of the shapefiles</li>  
+     
+ <li>Or you can directly read the compressed shapefiles from the above <a href="https://yonsci.github.io/yon_academic//files/Geopandas_data" target="_top">site</a> if you are connected to internate </li>
 </ul>
 
+<h1 id="coding-in-python">Load the shapefile using gpd.read_file function</h1>
+ 
+Load the shapefile using gpd.read_file function 
+<div class="language-python highlighter-rouge">
+ <div class="highlight">
+  <pre class="highlight">
+  <code>
+  <span style="font-size: 200%;color:#0000ff">zipfile_basins = "https://yonsci.github.io/yon_academic//files/Geopandas_data/ETH_basins.zip"</span> 
+  <span style="font-size: 200%;color:#0000ff">ET_basin = gpd.read_file(zipfile_basins)</span> 
+</code>
+</pre>
+</div>
+</div>  
 
 
-```python
-zipfile_basins = "https://yonsci.github.io/yon_academic//files/Geopandas_data/ETH_basins.zip"
-ET_basin = gpd.read_file(zipfile_basins)
-```
+
 
 ### Inspect the attribute table of the data by typing:
 
