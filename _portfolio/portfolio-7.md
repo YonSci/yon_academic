@@ -86,8 +86,9 @@ Check the Geopandas version:
 </div>
 </div> 
 
-<pre> ou have successfully installed Geopandas if you receive the version number. Finally, for reading & writing shapefiles, you can use any Python Notebook or IDE, such as Jupyter-Notebook & Spyder.</pre>
+<br/> You have successfully installed Geopandas if you receive the version number. Finally, for reading & writing shapefiles, you can use any Python Notebook or IDE, such as Jupyter-Notebook & Spyder.<br/> 
  
+
 <h1 id="coding-in-python">Reading & manipulating shapefile dataframes</h1>
  
 Import the matplotlib library for visualization purposes:
@@ -95,8 +96,8 @@ Import the matplotlib library for visualization purposes:
  <div class="highlight">
   <pre class="highlight">
   <code>
-  <span style="font-size: 200color:#0000ff">import matplotlib.pyplot as plt</span> 
-  <span style="font-size: 200;color:#0000ff">from matplotlib.ticker import ScalarFormatter</span> 
+  <span style="font-size: 200%;color:#0000ff">import matplotlib.pyplot as plt</span> 
+  <span style="font-size: 200%;color:#0000ff">from matplotlib.ticker import ScalarFormatter</span> 
 </code>
 </pre>
 </div>
