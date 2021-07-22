@@ -6,14 +6,14 @@ collection: portfolio
 <div align="justify">Geopandas combines the ability of pandas & shapely for manipulating geographic data mainly vector data such as points, polylines, & polygons. Geopandas can read & write vector data in a variety of formats, including the ESRI shapefile format (.shp) & others such as KML, & GeoJSON. </div>
 
 ## 🎓 Learning objectives:
- - Installing Geopandas package    
- - Reading & manipulating shapefile geodataframes    
- - Shapefile plotting  
- - Overlaying shapefiles   
- - Shapefile re-projectioning  
- - Shapefile dissolving  
- - Shapefile clipping  
- - Exporting shapefile  
+ - Installing Geopandas package       
+ - Reading & manipulating shapefile geodataframes      
+ - Shapefile plotting    
+ - Overlaying shapefiles     
+ - Shapefile re-projectioning    
+ - Shapefile dissolving    
+ - Shapefile clipping    
+ - Exporting shapefile    
  
 # Installing Geopandas package:
 
