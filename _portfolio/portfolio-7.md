@@ -20,7 +20,7 @@ collection: portfolio
  <div class="highlight">
   <pre class="highlight">
   <code>
-  <span class="kn"> <h3 import </h3> </span> <span class="nn">socket</span> 
+  <h3 <span class="kn">  import </span> <span class="nn">socket</span></h3> 
   <span class="kn">import</span> <span class="nn">hashlib</span>
 </code>
 </pre>
