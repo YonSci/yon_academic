@@ -19,37 +19,23 @@ collection: portfolio
 
 <div align="justify"> To install the latest version of GeoPandas, the conda package manager will be utilized. If you haven't already  installed Anaconda on your PC , you can install it by following the previous <a href="https://yonsci.github.io/yon_academic//portfolio/portfolio-2/" target="_top">post</a>.
  
-Launch ubuntu terminal and type the following commands:
+To start, add a new environment variable named geopandas_stable. Start ubuntu terminal & enter the following commands:
  
 <div class="language-python highlighter-rouge">
  <div class="highlight">
   <pre class="highlight">
   <code>
-  <span class="c1"># Create a new environment variable called geopandas_stable </span>
   <span style="font-size: 250%;color:#0000ff">conda create --name geopandas_stable</span> 
 </code>
 </pre>
 </div>
 </div>
- 
-Create a new environment variable called "geopandas_stable"
-<div class="language-python highlighter-rouge">
- <div class="highlight">
-  <pre class="highlight">
-  <code>
-  <span class="c1"># Create a new environment variable called geopandas_stable </span>
-  <span style="font-size: 250%;color:#0000ff">conda create --name geopandas_stable</span> 
-</code>
-</pre>
-</div>
-</div> 
   
 Activate the geopandas_stable environment
 <div class="language-python highlighter-rouge">
  <div class="highlight">
   <pre class="highlight">
   <code>
-  <span class="c1"># Create a new environment variable called geopandas_stable </span>
   <span style="font-size: 250%;color:#0000ff">conda activate geopandas_stable</span> 
 </code>
 </pre>
@@ -61,7 +47,6 @@ Activate the geopandas_stable environment
  <div class="highlight">
   <pre class="highlight">
   <code>
-  <span class="c1"># Create a new environment variable called geopandas_stable </span>
   <span style="font-size: 250%;color:#0000ff">conda config --env --add channels conda-forge</span> 
   <span style="font-size: 250%;color:#0000ff">conda config --env --set channel_priority strict</span> 
 </code>
@@ -69,12 +54,11 @@ Activate the geopandas_stable environment
 </div>
 </div> 
  
-Install Geopandas 
+Install Geopandas package:
 <div class="language-python highlighter-rouge">
  <div class="highlight">
   <pre class="highlight">
   <code>
-  <span class="c1"># Create a new environment variable called geopandas_stable </span>
   <span style="font-size: 250%;color:#0000ff">conda install python=3 geopandas</span> 
 </code>
 </pre>
@@ -86,7 +70,6 @@ Activate the environment
  <div class="highlight">
   <pre class="highlight">
   <code>
-  <span class="c1"># Create a new environment variable called geopandas_stable </span>
   <span style="font-size: 250%;color:#0000ff">conda activate geopandas_stable</span> 
 </code>
 </pre>
