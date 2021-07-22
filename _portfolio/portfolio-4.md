@@ -44,3 +44,5 @@ You have now successfully installed CDO. To exit from `cdo_stable` environment, 
 <textarea style="border: none;background-color:orange;">
 conda deactivate
 </textarea>
+
+{% include comments.html %}
