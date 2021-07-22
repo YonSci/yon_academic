@@ -91,9 +91,16 @@ You have successfully installed Geopandas if you receive the version number. Fin
 <h1 id="coding-in-python">Reading & manipulating shapefile dataframes</h1>
  
 Import the matplotlib library for visualization purposes:
- 
-import matplotlib.pyplot as plt
-
+<div class="language-python highlighter-rouge">
+ <div class="highlight">
+  <pre class="highlight">
+  <code>
+  <span style="font-size: 250%;color:#0000ff">import matplotlib.pyplot as plt</span> 
+  <span style="font-size: 250%;color:#0000ff">from matplotlib.ticker import ScalarFormatter</span> 
+</code>
+</pre>
+</div>
+</div> 
  
  
 ### All of the shapefiles for this lesson have been compressed & stored, & can be found at the link below: https://yonsci.github.io/yon_academic//files/Geopandas_data
