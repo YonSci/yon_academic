@@ -857,7 +857,7 @@ You can use the script underneath to add grids to the plot:
 Here, instead of `dashdot` you can use `dotted`, `dashed`, `solid`
 <img src="https://yonsci.github.io/yon_academic//files/Geopandas_data/Output/output_73_0.png" width="400" height="400" />    
 
-You can remove the grids and boundary by using the code below:
+You can remove the grids & boundary lines by using the code below:
 <div class="language-python highlighter-rouge">
  <div class="highlight">
   <pre class="highlight">
@@ -956,25 +956,51 @@ ax12.set_title("WABI SHEBELE")</span>
 <img src="https://yonsci.github.io/yon_academic//files/Geopandas_data/Output/output_79_0.png" width="800" height="800" /> 
 
 # Overlaying shapefiles
-### As an example, consider overlaying the `ET_basin` over the `African continent` shapefile  
-### Let's begin by importing the African continent shapefile
 
+As an example, consider overlaying the `ET_basin` over the `African continent` shapefile, Let's begin by importing the African continent shapefile:
+<div class="language-python highlighter-rouge">
+ <div class="highlight">
+  <pre class="highlight">
+  <code>
+  <span style="font-size: 200%;color:#0000ff">zipfile_Africa = "https://yonsci.github.io/yon_academic//files/Geopandas_data/Africa.zip"</span> 
+  <span style="font-size: 200%;color:#0000ff">AFRICA = gpd.read_file(zipfile_Africa)</span> 
+</code>
+</pre>
+</div>
+</div>
 
-```python
-zipfile_Africa = "https://yonsci.github.io/yon_academic//files/Geopandas_data/Africa.zip"
-AFRICA = gpd.read_file(zipfile_Africa)
-```
+It is critical to remember that the coordinate systems of the two shapefiles must be identical. The `.crs` command can be used to verify the coordinate system of  the two shapefiles
 
-### It is critical to remember that the coordinate systems of the two shapefiles must be identical
-### The `.crs` command can be used to verify the coordinate system of  the two shapefiles
+<div class="language-python highlighter-rouge">
+ <div class="highlight">
+  <pre class="highlight">
+  <code>
+  <span style="font-size: 200%;color:#0000ff">AFRICA.crs</span> 
+</code>
+</pre>
+</div>
+</div>
 
-
-```python
-AFRICA.crs
-```
-
-
-
+    <Geographic 2D CRS: EPSG:4326>
+    Name: WGS 84
+    Axis Info [ellipsoidal]:
+    - Lat[north]: Geodetic latitude (degree)
+    - Lon[east]: Geodetic longitude (degree)
+    Area of Use:
+    - name: World
+    - bounds: (-180.0, -90.0, 180.0, 90.0)
+    Datum: World Geodetic System 1984
+    - Ellipsoid: WGS 84
+    - Prime Meridian: Greenwich
+<div class="language-python highlighter-rouge">
+ <div class="highlight">
+  <pre class="highlight">
+  <code>
+  <span style="font-size: 200%;color:#0000ff">ET_basin.crs</span> 
+</code>
+</pre>
+</div>
+</div>
 
     <Geographic 2D CRS: EPSG:4326>
     Name: WGS 84
@@ -988,51 +1014,26 @@ AFRICA.crs
     - Ellipsoid: WGS 84
     - Prime Meridian: Greenwich
 
+You can see that they both use the `WGS-84` geographic coordinate system `(EPSG:4326)`  
 
-
-
-```python
-ET_basin.crs
-```
-
-
-
-
-    <Geographic 2D CRS: EPSG:4326>
-    Name: WGS 84
-    Axis Info [ellipsoidal]:
-    - Lat[north]: Geodetic latitude (degree)
-    - Lon[east]: Geodetic longitude (degree)
-    Area of Use:
-    - name: World
-    - bounds: (-180.0, -90.0, 180.0, 90.0)
-    Datum: World Geodetic System 1984
-    - Ellipsoid: WGS 84
-    - Prime Meridian: Greenwich
-
-
-
-### You can see that they both use the `WGS-84` geographic coordinate system `(EPSG:4326)`
-
-### You can now plot the overlaid map
-
-
-```python
-fig, ax = plt.subplots(figsize=(6,6))
-AFRICA.plot(ax=ax, color ='None', edgecolor='black',)
-ET_basin.plot(ax=ax, cmap ='tab20c', column='BASINNAME')
-ax.grid(True)
-ax.set_title('Ethiopian basins overlaid on African continent', fontsize=15)
-ax.set(xlabel="Longitude (Degrees)", ylabel="Latitude (Degrees)")
-plt.show()
-```
-
-
+Now, you can plot the overlaid map using the following code:
+<div class="language-python highlighter-rouge">
+ <div class="highlight">
+  <pre class="highlight">
+  <code>
+  <span style="font-size: 200%;color:#0000ff">fig, ax = plt.subplots(figsize=(6,6))</span> 
+  <span style="font-size: 200%;color:#0000ff">AFRICA.plot(ax=ax, color ='None', edgecolor='black')</span> 
+  <span style="font-size: 200%;color:#0000ff">ET_basin.plot(ax=ax, cmap ='tab20c', column='BASINNAME')</span> 
+  <span style="font-size: 200%;color:#0000ff">ax.grid(True)</span> 
+  <span style="font-size: 200%;color:#0000ff">ax.set_title('Ethiopian basins overlaid on African continent', fontsize=15)</span> 
+  <span style="font-size: 200%;color:#0000ff">ax.set(xlabel="Longitude (Degrees)", ylabel="Latitude (Degrees)")</span> 
+  <span style="font-size: 200%;color:#0000ff">plt.show()</span>
+</code>
+</pre>
+</div>
+</div>
+<img src="https://yonsci.github.io/yon_academic//files/Geopandas_data/Output/output_87_0.png" width="800" height="800" /> 
     
-![png](output_87_0.png)
-    
-
-
 # Shapefile re-projectioning
 
 ### To know the existing coordinate system of the shapefile use the `.crs` function 
