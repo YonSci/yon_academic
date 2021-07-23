@@ -847,15 +847,15 @@ You can use the script underneath to add grids to the plot:
   <span style="font-size: 200%;color:#0000ff">ax.set_axisbelow(True)</span> 
   <span style="font-size: 200%;color:#0000ff">ax.yaxis.grid(color='gray', linestyle='dashdot')</span> 
   <span style="font-size: 200%;color:#0000ff">ax.xaxis.grid(color='gray', linestyle='dashdot')</span>   
-  <h5>Here, instead of 'dashdot' you can use 'dotted', 'dashed', 'solid'</h5>
   <span style="font-size: 200%;color:#0000ff">ax.set_xlabel("Longitude (Degrees)", fontsize=12)</span> 
   <span style="font-size: 200%;color:#0000ff">ax.set_ylabel("Latitude (Degrees)", fontsize=12)</span> 
   <span style="font-size: 200%;color:#0000ff">plt.show()</span> 
 </code>
 </pre>
 </div>
-</div>
-<img src="https://yonsci.github.io/yon_academic//files/Geopandas_data/Output/output_73_0.png" width="400" height="400" />  
+</div>    
+Here, instead of 'dashdot' you can use `dotted`, `dashed`, `solid`
+<img src="https://yonsci.github.io/yon_academic//files/Geopandas_data/Output/output_73_0.png" width="400" height="400" />    
 
 You can remove the grids and boundary by using the code below:
 <div class="language-python highlighter-rouge">
@@ -953,7 +953,7 @@ ax12.set_title("WABI SHEBELE")</span>
 </pre>
 </div>
 </div>
-<img src="https://yonsci.github.io/yon_academic//files/Geopandas_data/Output/output_79_0.png" width="400" height="400" /> 
+<img src="https://yonsci.github.io/yon_academic//files/Geopandas_data/Output/output_79_0.png" width="800" height="800" /> 
 
 # Overlaying shapefiles
 ### As an example, consider overlaying the `ET_basin` over the `African continent` shapefile  
