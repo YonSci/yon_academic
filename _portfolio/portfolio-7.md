@@ -16,7 +16,7 @@ collection: portfolio
  
 # Installing Geopandas package:
 
-<div align="justify"> To install the latest version of GeoPandas, the conda package manager will be utilized. If you haven't already  installed Anaconda on your PC , you can install it by following the previous <a href="https://yonsci.github.io/yon_academic//portfolio/portfolio-2/" target="_top">post</a>. <br>
+<div align="justify"> To install the latest version of GeoPandas, the conda package manager will be utilized. If you haven't already  installed Anaconda on your PC , you can install it by following the previous <a href="https://yonsci.github.io/yon_academic//portfolio/portfolio-2/" target="_top">post</a>.  </div> <br>
 
 To start, add a new environment variable named geopandas_stable. Start ubuntu terminal & enter the following commands:
  
