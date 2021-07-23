@@ -573,7 +573,7 @@ To find out the size of the dataframe, type:
 </pre>
 </div>
 </div>  
-`Output: (12, 8)`
+`Output: (12, 8)`  
 As can be seen, the dataframe has 12 rows and 8 columns
 
 To obtain the row numbers or length of the dataframe, type:
@@ -582,13 +582,13 @@ To obtain the row numbers or length of the dataframe, type:
   <pre class="highlight">
   <code>
   <span style="font-size: 200%;color:#0000ff">len(ET_basin)</span> 
-  <span style="font-size: 200%;color:#0000ff">12</span> 
 </code>
 </pre>
 </div>
 </div>  
+`Output: 12`  
 
-To print the column names, type 
+To print the column names, type: 
 <div class="language-python highlighter-rouge">
  <div class="highlight">
   <pre class="highlight">
@@ -598,36 +598,34 @@ To print the column names, type 
 </pre>
 </div>
 </div>  
+`Output: Index(['AREA', 'PERIMETER', 'RIVERBASIN', 'RIVERBAS_1', 'BASINNAME', 'layer', 'path', 'Basin_type', 'geometry'],
+          dtype='object')`
 
-Index(['AREA', 'PERIMETER', 'RIVERBASIN', 'RIVERBAS_1', 'BASINNAME', 'layer',
-           'path', 'Basin_type', 'geometry'],
-          dtype='object')
-
-
-
-### To list the column's contents
-
-
-```python
-ET_basin.BASINNAME.values
-```
-
-
-
-
-    array(['ABBAY', 'AWASH', 'AYSHA', 'BARO AKOBO', 'DENAKIL', 'GENALE DAWA',
+To list the column's contents:
+<div class="language-python highlighter-rouge">
+ <div class="highlight">
+  <pre class="highlight">
+  <code>
+  <span style="font-size: 200%;color:#0000ff">ET_basin.BASINNAME.values</span> 
+</code>
+</pre>
+</div>
+</div>
+`Output: array(['ABBAY', 'AWASH', 'AYSHA', 'BARO AKOBO', 'DENAKIL', 'GENALE DAWA',
            'MEREB GASH', 'OGADEN', 'OMO GIBE', 'RIFT VALLY', 'TEKEZE',
-           'WABI SHEBELE'], dtype=object)
+           'WABI SHEBELE'], dtype=object)`
 
-
-
-### The `geometry` column is the most essential of the columns  & it contains the `x`-`y` coordinate values of the vector data. For instance, you can look at the values using `.geometry` function
-
-
-```python
-print(ET_basin.geometry)
-```
-
+The `geometry` column is the most essential of the columns  & it contains the `x`-`y` coordinate values of the vector data. For instance, you can look at the values using `.geometry` function:
+<div class="language-python highlighter-rouge">
+ <div class="highlight">
+  <pre class="highlight">
+  <code>
+  <span style="font-size: 200%;color:#0000ff">print(ET_basin.geometry)</span> 
+</code>
+</pre>
+</div>
+</div>
+`Output: 
     0     POLYGON ((35.75669 12.67180, 35.75921 12.67317...
     1     POLYGON ((39.52930 11.72403, 39.52891 11.72624...
     2     POLYGON ((42.30811 10.99144, 42.32126 10.99586...
@@ -640,65 +638,53 @@ print(ET_basin.geometry)
     9     POLYGON ((38.40912 8.39296, 38.41411 8.39297, ...
     10    POLYGON ((39.40391 14.25409, 39.45916 14.23977...
     11    POLYGON ((42.69533 9.58651, 42.69804 9.58040, ...
-    Name: geometry, dtype: geometry
+    Name: geometry, dtype: geometry`
 
 
-### To view the geometry type of each vector type: 
-
-
-```python
-ET_basin.geom_type.head()
-```
-
-
-
-
+To view the geometry type of each vector type: 
+<div class="language-python highlighter-rouge">
+ <div class="highlight">
+  <pre class="highlight">
+  <code>
+  <span style="font-size: 200%;color:#0000ff">ET_basin.geom_type.head()</span> 
+</code>
+</pre>
+</div>
+</div>
+`Output: 
     0    Polygon
     1    Polygon
     2    Polygon
     3    Polygon
     4    Polygon
-    dtype: object
+    dtype: object`
 
+You can use the following function to extract x-y coordinate values of a given polygon, In this case, the first polygon:
+<div class="language-python highlighter-rouge">
+ <div class="highlight">
+  <pre class="highlight">
+  <code>
+  <span style="font-size: 200%;color:#0000ff">def coord_lister(geom):</span> 
+  <span style="font-size: 200%;color:#0000ff">coords = list(geom.exterior.coords)</span> 
+  <span style="font-size: 200%;color:#0000ff">return(coords)</span> 
+  <span style="font-size: 200%;color:#0000ff">coordinates = ET_basin.geometry.apply(coord_lister)</span>
+  <span style="font-size: 200%;color:#0000ff">Abbay_coord = coordinates[0]</span>
+</code>
+</pre>
+</div>
+</div>
 
-
-### You may get a quick overview of the shape file by using the geometry values. For instance, to view the first geometry file, you can use the code below:
-
-
-```python
-ET_basin.at[0,'geometry']
-```
-
-
-
-
-    
-![svg](output_39_0.svg)
-    
-
-
-
-### You can use the following function to extract x-y coordinate values of a given polygon, In this case, the first polygon
-
-
-```python
-def coord_lister(geom):
-    coords = list(geom.exterior.coords)
-    return(coords)
-coordinates = ET_basin.geometry.apply(coord_lister) 
-Abbay_coord = coordinates[0]
-```
-
-### Let's look at the first ten x-y coordinate values
-
-
-```python
-Abbay_coord[:10]
-```
-
-
-
-
+Let's look at the first ten x-y coordinate values:
+<div class="language-python highlighter-rouge">
+ <div class="highlight">
+  <pre class="highlight">
+  <code>
+  <span style="font-size: 200%;color:#0000ff">Abbay_coord[:10]</span> 
+</code>
+</pre>
+</div>
+</div>
+`Output:
     [(35.756690888078126, 12.671797097608444),
      (35.75921179031758, 12.673172165175462),
      (35.76174531616754, 12.674460456844615),
@@ -708,9 +694,17 @@ Abbay_coord[:10]
      (35.77224026615727, 12.676922403038853),
      (35.774962412059814, 12.676764711775403),
      (35.77771230490099, 12.676412056011529),
-     (35.780480076318945, 12.675917364792335)]
+     (35.780480076318945, 12.675917364792335)]`
+
+You may get a quick overview of the shape file by using the geometry values. For instance, to view the first geometry file, you can use the code below:
 
 
+```python
+ET_basin.at[0,'geometry']
+``` 
+![svg](output_39_0.svg)
+    
+```
 
 ### To know how the data is represented or stored, type
 
@@ -718,16 +712,8 @@ Abbay_coord[:10]
 ```python
 type(ET_basin)
 ```
-
-
-
-
     geopandas.geodataframe.GeoDataFrame
-
-
-
 #### In this example, the data is represented as `GeoDataFrame`
-
 ### To view the spatial extent or coverage of the shapefile use the `total_bounds` function 
 
 
@@ -735,12 +721,7 @@ type(ET_basin)
 ET_basin.total_bounds
 ```
 
-
-
-
     array([33.00541327,  3.40510906, 47.99567693, 14.88539753])
-
-
 
 #### The shapefile ranges from `33.00541327` to `47.99567693` longitudes and `3.40510906` to `14.88539753` latitudes
 
