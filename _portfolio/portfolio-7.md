@@ -1335,4 +1335,5 @@ To export your geopandas dataframe as a GeoJSON file:
 </div>
 </div>
 
-{% include comments.html %}  
+{% include social-share.html %}
+{% include comments.html %}
