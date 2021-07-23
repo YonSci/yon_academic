@@ -1,11 +1,5 @@
 ---
-layout: single
 title: "Python Geopandas package for shapefile management"
-categories: 
-  - Education
-tags:
-  - Geopandas
-  - Shapefile
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart" 
