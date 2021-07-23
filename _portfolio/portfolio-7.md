@@ -597,8 +597,10 @@ To print the column names, type: 
 </code>
 </pre>
 </div>
-</div>  
-`Output:` 
+</div> 
+
+`Output:`  
+
 `Index(['AREA', 'PERIMETER', 'RIVERBASIN', 'RIVERBAS_1', 'BASINNAME', 'layer', 'Basin_type', 'geometry'], dtype='object')`
 
 To list the column's contents:
@@ -611,7 +613,9 @@ To list the column's contents:
 </pre>
 </div>
 </div>
-`Output:`
+
+`Output:`  
+
 `array(['ABBAY', 'AWASH', 'AYSHA', 'BARO AKOBO', 'DENAKIL', 'GENALE DAWA', 'MEREB GASH', 'OGADEN', 'OMO GIBE', 'RIFT VALLY', 'TEKEZE',
            'WABI SHEBELE'], dtype=object)`
 
