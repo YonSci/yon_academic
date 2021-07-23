@@ -714,19 +714,6 @@ You can use the `geom type` function to get information about the geometry type 
     dtype: object
 As you can see, all of the vector types in the dataframe are polygons.
 
-You may get a quick overview of the shape file by using the geometry values. For instance, to view the first geometry file, you can use the code below:
-<div class="language-python highlighter-rouge">
- <div class="highlight">
-  <pre class="highlight">
-  <code>
-  <span style="font-size: 200%;color:#0000ff">ET_basin.at[0,'geometry']</span> 
-</code>
-</pre>
-</div>
-</div>
-![svg](https://github.com/YonSci/yon_academic/blob/4476ada4a46df2f8c5c33688d8b2a64d5dae1837/files/Geopandas_data/Output/output_39_0.svg)
-    
-
 To view the spatial extent or coverage of the shapefile use the `total_bounds` function: 
 <div class="language-python highlighter-rouge">
  <div class="highlight">
@@ -740,6 +727,18 @@ To view the spatial extent or coverage of the shapefile use the `total_bounds` f
 
 `array([33.00541327,  3.40510906, 47.99567693, 14.88539753])`
 The shapefile ranges from `33.00541327` to `47.99567693` longitudes & `3.40510906` to `14.88539753` latitudes
+
+You may get a quick overview of the shape file by using the geometry values. For instance, to view the first geometry file, you can use the code below:
+<div class="language-python highlighter-rouge">
+ <div class="highlight">
+  <pre class="highlight">
+  <code>
+  <span style="font-size: 200%;color:#0000ff">ET_basin.at[0,'geometry']</span> 
+</code>
+</pre>
+</div>
+</div>
+<img src="https://github.com/YonSci/yon_academic/blob/4476ada4a46df2f8c5c33688d8b2a64d5dae1837/files/Geopandas_data/Output/output_39_0.svg" width="300" height="300" />
 
 # Shapefile plotting
 
