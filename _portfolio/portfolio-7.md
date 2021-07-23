@@ -563,101 +563,43 @@ Alternatively, you can view a specific section of the dataframe by defining the 
 </table>
 </div>
 
-Alternative way to print the complete dataframe is to use the <b> <em>print </em> </b> option
-<div class="language-python highlighter-rouge">
- <div class="highlight">
-  <pre class="highlight">
-  <code>
-  <span style="font-size: 200%;color:#0000ff">print(ET_basin)</span> 
-</code>
-</pre>
-</div>
-</div>  
-
-                AREA    PERIMETER  RIVERBASIN  RIVERBAS_1     BASINNAME  \
-    0   2.000141e+11  2836371.545           5           4         ABBAY   
-    1   1.121677e+11  2050391.912           6           5         AWASH   
-    2   4.755561e+09   318650.138           7           6         AYSHA   
-    3   7.572123e+10  2128499.780           8           7    BARO AKOBO   
-    4   6.524619e+10  1228197.473           4           3       DENAKIL   
-    5   1.722588e+11  2006366.812          13          12   GENALE DAWA   
-    6   5.868187e+09   534670.622           2           1    MEREB GASH   
-    7   7.969898e+10  1613036.102           9           8        OGADEN   
-    8   7.871230e+10  1832234.370          11          10      OMO GIBE   
-    9   5.298484e+10  1381422.016          12          11    RIFT VALLY   
-    10  8.367317e+10  1468016.695           3           2        TEKEZE   
-    11  2.017996e+11  2336905.978          10           9  WABI SHEBELE   
-    
-                layer                                               path  \
-    0            Abby  /home/yoni/Desktop/Yaredo_Grads/Basemap_exampl...   
-    1           Awash  /home/yoni/Desktop/Yaredo_Grads/Basemap_exampl...   
-    2           Aysha  /home/yoni/Desktop/Yaredo_Grads/Basemap_exampl...   
-    3      Baro_akobo  /home/yoni/Desktop/Yaredo_Grads/Basemap_exampl...   
-    4         Denakil  /home/yoni/Desktop/Yaredo_Grads/Basemap_exampl...   
-    5    Genale_dawa1  /home/yoni/Desktop/Yaredo_Grads/Basemap_exampl...   
-    6          Mereb1  /home/yoni/Desktop/Yaredo_Grads/Basemap_exampl...   
-    7          Ogaden  /home/yoni/Desktop/Yaredo_Grads/Basemap_exampl...   
-    8        Omo_gibe  /home/yoni/Desktop/Yaredo_Grads/Basemap_exampl...   
-    9     Rift_valley  /home/yoni/Desktop/Yaredo_Grads/Basemap_exampl...   
-    10         Tekeze  /home/yoni/Desktop/Yaredo_Grads/Basemap_exampl...   
-    11  Wabi_shebelle  /home/yoni/Desktop/Yaredo_Grads/Basemap_exampl...   
-    
-        Basin_type                                           geometry  
-    0            1  POLYGON ((35.75669 12.67180, 35.75921 12.67317...  
-    1            1  POLYGON ((39.52930 11.72403, 39.52891 11.72624...  
-    2            1  POLYGON ((42.30811 10.99144, 42.32126 10.99586...  
-    3            1  POLYGON ((34.47938 10.83318, 34.48112 10.83473...  
-    4            1  POLYGON ((39.37495 14.50856, 39.41100 14.52892...  
-    5            1  POLYGON ((41.13743 6.94134, 41.14177 6.93580, ...  
-    6            1  POLYGON ((37.80309 14.70250, 37.91271 14.88540...  
-    7            1  POLYGON ((43.31527 9.60498, 43.35539 9.58202, ...  
-    8            1  POLYGON ((38.02335 8.93136, 38.03574 8.91034, ...  
-    9            1  POLYGON ((38.40912 8.39296, 38.41411 8.39297, ...  
-    10           1  POLYGON ((39.40391 14.25409, 39.45916 14.23977...  
-    11           1  POLYGON ((42.69533 9.58651, 42.69804 9.58040, ...  
-
-
 To find out the size of the dataframe, type:
 <div class="language-python highlighter-rouge">
  <div class="highlight">
   <pre class="highlight">
   <code>
   <span style="font-size: 200%;color:#0000ff">ET_basin.shape</span> 
+  <span style="font-size: 200%;color:#0000ff">(12, 8)</span> 
+</code>
+</pre>
+</div>
+</div>  
+As can be seen, the dataframe has 12 rows and  columns
+
+To obtain the row numbers or length of the dataframe, type:
+<div class="language-python highlighter-rouge">
+ <div class="highlight">
+  <pre class="highlight">
+  <code>
+  <span style="font-size: 200%;color:#0000ff">len(ET_basin)</span> 
+  <span style="font-size: 200%;color:#0000ff">12</span> 
 </code>
 </pre>
 </div>
 </div>  
 
+To print the column names, type 
+<div class="language-python highlighter-rouge">
+ <div class="highlight">
+  <pre class="highlight">
+  <code>
+  <span style="font-size: 200%;color:#0000ff">ET_basin.columns</span> 
+</code>
+</pre>
+</div>
+</div>  
 
-
-(12, 8)
-As can be seen, the dataframe has 12 rows and  columns
-
-### To obtain the row numbers or length of the dataframe
-
-
-```python
-len(ET_basin)
-```
-
-
-
-
-    12
-
-
-
-### To print the column names, type 
-
-
-```python
-ET_basin.columns
-```
-
-
-
-
-    Index(['AREA', 'PERIMETER', 'RIVERBASIN', 'RIVERBAS_1', 'BASINNAME', 'layer',
+Index(['AREA', 'PERIMETER', 'RIVERBASIN', 'RIVERBAS_1', 'BASINNAME', 'layer',
            'path', 'Basin_type', 'geometry'],
           dtype='object')
 
