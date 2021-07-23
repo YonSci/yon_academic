@@ -739,10 +739,7 @@ You may get a quick overview of the shape file by using the geometry values. For
 </pre>
 </div>
 </div>
-![svg](https://github.com/YonSci/yon_academic/blob/4476ada4a46df2f8c5c33688d8b2a64d5dae1837/files/Geopandas_data/Output/output_39_0.svg)
-    
-
-
+<img src="https://github.com/YonSci/yon_academic/blob/4476ada4a46df2f8c5c33688d8b2a64d5dae1837/files/Geopandas_data/Output/output_39_0.svg" width="300" height="300" />
 
 # Shapefile plotting
 
