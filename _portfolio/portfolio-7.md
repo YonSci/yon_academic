@@ -725,7 +725,8 @@ To view the spatial extent or coverage of the shapefile use the `total_bounds` f
 </div>
 </div>
 
-`array([33.00541327,  3.40510906, 47.99567693, 14.88539753])`
+`array([33.00541327,  3.40510906, 47.99567693, 14.88539753])`  
+
 The shapefile ranges from `33.00541327` to `47.99567693` longitudes & `3.40510906` to `14.88539753` latitudes
 
 You may get a quick overview of the shape file by using the geometry values. For instance, to view the first geometry file, you can use the code below:
@@ -738,7 +739,10 @@ You may get a quick overview of the shape file by using the geometry values. For
 </pre>
 </div>
 </div>
-<img src="https://github.com/YonSci/yon_academic/blob/4476ada4a46df2f8c5c33688d8b2a64d5dae1837/files/Geopandas_data/Output/output_39_0.svg" width="300" height="300" />
+![svg](https://github.com/YonSci/yon_academic/blob/4476ada4a46df2f8c5c33688d8b2a64d5dae1837/files/Geopandas_data/Output/output_39_0.svg)
+    
+
+
 
 # Shapefile plotting
 
