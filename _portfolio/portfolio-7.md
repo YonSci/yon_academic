@@ -298,8 +298,8 @@ Inspect the attribute table of the data by typing:
   </tbody>
 </table>
 </div> 
- 
-Instead of displaying the entire dataframe, I recommend you displaying only the first & last 5 rows of the dataframe using the <b> <em>.head()</em> </b> & <b> <em>.tail()</em> </b> built-in functions. To display the first 5 rows of the dataframe, type: 
+  
+Instead of displaying the entire dataframe, I recommend displaying only the first & last 5 rows of the dataframe using the <b> <em>.head()</em> </b> & <b> <em>.tail()</em> </b> built-in functions. To display the first 5 rows of the dataframe, type: 
 <div class="language-python highlighter-rouge">
  <div class="highlight">
   <pre class="highlight">
@@ -497,16 +497,17 @@ Instead of displaying the entire dataframe, I recommend you displaying only the 
 </table>
 </div>
 
-Alternatively, you can view a specific section of the dataframe by defining the row numbers,  but keep in mind that Python always counts from zero. For example, to display only the 3rd and 4th rows, you can type:
-
-
-```python
-ET_basin[3:5]
-```
-
-
-
-
+Alternatively, you can view a specific section of the dataframe by defining the row numbers, but keep in mind that Python counts starting from zero. For example, to display only the 3rd & 4th rows, you can type:
+<div class="language-python highlighter-rouge">
+ <div class="highlight">
+  <pre class="highlight">
+  <code>
+  <span style="font-size: 200%;color:#0000ff">ET_basin[3:5]</span> 
+</code>
+</pre>
+</div>
+</div> 
+ 
 <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -531,7 +532,6 @@ ET_basin[3:5]
       <th>RIVERBAS_1</th>
       <th>BASINNAME</th>
       <th>layer</th>
-      <th>path</th>
       <th>Basin_type</th>
       <th>geometry</th>
     </tr>
@@ -545,7 +545,6 @@ ET_basin[3:5]
       <td>7</td>
       <td>BARO AKOBO</td>
       <td>Baro_akobo</td>
-      <td>/home/yoni/Desktop/Yaredo_Grads/Basemap_exampl...</td>
       <td>1</td>
       <td>POLYGON ((34.47938 10.83318, 34.48112 10.83473...</td>
     </tr>
@@ -557,7 +556,6 @@ ET_basin[3:5]
       <td>3</td>
       <td>DENAKIL</td>
       <td>Denakil</td>
-      <td>/home/yoni/Desktop/Yaredo_Grads/Basemap_exampl...</td>
       <td>1</td>
       <td>POLYGON ((39.37495 14.50856, 39.41100 14.52892...</td>
     </tr>
@@ -565,14 +563,16 @@ ET_basin[3:5]
 </table>
 </div>
 
-
-
-### Alternative way to print the complete dataframe is to use the `print` option
-
-
-```python
-print(ET_basin)
-```
+Alternative way to print the complete dataframe is to use the <b> <em>print </em> </b> option
+<div class="language-python highlighter-rouge">
+ <div class="highlight">
+  <pre class="highlight">
+  <code>
+  <span style="font-size: 200%;color:#0000ff">print(ET_basin)</span> 
+</code>
+</pre>
+</div>
+</div>  
 
                 AREA    PERIMETER  RIVERBASIN  RIVERBAS_1     BASINNAME  \
     0   2.000141e+11  2836371.545           5           4         ABBAY   
@@ -617,21 +617,21 @@ print(ET_basin)
     11           1  POLYGON ((42.69533 9.58651, 42.69804 9.58040, ...  
 
 
-### To find out the size of the dataframe, type
+To find out the size of the dataframe, type:
+<div class="language-python highlighter-rouge">
+ <div class="highlight">
+  <pre class="highlight">
+  <code>
+  <span style="font-size: 200%;color:#0000ff">ET_basin.shape</span> 
+</code>
+</pre>
+</div>
+</div>  
 
 
-```python
-ET_basin.shape
-```
 
-
-
-
-    (12, 9)
-
-
-
-#### As can be seen, the dataframe has 12 rows and 8 columns
+(12, 8)
+As can be seen, the dataframe has 12 rows and  columns
 
 ### To obtain the row numbers or length of the dataframe
 
