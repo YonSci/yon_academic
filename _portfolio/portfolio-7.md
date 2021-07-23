@@ -625,7 +625,9 @@ The `geometry` column is the most essential of the columns  & it contains the `x
 </pre>
 </div>
 </div>
-`Output:   
+
+`Output:`  
+
     0     POLYGON ((35.75669 12.67180, 35.75921 12.67317...  
     
     1     POLYGON ((39.52930 11.72403, 39.52891 11.72624...    
@@ -650,7 +652,7 @@ The `geometry` column is the most essential of the columns  & it contains the `x
     
     11    POLYGON ((42.69533 9.58651, 42.69804 9.58040, ...  
     
-    Name: geometry, dtype: geometry`
+    Name: geometry, dtype: geometry
 
 
 To view the geometry type of each vector type: 
@@ -663,6 +665,7 @@ To view the geometry type of each vector type:
 </pre>
 </div>
 </div>
+
 `Output: 
     0    Polygon
     1    Polygon
