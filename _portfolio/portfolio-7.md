@@ -740,6 +740,8 @@ You may get a quick overview of the shape file by using the geometry values. For
 </div>
 </div>
 
+<img src="https://github.com/YonSci/yon_academic/blob/83e767630c6d223fb8e5c9e64cf70087252fba26/images/o5.jpg" width="600" height="600" />
+
 <a href="_images/output_55_1.png">
 
 <img src="https://github.com/YonSci/yon_academic/blob/4476ada4a46df2f8c5c33688d8b2a64d5dae1837/files/Geopandas_data/Output/output_39_0.svg" class="img-responsive" alt="">
