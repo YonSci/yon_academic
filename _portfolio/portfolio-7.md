@@ -729,7 +729,7 @@ To view the spatial extent or coverage of the shapefile, use the `total_bounds` 
 
 The shapefile ranges from `33.00541327` to `47.99567693` longitudes & `3.40510906` to `14.88539753` latitudes
 
-You may get a quick overview of the shape file by using the geometry values. For instance, to view the first geometry file, you can use the code below:
+You may get a quick overview of the shape file by using the geometry values. For instance, to view the first data, you can use the code below:
 <div class="language-python highlighter-rouge">
  <div class="highlight">
   <pre class="highlight">
@@ -739,24 +739,23 @@ You may get a quick overview of the shape file by using the geometry values. For
 </pre>
 </div>
 </div>
-<img src="https://yonsci.github.io/yon_academic//files/Geopandas_data/Output/output_39_0.svg" width="300" height="300" />   
+<img src="https://yonsci.github.io/yon_academic//files/Geopandas_data/Output/output_39_0.svg" width="200" height="200" />   
 
 # Shapefile plotting
 
-### Let's now make a simple plot of the shapefile using `plot()` function 
+Let's now make a simple plot of the shapefile using `plot()` function: 
+<div class="language-python highlighter-rouge">
+ <div class="highlight">
+  <pre class="highlight">
+  <code>
+  <span style="font-size: 200%;color:#0000ff">ET_basin.plot()</span> 
+</code>
+</pre>
+</div>
+</div>
+<img src="https://yonsci.github.io/yon_academic//files/Geopandas_data/Output/output_55_1.png" width="200" height="200" />   
 
-
-```python
-ET_basin.plot()
-```
-<img src="https://github.com/YonSci/yon_academic/blob/1dd3bc1e547bd89c46756977b37d3393d627d6a1/files/Geopandas_data/Output/output_55_1.png" />
-
-<img src="https://github.com/YonSci/yon_academic/blob/1dd3bc1e547bd89c46756977b37d3393d627d6a1/files/Geopandas_data/Output/output_55_1.png" />
-
-<img src="https://github.com/YonSci/yon_academic/blob/240632a6787d7d334c969e67e62fd7c7673f76b9/images/b10.png?raw=true" width="600" height="600" />
-    
-
-### Let's colorize the map with the `cmap` function
+Let's colorize the map with the `cmap` function:
 
 
 ```python
