@@ -598,8 +598,8 @@ To print the column names, type: 
 </pre>
 </div>
 </div>  
-`Output: Index(['AREA', 'PERIMETER', 'RIVERBASIN', 'RIVERBAS_1', 'BASINNAME', 'layer', 'path', 'Basin_type', 'geometry'],
-          dtype='object')`
+`Output:` 
+`Index(['AREA', 'PERIMETER', 'RIVERBASIN', 'RIVERBAS_1', 'BASINNAME', 'layer', 'Basin_type', 'geometry'], dtype='object')`
 
 To list the column's contents:
 <div class="language-python highlighter-rouge">
@@ -611,8 +611,8 @@ To list the column's contents:
 </pre>
 </div>
 </div>
-`Output: array(['ABBAY', 'AWASH', 'AYSHA', 'BARO AKOBO', 'DENAKIL', 'GENALE DAWA',
-           'MEREB GASH', 'OGADEN', 'OMO GIBE', 'RIFT VALLY', 'TEKEZE',
+`Output:`
+`array(['ABBAY', 'AWASH', 'AYSHA', 'BARO AKOBO', 'DENAKIL', 'GENALE DAWA', 'MEREB GASH', 'OGADEN', 'OMO GIBE', 'RIFT VALLY', 'TEKEZE',
            'WABI SHEBELE'], dtype=object)`
 
 The `geometry` column is the most essential of the columns  & it contains the `x`-`y` coordinate values of the vector data. For instance, you can look at the values using `.geometry` function:
@@ -653,8 +653,7 @@ The `geometry` column is the most essential of the columns  & it contains the `x
     11    POLYGON ((42.69533 9.58651, 42.69804 9.58040, ...  
     
     Name: geometry, dtype: geometry
-
-
+    
 To view the geometry type of each vector type: 
 <div class="language-python highlighter-rouge">
  <div class="highlight">
@@ -665,14 +664,19 @@ To view the geometry type of each vector type:
 </pre>
 </div>
 </div>
+`Output:`  
 
-`Output: 
-    0    Polygon
-    1    Polygon
-    2    Polygon
-    3    Polygon
-    4    Polygon
-    dtype: object`
+    0    Polygon  
+
+    1    Polygon  
+    
+    2    Polygon  
+    
+    3    Polygon  
+    
+    4    Polygon  
+    
+    dtype: object
 
 You can use the following function to extract x-y coordinate values of a given polygon, In this case, the first polygon:
 <div class="language-python highlighter-rouge">
