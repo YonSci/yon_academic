@@ -1067,7 +1067,7 @@ Re-projecting from `EPSG:4326` to `EPSG:32637`:
 </div>
 </div>
 
-Let's review the coordinate system again:
+Let's review the coordinate system of the modified shapefile:
 <div class="language-python highlighter-rouge">
  <div class="highlight">
   <pre class="highlight">
@@ -1092,6 +1092,8 @@ Let's review the coordinate system again:
     Datum: World Geodetic System 1984
     - Ellipsoid: WGS 84
     - Prime Meridian: Greenwich
+   
+As you can see, it has been converted to the UTM projection.
 
 You can also confirm by inspecting the shapefile boundaries:
 <div class="language-python highlighter-rouge">
@@ -1125,7 +1127,7 @@ Let's have a look at the new map under the projected UTM reference system:
 </div>
 <img src="https://yonsci.github.io/yon_academic//files/Geopandas_data/Output/output_100_0.png" width="500" height="500" /> 
 
-#Overriding existing CRS, you can use `.set_crs` function: 
+You can also override the existing CRS by using the `.set_crs` function: 
 <div class="language-python highlighter-rouge">
  <div class="highlight">
   <pre class="highlight">
