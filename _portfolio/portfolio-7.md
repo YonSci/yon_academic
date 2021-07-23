@@ -742,6 +742,11 @@ You may get a quick overview of the shape file by using the geometry values. For
 
 <img src="https://github.com/YonSci/yon_academic/blob/4476ada4a46df2f8c5c33688d8b2a64d5dae1837/files/Geopandas_data/Output/output_39_0.svg" width="300" height="300" />
 
+<img src="https://github.com/YonSci/yon_academic/blob/7d1e53c665cee6bd9e314332b0d84b64b86c4006/images/output_39_0.svg" width="600" height="600" />
+
+<img src="https://github.com/YonSci/yon_academic/blob/7d1e53c665cee6bd9e314332b0d84b64b86c4006/images/output_55_1.png" width="600" height="600" />
+
+
 # Shapefile plotting
 
 ### Let's now make a simple plot of the shapefile using `plot()` function 
