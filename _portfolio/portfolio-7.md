@@ -1037,31 +1037,7 @@ Now, you can plot the overlaid map using the following code:
     
 # Shapefile re-projectioning
 
-### To know the existing coordinate system of the shapefile use the `.crs` function 
-
-
-```python
-ET_basin.crs
-```
-
-
-
-
-    <Geographic 2D CRS: EPSG:4326>
-    Name: WGS 84
-    Axis Info [ellipsoidal]:
-    - Lat[north]: Geodetic latitude (degree)
-    - Lon[east]: Geodetic longitude (degree)
-    Area of Use:
-    - name: World
-    - bounds: (-180.0, -90.0, 180.0, 90.0)
-    Datum: World Geodetic System 1984
-    - Ellipsoid: WGS 84
-    - Prime Meridian: Greenwich
-
-
-
-### Some examples of widely used spatial reference systems:
+Some examples of widely used spatial reference systems:
 
 Reference systems name                    | EPSG code
 ------------------------------------------|-------------
@@ -1074,32 +1050,33 @@ WGS84/ World Mercator                     | EPSG:3395
 WGS84/ World Pseudo Mercator              | EPSG:3857
 World Robinson                            | EPSG:54030
 
-The following [website](https://spatialreference.org/) gives you access to several reference coordinate systems (https://spatialreference.org/).
+If you need more information or want to access several reference coordinate systems, go to the following [website](https://spatialreference.org/).
 
-### Let's re-project the `ET_basin` shapefile from `WGS-84` geographic coordinate system to the Universal Transverse Mercator `(UTM)` projected coordinate system
+Let's re-project the `ET_basin` shapefile from `WGS-84` geographic coordinate system to the `Universal Transverse Mercator (UTM)` projected coordinate system.
 
+Re-projecting from `EPSG:4326` to `EPSG:32637`:
+<div class="language-python highlighter-rouge">
+ <div class="highlight">
+  <pre class="highlight">
+  <code>
+  <span style="font-size: 200%;color:#0000ff">ET_basin_utm = ET_basin.to_crs({'init': 'epsg:32637'})</span> 
+  Or simply type:
+  <span style="font-size: 200%;color:#0000ff">ET_basin_utm = ET_basin.to_crs(32637)</span> 
+</code>
+</pre>
+</div>
+</div>
 
-```python
-# Re-projecting from EPSG:4326 to EPSG:32637 
-ET_basin_utm = ET_basin.to_crs({'init': 'epsg:32637'})
-
-# or simply type:
-# ET_basin_utm = ET_basin.to_crs(32637)
-```
-
-    /home/yoni/anaconda3/lib/python3.8/site-packages/pyproj/crs/crs.py:53: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
-      return _prepare_from_string(" ".join(pjargs))
-
-
-### Let's review the coordinate system again
-
-
-```python
-ET_basin_utm.crs
-```
-
-
-
+Let's review the coordinate system again:
+<div class="language-python highlighter-rouge">
+ <div class="highlight">
+  <pre class="highlight">
+  <code>
+  <span style="font-size: 200%;color:#0000ff">ET_basin_utm.crs</span> 
+</code>
+</pre>
+</div>
+</div>
 
     <Projected CRS: EPSG:32637>
     Name: WGS 84 / UTM zone 37N
@@ -1116,53 +1093,48 @@ ET_basin_utm.crs
     - Ellipsoid: WGS 84
     - Prime Meridian: Greenwich
 
+You can also confirm by inspecting the shapefile boundaries:
+<div class="language-python highlighter-rouge">
+ <div class="highlight">
+  <pre class="highlight">
+  <code>
+  <span style="font-size: 200%;color:#0000ff">ET_basin_utm.total_bounds</span> 
+</code>
+</pre>
+</div>
+</div>
+`array([-161882.56221284,  376388.12499996, 1495282.8685069 , 1645935.62500012])`
 
+Let's have a look at the new map under the projected UTM reference system:
+<div class="language-python highlighter-rouge">
+ <div class="highlight">
+  <pre class="highlight">
+  <code>
+  <span style="font-size: 200%;color:#0000ff">fig, ax = plt.subplots(figsize=(8, 8))</span> 
+  <span style="font-size: 200%;color:#0000ff">ET_basin_utm.plot(cmap='flag_r', ax=ax, alpha=.5)</span> 
+  <span style="font-size: 200%;color:#0000ff">ax.set_title("Ethiopian basin map: UTM zone-37N projected reference system", fontsize=14)</span>
+  <span style="font-size: 200%;color:#0000ff">ax.set_xlabel("X Coordinates (meters)", fontsize=12)</span>
+  <span style="font-size: 200%;color:#0000ff">ax.set_ylabel("Y Coordinates (meters)", fontsize=12)</span>
+  <span style="font-size: 200%;color:#0000ff">for axis in [ax.xaxis, ax.yaxis]:</span>
+  <span style="font-size: 200%;color:#0000ff">formatter = ScalarFormatter()</span>
+  <span style="font-size: 200%;color:#0000ff">formatter.set_scientific(False)</span>
+  <span style="font-size: 200%;color:#0000ff">axis.set_major_formatter(formatter)</span>
+</code>
+</pre>
+</div>
+</div>
+<img src="https://yonsci.github.io/yon_academic//files/Geopandas_data/Output/output_100_0.png" width="500" height="500" /> 
 
-### You can also confirm by inspecting the shapefile boundaries
-
-
-```python
-ET_basin_utm.total_bounds
-```
-
-
-
-
-    array([-161882.56221284,  376388.12499996, 1495282.8685069 ,
-           1645935.62500012])
-
-
-
-### Let's have a look at the new map under the projected UTM reference system
-
-
-```python
-fig, ax = plt.subplots(figsize=(8, 8))
-ET_basin_utm.plot(cmap='flag_r', ax=ax, alpha=.5)
-ax.set_title("Ethiopian basin map: UTM zone-37N projected reference system", fontsize=14)
-ax.set_xlabel("X Coordinates (meters)", fontsize=12)
-ax.set_ylabel("Y Coordinates (meters)", fontsize=12)
-
-from matplotlib.ticker import ScalarFormatter
-
-for axis in [ax.xaxis, ax.yaxis]:
-    formatter = ScalarFormatter()
-    formatter.set_scientific(False)
-    axis.set_major_formatter(formatter)
-```
-
-
-    
-![png](output_100_0.png)
-    
-
-
-### Overriding existing CRS, you can use `.set_crs` function 
-
-
-```python
-# ET_basin = ET_basin.set_crs(4088, allow_override=True)
-```
+#Overriding existing CRS, you can use `.set_crs` function: 
+<div class="language-python highlighter-rouge">
+ <div class="highlight">
+  <pre class="highlight">
+  <code>
+  <span style="font-size: 200%;color:#0000ff">ET_basin = ET_basin.set_crs(4088, allow_override=True)</span> 
+</code>
+</pre>
+</div>
+</div>
 
 # Shapefile Dissolving
 ### Dissolving polygon (removes the interior geometry)
