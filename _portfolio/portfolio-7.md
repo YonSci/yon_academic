@@ -613,6 +613,19 @@ To list the column's contents:
 `array(['ABBAY', 'AWASH', 'AYSHA', 'BARO AKOBO', 'DENAKIL', 'GENALE DAWA', 'MEREB GASH', 'OGADEN', 'OMO GIBE', 'RIFT VALLY', 'TEKEZE',
            'WABI SHEBELE'], dtype=object)`
 
+To know how the data is represented or stored in the dataframe, type:
+<div class="language-python highlighter-rouge">
+ <div class="highlight">
+  <pre class="highlight">
+  <code>
+  <span style="font-size: 200%;color:#0000ff">type(ET_basin)</span> 
+</code>
+</pre>
+</div>
+</div>
+`geopandas.geodataframe.GeoDataFrame`
+In this example, each vector data is represented as `GeoDataFrame`
+
 The `geometry` column is the most essential of the columns  & it contains the `x`-`y` coordinate values of the vector data. For instance, you can look at the values using `.geometry` function:
 <div class="language-python highlighter-rouge">
  <div class="highlight">
@@ -624,56 +637,21 @@ The `geometry` column is the most essential of the columns  & it contains the `x
 </div>
 </div>
 
-    0     POLYGON ((35.75669 12.67180, 35.75921 12.67317...  
-    
+    0     POLYGON ((35.75669 12.67180, 35.75921 12.67317... 
     1     POLYGON ((39.52930 11.72403, 39.52891 11.72624...    
-    
     2     POLYGON ((42.30811 10.99144, 42.32126 10.99586...  
-    
     3     POLYGON ((34.47938 10.83318, 34.48112 10.83473... 
-    
     4     POLYGON ((39.37495 14.50856, 39.41100 14.52892...  
-    
     5     POLYGON ((41.13743 6.94134, 41.14177 6.93580, ...  
-    
     6     POLYGON ((37.80309 14.70250, 37.91271 14.88540...  
-    
     7     POLYGON ((43.31527 9.60498, 43.35539 9.58202, ...  
-    
     8     POLYGON ((38.02335 8.93136, 38.03574 8.91034, ... 
-    
     9     POLYGON ((38.40912 8.39296, 38.41411 8.39297, ...  
-    
     10    POLYGON ((39.40391 14.25409, 39.45916 14.23977...  
-    
     11    POLYGON ((42.69533 9.58651, 42.69804 9.58040, ...  
-    
     Name: geometry, dtype: geometry
-    
-To view the geometry type of each vector type: 
-<div class="language-python highlighter-rouge">
- <div class="highlight">
-  <pre class="highlight">
-  <code>
-  <span style="font-size: 200%;color:#0000ff">ET_basin.geom_type.head()</span> 
-</code>
-</pre>
-</div>
-</div>
-
-    0    Polygon  
-
-    1    Polygon  
-    
-    2    Polygon  
-    
-    3    Polygon  
-    
-    4    Polygon  
-    
-    dtype: object
-
-You can use the following function to extract x-y coordinate values of a given polygon, In this case, the first polygon:
+  
+ You can use the following function to extract x-y coordinate values of a given polygon, In this case, the first polygon:
 <div class="language-python highlighter-rouge">
  <div class="highlight">
   <pre class="highlight">
@@ -709,50 +687,17 @@ Let's look at the first ten x-y coordinate values of the first polygon:
      (35.774962412059814, 12.676764711775403),
      (35.77771230490099, 12.676412056011529),
      (35.780480076318945, 12.675917364792335)]`
-
-You may get a quick overview of the shape file by using the geometry values. For instance, to view the first geometry file, you can use the code below:
+     
+You can use the `geom type` function to get information about the geometry type (polygon, line, or point) of each data recorded in the dataframe:
 <div class="language-python highlighter-rouge">
  <div class="highlight">
   <pre class="highlight">
   <code>
-  <span style="font-size: 200%;color:#0000ff">ET_basin.at[0,'geometry']</span> 
+  <span style="font-size: 200%;color:#0000ff">ET_basin.geom_type</span> 
 </code>
 </pre>
 </div>
 </div>
-
-![svg](output_39_0.svg)
-    
-
-
-### To know how the data is represented or stored, type
-
-
-```python
-type(ET_basin)
-```
-    geopandas.geodataframe.GeoDataFrame
-#### In this example, the data is represented as `GeoDataFrame`
-### To view the spatial extent or coverage of the shapefile use the `total_bounds` function 
-
-
-```python
-ET_basin.total_bounds
-```
-
-    array([33.00541327,  3.40510906, 47.99567693, 14.88539753])
-
-#### The shapefile ranges from `33.00541327` to `47.99567693` longitudes and `3.40510906` to `14.88539753` latitudes
-
-### Use the `geom type` function to get information about the geometry type (polygon, line, or point) of each data recorded in the dataframe
-
-
-```python
-ET_basin.geom_type
-```
-
-
-
 
     0     Polygon
     1     Polygon
@@ -767,10 +712,34 @@ ET_basin.geom_type
     10    Polygon
     11    Polygon
     dtype: object
+As you can see, all of the vector types in the dataframe are polygons.
 
+You may get a quick overview of the shape file by using the geometry values. For instance, to view the first geometry file, you can use the code below:
+<div class="language-python highlighter-rouge">
+ <div class="highlight">
+  <pre class="highlight">
+  <code>
+  <span style="font-size: 200%;color:#0000ff">ET_basin.at[0,'geometry']</span> 
+</code>
+</pre>
+</div>
+</div>
+![svg](https://github.com/YonSci/yon_academic/blob/4476ada4a46df2f8c5c33688d8b2a64d5dae1837/files/Geopandas_data/Output/output_39_0.svg)
+    
 
+To view the spatial extent or coverage of the shapefile use the `total_bounds` function: 
+<div class="language-python highlighter-rouge">
+ <div class="highlight">
+  <pre class="highlight">
+  <code>
+  <span style="font-size: 200%;color:#0000ff">ET_basin.total_bounds</span> 
+</code>
+</pre>
+</div>
+</div>
 
-#### In this case, all 12 objects are polygons
+`array([33.00541327,  3.40510906, 47.99567693, 14.88539753])`
+The shapefile ranges from `33.00541327` to `47.99567693` longitudes & `3.40510906` to `14.88539753` latitudes
 
 # Shapefile plotting
 
