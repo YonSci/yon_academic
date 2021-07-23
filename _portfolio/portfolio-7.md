@@ -836,7 +836,7 @@ However, using the `matplotlib` functions is a more convenient way to make plots
 </div>
 <img src="https://yonsci.github.io/yon_academic//files/Geopandas_data/Output/output_71_0.png" width="400" height="400" />  
 
-You can use the script underneath to add grids to the plot
+You can use the script underneath to add grids to the plot:
 <div class="language-python highlighter-rouge">
  <div class="highlight">
   <pre class="highlight">
@@ -847,7 +847,7 @@ You can use the script underneath to add grids to the plot
   <span style="font-size: 200%;color:#0000ff">ax.set_axisbelow(True)</span> 
   <span style="font-size: 200%;color:#0000ff">ax.yaxis.grid(color='gray', linestyle='dashdot')</span> 
   <span style="font-size: 200%;color:#0000ff">ax.xaxis.grid(color='gray', linestyle='dashdot')</span>   
-  Here, instead of 'dashdot' you can use 'dotted', 'dashed', 'solid'
+  <h5>Here, instead of 'dashdot' you can use 'dotted', 'dashed', 'solid'</h5>
   <span style="font-size: 200%;color:#0000ff">ax.set_xlabel("Longitude (Degrees)", fontsize=12)</span> 
   <span style="font-size: 200%;color:#0000ff">ax.set_ylabel("Latitude (Degrees)", fontsize=12)</span> 
   <span style="font-size: 200%;color:#0000ff">plt.show()</span> 
@@ -894,7 +894,7 @@ You can also change the legend's position:
 </pre>
 </div>
 </div>
-<img src="https://yonsci.github.io/yon_academic//files/Geopandas_data/Output/output_69_0.png" width="400" height="400" />  
+<img src="https://yonsci.github.io/yon_academic//files/Geopandas_data/Output/output_69_0.png" width="500" height="500" />  
 
 Plots can be saved as image files using the `plt. savefig()` function:
 <div class="language-python highlighter-rouge">
@@ -911,7 +911,6 @@ Plots can be saved as image files using the `plt. savefig()` function:
   <span style="font-size: 200%;color:#0000ff">ax.set_ylabel("Latitude (Degrees)", fontsize=12)</span>
   <span style="font-size: 200%;color:#0000ff">plt.savefig('basins.jpeg', transparent=True,  bbox_inches='tight', dpi=800)</span>
   <span style="font-size: 200%;color:#0000ff">plt.show()</span>
-  <span style="font-size: 200%;color:#0000ff">plt.show()</span>
 </code>
 </pre>
 </div>
@@ -923,33 +922,33 @@ Making subplots:
  <div class="highlight">
   <pre class="highlight">
   <code>
-<span style="font-size: 200%;color:#0000ff">fig, ((ax1, ax2, ax3, ax4), (ax5, ax6, ax7, ax8), (ax9, ax10, ax11, ax12)) = plt.subplots(3, 4, figsize=(15,15))</span> 
-<span style="font-size: 200%;color:#0000ff">fig.suptitle("Major Basin's in Ethiopia", fontsize=24)</span>
-  <span style="font-size: 200%;color:#0000ff">ET_basin.loc[ET_basin.BASINNAME == "ABBAY"].plot(ax=ax1, facecolor='Blue',  edgecolor='black')
+<span style="font-size: 150%;color:#0000ff">fig, ((ax1, ax2, ax3, ax4), (ax5, ax6, ax7, ax8), (ax9, ax10, ax11, ax12)) = plt.subplots(3, 4, figsize=(15,15))</span> 
+<span style="font-size: 150%;color:#0000ff">fig.suptitle("Major Basin's in Ethiopia", fontsize=24)</span>
+  <span style="font-size: 150%;color:#0000ff">ET_basin.loc[ET_basin.BASINNAME == "ABBAY"].plot(ax=ax1, facecolor='Blue',  edgecolor='black')
 ax1.set_title("ABBAY") </span>
-  <span style="font-size: 200%;color:#0000ff">ET_basin.loc[ET_basin.BASINNAME == "AWASH"].plot(ax=ax2, facecolor='Blue',  edgecolor='black')
+  <span style="font-size: 150%;color:#0000ff">ET_basin.loc[ET_basin.BASINNAME == "AWASH"].plot(ax=ax2, facecolor='Blue',  edgecolor='black')
 ax2.set_title("AWASH")</span>
-  <span style="font-size: 200%;color:#0000ff">ET_basin.loc[ET_basin.BASINNAME == "AYSHA"].plot(ax=ax3, facecolor='Blue',  edgecolor='black')
+  <span style="font-size: 150%;color:#0000ff">ET_basin.loc[ET_basin.BASINNAME == "AYSHA"].plot(ax=ax3, facecolor='Blue',  edgecolor='black')
 ax3.set_title("AYSHA")</span>
-  <span style="font-size: 200%;color:#0000ff">ET_basin.loc[ET_basin.BASINNAME == "BARO AKOBO"].plot(ax=ax4, facecolor='Blue',  edgecolor='black')
+  <span style="font-size: 150%;color:#0000ff">ET_basin.loc[ET_basin.BASINNAME == "BARO AKOBO"].plot(ax=ax4, facecolor='Blue',  edgecolor='black')
 ax4.set_title("BARO AKOBO")</span>
-  <span style="font-size: 200%;color:#0000ff">ET_basin.loc[ET_basin.BASINNAME == "DENAKIL"].plot(ax=ax5, facecolor='Blue',  edgecolor='black')
+  <span style="font-size: 150%;color:#0000ff">ET_basin.loc[ET_basin.BASINNAME == "DENAKIL"].plot(ax=ax5, facecolor='Blue',  edgecolor='black')
 ax5.set_title("DENAKIL")</span>
-  <span style="font-size: 200%;color:#0000ff">ET_basin.loc[ET_basin.BASINNAME == "GENALE DAWA"].plot(ax=ax6, facecolor='Blue',  edgecolor='black')
+  <span style="font-size: 150%;color:#0000ff">ET_basin.loc[ET_basin.BASINNAME == "GENALE DAWA"].plot(ax=ax6, facecolor='Blue',  edgecolor='black')
 ax6.set_title("GENALE DAWA")</span>
-  <span style="font-size: 200%;color:#0000ff">ET_basin.loc[ET_basin.BASINNAME == "MEREB GASH"].plot(ax=ax7, facecolor='Blue',  edgecolor='black')
+  <span style="font-size: 150%;color:#0000ff">ET_basin.loc[ET_basin.BASINNAME == "MEREB GASH"].plot(ax=ax7, facecolor='Blue',  edgecolor='black')
 ax7.set_title("MEREB GASH")</span>
-  <span style="font-size: 200%;color:#0000ff">ET_basin.loc[ET_basin.BASINNAME == "OGADEN"].plot(ax=ax8, facecolor='Blue',  edgecolor='black')
+  <span style="font-size: 150%;color:#0000ff">ET_basin.loc[ET_basin.BASINNAME == "OGADEN"].plot(ax=ax8, facecolor='Blue',  edgecolor='black')
 ax8.set_title("OGADEN")</span>
-  <span style="font-size: 200%;color:#0000ff">ET_basin.loc[ET_basin.BASINNAME == "OMO GIBE"].plot(ax=ax9, facecolor='Blue',  edgecolor='black')
+  <span style="font-size: 150%;color:#0000ff">ET_basin.loc[ET_basin.BASINNAME == "OMO GIBE"].plot(ax=ax9, facecolor='Blue',  edgecolor='black')
 ax9.set_title("OMO GIBE")</span>
-  <span style="font-size: 200%;color:#0000ff">ET_basin.loc[ET_basin.BASINNAME == "RIFT VALLY"].plot(ax=ax10, facecolor='Blue',  edgecolor='black')
+  <span style="font-size: 150%;color:#0000ff">ET_basin.loc[ET_basin.BASINNAME == "RIFT VALLY"].plot(ax=ax10, facecolor='Blue',  edgecolor='black')
 ax10.set_title("RIFT VALLY")</span>
-  <span style="font-size: 200%;color:#0000ff">ET_basin.loc[ET_basin.BASINNAME == "TEKEZE"].plot(ax=ax11, facecolor='Blue',  edgecolor='black')
+  <span style="font-size: 150%;color:#0000ff">ET_basin.loc[ET_basin.BASINNAME == "TEKEZE"].plot(ax=ax11, facecolor='Blue',  edgecolor='black')
 ax11.set_title("TEKEZE")</span>
-  <span style="font-size: 200%;color:#0000ff">ET_basin.loc[ET_basin.BASINNAME == "WABI SHEBELE"].plot(ax=ax12, facecolor='Blue',  edgecolor='black')
+  <span style="font-size: 150%;color:#0000ff">ET_basin.loc[ET_basin.BASINNAME == "WABI SHEBELE"].plot(ax=ax12, facecolor='Blue',  edgecolor='black')
 ax12.set_title("WABI SHEBELE")</span>
-  <span style="font-size: 200%;color:#0000ff">plt.show()</span>
+  <span style="font-size: 150%;color:#0000ff">plt.show()</span>
 </code>
 </pre>
 </div>
