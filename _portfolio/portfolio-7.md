@@ -751,6 +751,11 @@ You may get a quick overview of the shape file by using the geometry values. For
 ET_basin.plot()
 ```
 <img src="https://github.com/YonSci/yon_academic/blob/1dd3bc1e547bd89c46756977b37d3393d627d6a1/files/Geopandas_data/Output/output_55_1.png"/>
+
+<img src="https://github.com/YonSci/yon_academic/blob/1dd3bc1e547bd89c46756977b37d3393d627d6a1/files/Geopandas_data/Output/output_55_1.png" />
+
+<img src="https://github.com/YonSci/yon_academic/blob/240632a6787d7d334c969e67e62fd7c7673f76b9/images/b10.png?raw=true" width="600" height="600" />
+
     
 
 ### Let's colorize the map with the `cmap` function
