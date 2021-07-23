@@ -6,7 +6,7 @@ collection: portfolio
 
 ## 🎓 Learning objectives:
  - Installing Geopandas package       
- - Reading & manipulating shapefile geodataframes      
+ - Reading geopanda dataframes      
  - Shapefile plotting    
  - Overlaying shapefiles     
  - Shapefile re-projectioning    
