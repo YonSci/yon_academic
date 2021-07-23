@@ -569,12 +569,12 @@ To find out the size of the dataframe, type:
   <pre class="highlight">
   <code>
   <span style="font-size: 200%;color:#0000ff">ET_basin.shape</span> 
-  <span style="font-size: 200%;color:#0000ff">(12, 8)</span> 
 </code>
 </pre>
 </div>
 </div>  
-As can be seen, the dataframe has 12 rows and  columns
+`Output: (12, 8)`
+As can be seen, the dataframe has 12 rows and 8 columns
 
 To obtain the row numbers or length of the dataframe, type:
 <div class="language-python highlighter-rouge">
