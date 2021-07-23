@@ -1327,4 +1327,8 @@ To export your geopandas dataframe as a GeoJSON file:
 </div>
 </div>
 
+Well done! 🥇🥇🥇 Good luck!
+
+I hope this tutorial has given you the basics of geopandas package; if you find it useful in your work, please share your thoughts in the comments section!
+
 {% include comments.html %}
