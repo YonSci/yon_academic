@@ -1140,8 +1140,9 @@ You can also override the existing CRS of a given shapefile by using the `.set_c
 
 # Shapefile Dissolving
 
-Dissolving polygon (removes the interior geometry). For example, let's join the basin's within the `ET_basin` shapefile to generate the `Ethiopian boundary map`. To do that, you need to pick which columns you want to maintain & the criteria for dissolving the shapefile. In this example, the `Basin_type` will be used as a criteria & we want to maintain the `geometry` field only. 
+Dissolving polygon (removes the interior geometry). For example, let's join the basin's within the `ET_basin` shapefile to generate the `Ethiopian boundary map`. To do that, you need to pick which columns you want to maintain & the criteria for dissolving the shapefile. 
 
+In this example, the `Basin_type` will be used as a criteria & we want to maintain the `geometry` field only. To do this, use the code below:
 <div class="language-python highlighter-rouge">
  <div class="highlight">
   <pre class="highlight">
@@ -1163,7 +1164,7 @@ Then, use the `.dissolve()` function, which works based on a unique attribute va
 </div>
 </div>
 
-#View the resulting geodataframe:
+Let's view the resulting geodataframe:
 <div class="language-python highlighter-rouge">
  <div class="highlight">
   <pre class="highlight">
@@ -1207,8 +1208,9 @@ Then, use the `.dissolve()` function, which works based on a unique attribute va
   </tbody>
 </table>
 </div>
+As you can see, the dataframe contains the `geometry` & `Basin_type` fields only.
 
-The dissolved polygon can be seen using the simple plot function:
+Now we can plot & see the resulting boundary map:
 <div class="language-python highlighter-rouge">
  <div class="highlight">
   <pre class="highlight">
@@ -1219,106 +1221,118 @@ The dissolved polygon can be seen using the simple plot function:
 </div>
 </div>
 <img src="https://yonsci.github.io/yon_academic//files/Geopandas_data/Output/output_110_1.png" width="500" height="500" /> 
-As you can see, the dataframe contains the `geometry` & `Basin_type` fields only.
     
 # Shapefile clipping
 
-### You may easily clip each polygon by selecting one of the column names. In this situation, let's  use the `BASINNAME` field from `ET_basin` geodataframe to select the desired basin name `(ABBAY)`
+You may easily clip each polygon by selecting the desired column name & it's unique value. In this situation, let's use the `BASINNAME` as a column & `(ABBAY)` as a desired value from the `ET_basin` geodataframe.
 
+To do that type the following:   
+<div class="language-python highlighter-rouge">
+ <div class="highlight">
+  <pre class="highlight">
+  <code>
+  <span style="font-size: 200%;color:#0000ff">Abbay_basin = ET_basin.loc[ET_basin.BASINNAME == "ABBAY"]</span> 
+</code>
+</pre>
+</div>
+</div>
 
-```python
-Abbay_basin = ET_basin.loc[ET_basin.BASINNAME == "ABBAY"]
-```
+Now, let's plot the clipped Abbay basin:
+<div class="language-python highlighter-rouge">
+ <div class="highlight">
+  <pre class="highlight">
+  <code>
+  <span style="font-size: 200%;color:#0000ff">fig, ax = plt.subplots(figsize=(6,6))</span> 
+  <span style="font-size: 200%;color:#0000ff">Abbay_basin.plot(alpha=1.0, cmap ='tab20c', column='BASINNAME', edgecolor='black', legend=True, ax=ax )</span> 
+  <span style="font-size: 200%;color:#0000ff">ax.set_title('Map of ABBAY basin', fontsize=25)</span> 
+  <span style="font-size: 200%;color:#0000ff">ax.grid(True)</span> 
+  <span style="font-size: 200%;color:#0000ff">plt.show()</span> 
+</code>
+</pre>
+</div>
+</div>
+<img src="https://yonsci.github.io/yon_academic//files/Geopandas_data/Output/output_115_0.png" width="500" height="500" /> 
 
-### Let's plot the clipped Abbay basin
+You can also use the `intersection` tool to clip data to a specified region, for instance, let's load the major world river shapefile, & clip it to the Ethiopian region.
 
+First, load the major world rivers:
+<div class="language-python highlighter-rouge">
+ <div class="highlight">
+  <pre class="highlight">
+  <code>
+  <span style="font-size: 200%;color:#0000ff">zip_World_river = "https://yonsci.github.io/yon_academic//files/Geopandas_data/world_rivers.zip"</span> 
+  <span style="font-size: 200%;color:#0000ff">World_river = gpd.read_file(zip_World_river)</span> 
+</code>
+</pre>
+</div>
+</div>
 
-```python
-fig, ax = plt.subplots(figsize=(6,6))
-Abbay_basin.plot(alpha=1.0, cmap ='tab20c', column='BASINNAME', edgecolor='black', legend=True, ax=ax )
-ax.set_title('Map of ABBAY basin', fontsize=25)
-ax.grid(True)
-plt.show()
-```
+Let's have a look at the loaded map:
+<div class="language-python highlighter-rouge">
+ <div class="highlight">
+  <pre class="highlight">
+  <code>
+  <span style="font-size: 200%;color:#0000ff">World_river.plot(figsize=(8,8))</span> 
+</code>
+</pre>
+</div>
+</div>
+<img src="https://yonsci.github.io/yon_academic//files/Geopandas_data/Output/output_120_1.png" width="500" height="500" /> 
 
+Let's use the `ET_dissolved` shapefile to clip the world rivers to the area of interest:
+<div class="language-python highlighter-rouge">
+ <div class="highlight">
+  <pre class="highlight">
+  <code>
+  <span style="font-size: 200%;color:#0000ff">Intersecting_rivers = gpd.overlay(ET_dissolved, World_river, how ='intersection', keep_geom_type=False)</span> 
+</code>
+</pre>
+</div>
+</div>
 
-    
-![png](output_115_0.png)
-    
-
-
-### You can also use the `intersection` tool to clip data to a specified region, for instance, let's load the major world river shapefile, and clip it to the Ethiopian region
-
-### Load the major world rivers:
-
-
-```python
-zip_World_river = "https://yonsci.github.io/yon_academic//files/Geopandas_data/world_rivers.zip"
-World_river = gpd.read_file(zip_World_river)
-```
-
-### Let's have a look at the loaded map
-
-
-```python
-World_river.plot(figsize=(8,8))
-```
-
-
-
-
-    <AxesSubplot:>
-
-
-
-
-    
-![png](output_120_1.png)
-    
-
-
-### Let's use the `ET_dissolved` shapefile to clip the world rivers to the area of interest:
-
-
-```python
-Intersecting_rivers = gpd.overlay(ET_dissolved, World_river, how ='intersection', keep_geom_type=False)
-```
-
-### Let's plot the clip data
-
-
-```python
-fig, ax = plt.subplots(figsize=(8, 8))
-ET_dissolved.plot(alpha=1, facecolor="none", edgecolor="black", zorder=10, ax=ax)
-Intersecting_rivers.plot(ax=ax, legend=True)
-
-ax.yaxis.grid(color='gray', linestyle='dashdot')
-ax.xaxis.grid(color='gray', linestyle='dashdot')
-
-ax.set_xlabel("Longitude (Degrees)", fontsize=12)
-ax.set_ylabel("Latitude (Degrees)", fontsize=12)
-
-ax.set_title('Major rivers of Ethiopia', fontsize=25)
-plt.show()
-```
-
-
-    
-![png](output_124_0.png)
-    
-
+Let's plot the clipped major rivers over Ethiopia:
+<div class="language-python highlighter-rouge">
+ <div class="highlight">
+  <pre class="highlight">
+  <code>
+  <span style="font-size: 200%;color:#0000ff">fig, ax = plt.subplots(figsize=(8, 8))</span> 
+  <span style="font-size: 200%;color:#0000ff">ET_dissolved.plot(alpha=1, facecolor="none", edgecolor="black", zorder=10, ax=ax)</span> 
+  <span style="font-size: 200%;color:#0000ff">Intersecting_rivers.plot(ax=ax, legend=True)</span> 
+  <span style="font-size: 200%;color:#0000ff">ax.yaxis.grid(color='gray', linestyle='dashdot')</span> 
+  <span style="font-size: 200%;color:#0000ff">ax.xaxis.grid(color='gray', linestyle='dashdot')</span> 
+  <span style="font-size: 200%;color:#0000ff">ax.set_xlabel("Longitude (Degrees)", fontsize=12)</span> 
+  <span style="font-size: 200%;color:#0000ff">ax.set_ylabel("Latitude (Degrees)", fontsize=12)</span> 
+  <span style="font-size: 200%;color:#0000ff">ax.set_title('Major rivers of Ethiopia', fontsize=25)</span> 
+  <span style="font-size: 200%;color:#0000ff">plt.show()</span>
+</code>
+</pre>
+</div>
+</div>
+<img src="https://yonsci.github.io/yon_academic//files/Geopandas_data/Output/output_124_0.png" width="500" height="500" /> 
 
 # Exporting shapefile 
+You can export the geopandas dataframe mailny to ESRI shapefile format `(.shp)` & GeoJSON `(.json)` file formats. 
 
+To export your geopandas dataframe as a shapefile:
+<div class="language-python highlighter-rouge">
+ <div class="highlight">
+  <pre class="highlight">
+  <code>
+  <span style="font-size: 200%;color:#0000ff">ET_basin_utm.to_file("Basins_ethio.shp")</span> 
+</code>
+</pre>
+</div>
+</div>
 
-```python
-# To export as a shapefile
-ET_basin_utm.to_file("Basins_ethio.shp")
-```
+To export your geopandas dataframe as a GeoJSON file:
+<div class="language-python highlighter-rouge">
+ <div class="highlight">
+  <pre class="highlight">
+  <code>
+  <span style="font-size: 200%;color:#0000ff">ET_basin_utm.to_file("ET_basin_utm_js.json", driver="GeoJSON")</span> 
+</code>
+</pre>
+</div>
+</div>
 
-
-```python
-# To export as a GeoJSON file
-ET_basin_utm.to_file("ET_basin_utm_js.json", driver="GeoJSON")    
-```
 {% include comments.html %}  
