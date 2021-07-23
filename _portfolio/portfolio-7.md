@@ -969,7 +969,7 @@ As an example, consider overlaying the `ET_basin` over the `African continent` s
 </div>
 </div>
 
-It is critical to remember that the coordinate systems of the two shapefiles must be identical. The `.crs` command can be used to verify the coordinate system of  the two shapefiles
+It is critical to remember that the coordinate systems of the two shapefiles must be identical. The `.crs` command can be used to verify the coordinate system of  the two shapefiles:
 
 <div class="language-python highlighter-rouge">
  <div class="highlight">
@@ -992,6 +992,7 @@ It is critical to remember that the coordinate systems of the two shapefiles mus
     Datum: World Geodetic System 1984
     - Ellipsoid: WGS 84
     - Prime Meridian: Greenwich
+    
 <div class="language-python highlighter-rouge">
  <div class="highlight">
   <pre class="highlight">
@@ -1032,7 +1033,7 @@ Now, you can plot the overlaid map using the following code:
 </pre>
 </div>
 </div>
-<img src="https://yonsci.github.io/yon_academic//files/Geopandas_data/Output/output_87_0.png" width="800" height="800" /> 
+<img src="https://yonsci.github.io/yon_academic//files/Geopandas_data/Output/output_87_0.png" width="500" height="500" /> 
     
 # Shapefile re-projectioning
 
