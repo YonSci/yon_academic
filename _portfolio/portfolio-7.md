@@ -854,7 +854,7 @@ You can use the script underneath to add grids to the plot:
 </pre>
 </div>
 </div>    
-Here, instead of 'dashdot' you can use `dotted`, `dashed`, `solid`
+Here, instead of `dashdot` you can use `dotted`, `dashed`, `solid`
 <img src="https://yonsci.github.io/yon_academic//files/Geopandas_data/Output/output_73_0.png" width="400" height="400" />    
 
 You can remove the grids and boundary by using the code below:
