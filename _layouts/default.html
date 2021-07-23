@@ -15,6 +15,10 @@ layout: compress
     <meta  property="og:title"  content="TITLE"  />
     <meta  property="og:description"  content="DESC"  />
     <meta  property="og:image"  content="https://yonsci.github.io/yon_academic//images/yon.jpeg"  />
+    
+    {% if site.google_analytics and jekyll.environment == 'production' %}
+    {% include analytics.html %}
+    {% endif %}
   </head>
 
   <body>
