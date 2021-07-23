@@ -598,9 +598,6 @@ To print the column names, type: 
 </pre>
 </div>
 </div> 
-
-`Output:`  
-
 `Index(['AREA', 'PERIMETER', 'RIVERBASIN', 'RIVERBAS_1', 'BASINNAME', 'layer', 'Basin_type', 'geometry'], dtype='object')`
 
 To list the column's contents:
@@ -613,9 +610,6 @@ To list the column's contents:
 </pre>
 </div>
 </div>
-
-`Output:`  
-
 `array(['ABBAY', 'AWASH', 'AYSHA', 'BARO AKOBO', 'DENAKIL', 'GENALE DAWA', 'MEREB GASH', 'OGADEN', 'OMO GIBE', 'RIFT VALLY', 'TEKEZE',
            'WABI SHEBELE'], dtype=object)`
 
@@ -629,8 +623,6 @@ The `geometry` column is the most essential of the columns  & it contains the `x
 </pre>
 </div>
 </div>
-
-`Output:`  
 
     0     POLYGON ((35.75669 12.67180, 35.75921 12.67317...  
     
@@ -668,7 +660,6 @@ To view the geometry type of each vector type:
 </pre>
 </div>
 </div>
-`Output:`  
 
     0    Polygon  
 
@@ -697,7 +688,7 @@ You can use the following function to extract x-y coordinate values of a given p
 </div>
 </div>
 
-Let's look at the first ten x-y coordinate values:
+Let's look at the first ten x-y coordinate values of the first polygon:
 <div class="language-python highlighter-rouge">
  <div class="highlight">
   <pre class="highlight">
@@ -707,7 +698,7 @@ Let's look at the first ten x-y coordinate values:
 </pre>
 </div>
 </div>
-`Output:
+
     [(35.756690888078126, 12.671797097608444),
      (35.75921179031758, 12.673172165175462),
      (35.76174531616754, 12.674460456844615),
@@ -720,14 +711,19 @@ Let's look at the first ten x-y coordinate values:
      (35.780480076318945, 12.675917364792335)]`
 
 You may get a quick overview of the shape file by using the geometry values. For instance, to view the first geometry file, you can use the code below:
+<div class="language-python highlighter-rouge">
+ <div class="highlight">
+  <pre class="highlight">
+  <code>
+  <span style="font-size: 200%;color:#0000ff">ET_basin.at[0,'geometry']</span> 
+</code>
+</pre>
+</div>
+</div>
 
-
-```python
-ET_basin.at[0,'geometry']
-``` 
 ![svg](output_39_0.svg)
     
-```
+
 
 ### To know how the data is represented or stored, type
 
