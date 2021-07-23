@@ -753,7 +753,7 @@ Let's now make a simple plot of the shapefile using `plot()` function:
 </pre>
 </div>
 </div>
-<img src="https://yonsci.github.io/yon_academic//files/Geopandas_data/Output/output_55_1.png" width="200" height="200" />   
+<img src="https://yonsci.github.io/yon_academic//files/Geopandas_data/Output/output_55_1.png" width="400" height="400" />   
 
 Let's colorize the map with the `cmap` function:
 
