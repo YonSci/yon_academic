@@ -807,187 +807,154 @@ You can apply an edge color to each polygon in the shapefile using `edgecolor` f
 </div>
 <img src="https://yonsci.github.io/yon_academic//files/Geopandas_data/Output/output_65_1.png" width="400" height="400" />   
 
-  
 You may also put a legend in the plot:
-
-
-```python
-ET_basin.plot(cmap ='tab20c', column='BASINNAME', figsize=(9,7), edgecolor='black', legend=True)
-```
-
-
-
-
-    <AxesSubplot:>
-
-
-
-
-    
-![png](output_67_1.png)
-    
-
-
-### You can also change the legend's position:
-
-
-```python
-fig, ax = plt.subplots(figsize=(9,7))
-ET_basin.plot(alpha=1.0, cmap ='tab20c', column='BASINNAME', edgecolor='black', ax=ax, legend=True )
-ax.set_title('Major river basins of Ethiopia', fontsize=25)
-
-ax.set_axisbelow(True)
-ax.yaxis.grid(color='gray', linestyle='dashdot')
-ax.xaxis.grid(color='gray', linestyle='dashdot')
-
-# Here, instead of 'dashdot' you can use 'dotted', 'dashed', 'solid'
-
-ax.set_xlabel("Longitude (Degrees)", fontsize=12)
-ax.set_ylabel("Latitude (Degrees)", fontsize=12)
-
-leg = ax.get_legend()
-leg.set_bbox_to_anchor((1.25,1.01))
-
-plt.show()
-```
-
-
-    
-![png](output_69_0.png)
-    
-
-
-### However, using the `matplotlib` functions is a more convenient way to plot
-
-
-```python
-fig, ax = plt.subplots(figsize=(9,7))
-ET_basin.plot(alpha=1.0, cmap ='tab20c', column='BASINNAME', edgecolor='black', legend=True, ax=ax )
-ax.set_title('Major river basins of Ethiopia', fontsize=25)
-
-ax.set_xlabel("Longitude (Degrees)", fontsize=12)
-ax.set_ylabel("Latitude (Degrees)", fontsize=12)
-
-plt.show()
-```
-
-
-    
-![png](output_71_0.png)
-    
-
-
-### You can use the script underneath to add grids to the plot
-
-
-```python
-fig, ax = plt.subplots(figsize=(9,7))
-ET_basin.plot(alpha=1.0, cmap ='tab20c', column='BASINNAME', edgecolor='black', legend=True, ax=ax )
-ax.set_title('Major river basins of Ethiopia', fontsize=25)
-
-ax.set_axisbelow(True)
-ax.yaxis.grid(color='gray', linestyle='dashdot')
-ax.xaxis.grid(color='gray', linestyle='dashdot')
-
-# Here, instead of 'dashdot' you can use 'dotted', 'dashed', 'solid'
-
-ax.set_xlabel("Longitude (Degrees)", fontsize=12)
-ax.set_ylabel("Latitude (Degrees)", fontsize=12)
-
-plt.show()
-```
-
-
-    
-![png](output_73_0.png)
-    
-
-
-### Plots can be saved as image files using the `plt. savefig()` function:
-
-
-```python
-fig, ax = plt.subplots(figsize=(9,7))
-ET_basin.plot(alpha=1.0, cmap ='tab20c', column='BASINNAME', edgecolor='black', legend=True, ax=ax )
-ax.set_title('Major river basins of Ethiopia', fontsize=25)
-
-ax.set_axisbelow(True)
-ax.yaxis.grid(color='gray', linestyle='dashdot')
-ax.xaxis.grid(color='gray', linestyle='dashdot')
-
-# Here, instead of 'dashdot' you can use 'dotted', 'dashed', 'solid'
-
-ax.set_xlabel("Longitude (Degrees)", fontsize=12)
-ax.set_ylabel("Latitude (Degrees)", fontsize=12)
-
-plt.savefig('basins.jpeg', transparent=True,  bbox_inches='tight', dpi=800)
-
-plt.show()
-```
-
-
-    
-![png](output_75_0.png)
-    
-
-
-### You can remove the grids and boundary by using the code below
-
-
-```python
-fig, ax = plt.subplots(figsize=(9,7))
-ET_basin.plot(alpha=1.0, cmap ='tab20c', column='BASINNAME', edgecolor='black', legend=True, ax=ax )
-ax.set_title('Major Basins of Ethiopia', fontsize=25)
-ax.set_axis_off()
-plt.show()
-```
-
-
-    
-![png](output_77_0.png)
-    
-
-
-### Making subplots
-
-
-```python
-fig, ((ax1, ax2, ax3, ax4), (ax5, ax6, ax7, ax8), (ax9, ax10, ax11, ax12)) = plt.subplots(3, 4, figsize=(15,15))
-fig.suptitle("Major Basin's in Ethiopia", fontsize=24)
-
-ET_basin.loc[ET_basin.BASINNAME == "ABBAY"].plot(ax=ax1, facecolor='Blue',  edgecolor='black')
-ax1.set_title("ABBAY")
-ET_basin.loc[ET_basin.BASINNAME == "AWASH"].plot(ax=ax2, facecolor='Blue',  edgecolor='black')
-ax2.set_title("AWASH")
-ET_basin.loc[ET_basin.BASINNAME == "AYSHA"].plot(ax=ax3, facecolor='Blue',  edgecolor='black')
-ax3.set_title("AYSHA")
-ET_basin.loc[ET_basin.BASINNAME == "BARO AKOBO"].plot(ax=ax4, facecolor='Blue',  edgecolor='black')
-ax4.set_title("BARO AKOBO")
-ET_basin.loc[ET_basin.BASINNAME == "DENAKIL"].plot(ax=ax5, facecolor='Blue',  edgecolor='black')
-ax5.set_title("DENAKIL")
-ET_basin.loc[ET_basin.BASINNAME == "GENALE DAWA"].plot(ax=ax6, facecolor='Blue',  edgecolor='black')
-ax6.set_title("GENALE DAWA")
-ET_basin.loc[ET_basin.BASINNAME == "MEREB GASH"].plot(ax=ax7, facecolor='Blue',  edgecolor='black')
-ax7.set_title("MEREB GASH")
-ET_basin.loc[ET_basin.BASINNAME == "OGADEN"].plot(ax=ax8, facecolor='Blue',  edgecolor='black')
-ax8.set_title("OGADEN")
-ET_basin.loc[ET_basin.BASINNAME == "OMO GIBE"].plot(ax=ax9, facecolor='Blue',  edgecolor='black')
-ax9.set_title("OMO GIBE")
-ET_basin.loc[ET_basin.BASINNAME == "RIFT VALLY"].plot(ax=ax10, facecolor='Blue',  edgecolor='black')
-ax10.set_title("RIFT VALLY")
-ET_basin.loc[ET_basin.BASINNAME == "TEKEZE"].plot(ax=ax11, facecolor='Blue',  edgecolor='black')
-ax11.set_title("TEKEZE")
-ET_basin.loc[ET_basin.BASINNAME == "WABI SHEBELE"].plot(ax=ax12, facecolor='Blue',  edgecolor='black')
-ax12.set_title("WABI SHEBELE")
-
-plt.show()
-```
-
-
-    
-![png](output_79_0.png)
-    
-
+<div class="language-python highlighter-rouge">
+ <div class="highlight">
+  <pre class="highlight">
+  <code>
+  <span style="font-size: 200%;color:#0000ff">ET_basin.plot(cmap ='tab20c', column='BASINNAME', figsize=(9,7), edgecolor='black', legend=True)</span> 
+</code>
+</pre>
+</div>
+</div>
+<img src="https://yonsci.github.io/yon_academic//files/Geopandas_data/Output/output_67_1.png" width="400" height="400" />   
+
+However, using the `matplotlib` functions is a more convenient way to make plots:
+<div class="language-python highlighter-rouge">
+ <div class="highlight">
+  <pre class="highlight">
+  <code>
+  <span style="font-size: 200%;color:#0000ff">fig, ax = plt.subplots(figsize=(9,7))</span> 
+  <span style="font-size: 200%;color:#0000ff">ET_basin.plot(alpha=1.0, cmap ='tab20c', column='BASINNAME', edgecolor='black', legend=True, ax=ax )</span> 
+  <span style="font-size: 200%;color:#0000ff">ax.set_title('Major river basins of Ethiopia', fontsize=25)</span> 
+  <span style="font-size: 200%;color:#0000ff">ax.set_xlabel("Longitude (Degrees)", fontsize=12)</span> 
+  <span style="font-size: 200%;color:#0000ff">plt.show()</span> 
+  <span style="font-size: 200%;color:#0000ff"></span> 
+</code>
+</pre>
+</div>
+</div>
+<img src="https://yonsci.github.io/yon_academic//files/Geopandas_data/Output/output_71_0.png" width="400" height="400" />  
+
+You can use the script underneath to add grids to the plot
+<div class="language-python highlighter-rouge">
+ <div class="highlight">
+  <pre class="highlight">
+  <code>
+  <span style="font-size: 200%;color:#0000ff">fig, ax = plt.subplots(figsize=(9,7))</span> 
+  <span style="font-size: 200%;color:#0000ff">ET_basin.plot(alpha=1.0, cmap ='tab20c', column='BASINNAME', edgecolor='black', legend=True, ax=ax )</span> 
+  <span style="font-size: 200%;color:#0000ff">ax.set_title('Major river basins of Ethiopia', fontsize=25)</span> 
+  <span style="font-size: 200%;color:#0000ff">ax.set_axisbelow(True)</span> 
+  <span style="font-size: 200%;color:#0000ff">ax.yaxis.grid(color='gray', linestyle='dashdot')</span> 
+  <span style="font-size: 200%;color:#0000ff">ax.xaxis.grid(color='gray', linestyle='dashdot')</span>   
+  Here, instead of 'dashdot' you can use 'dotted', 'dashed', 'solid'
+  <span style="font-size: 200%;color:#0000ff">ax.set_xlabel("Longitude (Degrees)", fontsize=12)</span> 
+  <span style="font-size: 200%;color:#0000ff">ax.set_ylabel("Latitude (Degrees)", fontsize=12)</span> 
+  <span style="font-size: 200%;color:#0000ff">plt.show()</span> 
+</code>
+</pre>
+</div>
+</div>
+<img src="https://yonsci.github.io/yon_academic//files/Geopandas_data/Output/output_73_0.png" width="400" height="400" />  
+
+You can remove the grids and boundary by using the code below:
+<div class="language-python highlighter-rouge">
+ <div class="highlight">
+  <pre class="highlight">
+  <code>
+  <span style="font-size: 200%;color:#0000ff">fig, ax = plt.subplots(figsize=(9,7))</span> 
+  <span style="font-size: 200%;color:#0000ff">ET_basin.plot(alpha=1.0, cmap ='tab20c', column='BASINNAME', edgecolor='black', legend=True, ax=ax )</span> 
+  <span style="font-size: 200%;color:#0000ff">ax.set_title('Major Basins of Ethiopia', fontsize=25)</span> 
+  <span style="font-size: 200%;color:#0000ff">ax.set_axis_off()</span> 
+  <span style="font-size: 200%;color:#0000ff">plt.show()</span> 
+  <span style="font-size: 200%;color:#0000ff"></span> 
+</code>
+</pre>
+</div>
+</div>
+<img src="https://yonsci.github.io/yon_academic//files/Geopandas_data/Output/output_77_0.png" width="400" height="400" />  
+
+You can also change the legend's position:
+<div class="language-python highlighter-rouge">
+ <div class="highlight">
+  <pre class="highlight">
+  <code>
+  <span style="font-size: 200%;color:#0000ff">fig, ax = plt.subplots(figsize=(9,7))</span> 
+  <span style="font-size: 200%;color:#0000ff">ET_basin.plot(alpha=1.0, cmap ='tab20c', column='BASINNAME', edgecolor='black', ax=ax, legend=True )</span>
+  <span style="font-size: 200%;color:#0000ff">ax.set_title('Major river basins of Ethiopia', fontsize=25)</span>
+  <span style="font-size: 200%;color:#0000ff">ax.set_axisbelow(True)</span>
+  <span style="font-size: 200%;color:#0000ff">ax.yaxis.grid(color='gray', linestyle='dashdot')</span>
+  <span style="font-size: 200%;color:#0000ff">ax.xaxis.grid(color='gray', linestyle='dashdot')</span>
+  <span style="font-size: 200%;color:#0000ff">ax.set_xlabel("Longitude (Degrees)", fontsize=12)</span>
+  <span style="font-size: 200%;color:#0000ff">ax.set_ylabel("Latitude (Degrees)", fontsize=12)</span>
+  <span style="font-size: 200%;color:#0000ff">leg = ax.get_legend()</span>
+  <span style="font-size: 200%;color:#0000ff">leg.set_bbox_to_anchor((1.25,1.01))</span>
+  <span style="font-size: 200%;color:#0000ff">plt.show()</span>
+</code>
+</pre>
+</div>
+</div>
+<img src="https://yonsci.github.io/yon_academic//files/Geopandas_data/Output/output_69_0.png" width="400" height="400" />  
+
+Plots can be saved as image files using the `plt. savefig()` function:
+<div class="language-python highlighter-rouge">
+ <div class="highlight">
+  <pre class="highlight">
+  <code>
+  <span style="font-size: 200%;color:#0000ff">fig, ax = plt.subplots(figsize=(9,7))</span> 
+  <span style="font-size: 200%;color:#0000ff">ET_basin.plot(alpha=1.0, cmap ='tab20c', column='BASINNAME', edgecolor='black', legend=True, ax=ax )</span>
+  <span style="font-size: 200%;color:#0000ff">ax.set_title('Major river basins of Ethiopia', fontsize=25)</span>
+  <span style="font-size: 200%;color:#0000ff">ax.set_axisbelow(True)</span>
+  <span style="font-size: 200%;color:#0000ff">ax.yaxis.grid(color='gray', linestyle='dashdot')</span>
+  <span style="font-size: 200%;color:#0000ff">ax.xaxis.grid(color='gray', linestyle='dashdot')</span>
+  <span style="font-size: 200%;color:#0000ff">ax.set_xlabel("Longitude (Degrees)", fontsize=12)</span>
+  <span style="font-size: 200%;color:#0000ff">ax.set_ylabel("Latitude (Degrees)", fontsize=12)</span>
+  <span style="font-size: 200%;color:#0000ff">plt.savefig('basins.jpeg', transparent=True,  bbox_inches='tight', dpi=800)</span>
+  <span style="font-size: 200%;color:#0000ff">plt.show()</span>
+  <span style="font-size: 200%;color:#0000ff">plt.show()</span>
+</code>
+</pre>
+</div>
+</div>
+<img src="https://yonsci.github.io/yon_academic//files/Geopandas_data/Output/output_75_0.png" width="400" height="400" />  
+
+Making subplots:
+<div class="language-python highlighter-rouge">
+ <div class="highlight">
+  <pre class="highlight">
+  <code>
+<span style="font-size: 200%;color:#0000ff">fig, ((ax1, ax2, ax3, ax4), (ax5, ax6, ax7, ax8), (ax9, ax10, ax11, ax12)) = plt.subplots(3, 4, figsize=(15,15))</span> 
+<span style="font-size: 200%;color:#0000ff">fig.suptitle("Major Basin's in Ethiopia", fontsize=24)</span>
+  <span style="font-size: 200%;color:#0000ff">ET_basin.loc[ET_basin.BASINNAME == "ABBAY"].plot(ax=ax1, facecolor='Blue',  edgecolor='black')
+ax1.set_title("ABBAY") </span>
+  <span style="font-size: 200%;color:#0000ff">ET_basin.loc[ET_basin.BASINNAME == "AWASH"].plot(ax=ax2, facecolor='Blue',  edgecolor='black')
+ax2.set_title("AWASH")</span>
+  <span style="font-size: 200%;color:#0000ff">ET_basin.loc[ET_basin.BASINNAME == "AYSHA"].plot(ax=ax3, facecolor='Blue',  edgecolor='black')
+ax3.set_title("AYSHA")</span>
+  <span style="font-size: 200%;color:#0000ff">ET_basin.loc[ET_basin.BASINNAME == "BARO AKOBO"].plot(ax=ax4, facecolor='Blue',  edgecolor='black')
+ax4.set_title("BARO AKOBO")</span>
+  <span style="font-size: 200%;color:#0000ff">ET_basin.loc[ET_basin.BASINNAME == "DENAKIL"].plot(ax=ax5, facecolor='Blue',  edgecolor='black')
+ax5.set_title("DENAKIL")</span>
+  <span style="font-size: 200%;color:#0000ff">ET_basin.loc[ET_basin.BASINNAME == "GENALE DAWA"].plot(ax=ax6, facecolor='Blue',  edgecolor='black')
+ax6.set_title("GENALE DAWA")</span>
+  <span style="font-size: 200%;color:#0000ff">ET_basin.loc[ET_basin.BASINNAME == "MEREB GASH"].plot(ax=ax7, facecolor='Blue',  edgecolor='black')
+ax7.set_title("MEREB GASH")</span>
+  <span style="font-size: 200%;color:#0000ff">ET_basin.loc[ET_basin.BASINNAME == "OGADEN"].plot(ax=ax8, facecolor='Blue',  edgecolor='black')
+ax8.set_title("OGADEN")</span>
+  <span style="font-size: 200%;color:#0000ff">ET_basin.loc[ET_basin.BASINNAME == "OMO GIBE"].plot(ax=ax9, facecolor='Blue',  edgecolor='black')
+ax9.set_title("OMO GIBE")</span>
+  <span style="font-size: 200%;color:#0000ff">ET_basin.loc[ET_basin.BASINNAME == "RIFT VALLY"].plot(ax=ax10, facecolor='Blue',  edgecolor='black')
+ax10.set_title("RIFT VALLY")</span>
+  <span style="font-size: 200%;color:#0000ff">ET_basin.loc[ET_basin.BASINNAME == "TEKEZE"].plot(ax=ax11, facecolor='Blue',  edgecolor='black')
+ax11.set_title("TEKEZE")</span>
+  <span style="font-size: 200%;color:#0000ff">ET_basin.loc[ET_basin.BASINNAME == "WABI SHEBELE"].plot(ax=ax12, facecolor='Blue',  edgecolor='black')
+ax12.set_title("WABI SHEBELE")</span>
+  <span style="font-size: 200%;color:#0000ff">plt.show()</span>
+</code>
+</pre>
+</div>
+</div>
+<img src="https://yonsci.github.io/yon_academic//files/Geopandas_data/Output/output_79_0.png" width="400" height="400" /> 
 
 # Overlaying shapefiles
 ### As an example, consider overlaying the `ET_basin` over the `African continent` shapefile  
