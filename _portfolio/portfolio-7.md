@@ -1127,7 +1127,7 @@ Let's have a look at the new map under the projected UTM reference system:
 </div>
 <img src="https://yonsci.github.io/yon_academic//files/Geopandas_data/Output/output_100_0.png" width="500" height="500" /> 
 
-You can also override the existing CRS by using the `.set_crs` function: 
+You can also override the existing CRS of a given shapefile by using the `.set_crs` function:
 <div class="language-python highlighter-rouge">
  <div class="highlight">
   <pre class="highlight">
@@ -1139,30 +1139,40 @@ You can also override the existing CRS by using the `.set_crs` function:
 </div>
 
 # Shapefile Dissolving
-### Dissolving polygon (removes the interior geometry)
 
+Dissolving polygon (removes the interior geometry). For example, let's join the basin's within the `ET_basin` shapefile to generate the `Ethiopian boundary map`. To do that, you need to pick which columns you want to maintain & the criteria for dissolving the shapefile. In this example, the `Basin_type` will be used as a criteria & we want to maintain the `geometry` field only. 
 
-```python
-# First, pick which columns you want to maintain; in this example, the `Basin_type` will be used as a criteria
-ET_basin_selected = ET_basin[['Basin_type', 'geometry']]
-```
+<div class="language-python highlighter-rouge">
+ <div class="highlight">
+  <pre class="highlight">
+  <code>
+  <span style="font-size: 200%;color:#0000ff">ET_basin_selected = ET_basin[['Basin_type', 'geometry']]</span> 
+</code>
+</pre>
+</div>
+</div>
 
-### Use the `.dissolve()` function, which is based on a unique attribute value
+Then, use the `.dissolve()` function, which works based on a unique attribute value
+<div class="language-python highlighter-rouge">
+ <div class="highlight">
+  <pre class="highlight">
+  <code>
+  <span style="font-size: 200%;color:#0000ff">ET_dissolved = ET_basin_selected.dissolve(by='Basin_type')</span> 
+</code>
+</pre>
+</div>
+</div>
 
-
-```python
-ET_dissolved = ET_basin_selected.dissolve(by='Basin_type')
-```
-
-### View the resulting geodataframe
-
-
-```python
-ET_dissolved
-```
-
-
-
+#View the resulting geodataframe:
+<div class="language-python highlighter-rouge">
+ <div class="highlight">
+  <pre class="highlight">
+  <code>
+  <span style="font-size: 200%;color:#0000ff">ET_dissolved</span> 
+</code>
+</pre>
+</div>
+</div>
 
 <div>
 <style scoped>
@@ -1198,28 +1208,19 @@ ET_dissolved
 </table>
 </div>
 
-
-
-### As you can see, the dataframe contains the `geometry` & `Basin_type` fields, & the dissolved polygon can be seen using the simple plot
-
-
-```python
-ET_dissolved.plot()
-```
-
-
-
-
-    <AxesSubplot:>
-
-
-
-
+The dissolved polygon can be seen using the simple plot function:
+<div class="language-python highlighter-rouge">
+ <div class="highlight">
+  <pre class="highlight">
+  <code>
+  <span style="font-size: 200%;color:#0000ff">ET_dissolved.plot()</span> 
+</code>
+</pre>
+</div>
+</div>
+<img src="https://yonsci.github.io/yon_academic//files/Geopandas_data/Output/output_110_1.png" width="500" height="500" /> 
+As you can see, the dataframe contains the `geometry` & `Basin_type` fields only.
     
-![png](output_110_1.png)
-    
-
-
 # Shapefile clipping
 
 ### You may easily clip each polygon by selecting one of the column names. In this situation, let's  use the `BASINNAME` field from `ET_basin` geodataframe to select the desired basin name `(ABBAY)`
