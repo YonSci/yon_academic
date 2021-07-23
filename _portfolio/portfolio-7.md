@@ -740,7 +740,16 @@ You may get a quick overview of the shape file by using the geometry values. For
 </div>
 </div>
 
-<img src="https://github.com/YonSci/yon_academic/blob/94ff3fa3bb557e5625271688fad320fe5cd75fdb/images/test1.jpg" width="600" height="600" />
+
+
+<img src="https://yonsci.github.io/yon_academic//images/o5.jpg" width="600" height="600" />
+
+<img src="https://yonsci.github.io/yon_academic//images/output_39_0.svg" width="600" height="600" />
+
+<img src="https://yonsci.github.io/yon_academic//images/output_55_1.png" width="600" height="600" />
+
+<img src="https://github.com/YonSci/yon_academic/blob/240632a6787d7d334c969e67e62fd7c7673f76b9/images/b10.png?raw=true" width="600" height="600" />
+<img src="https://github.com/YonSci/yon_academic/blob/94ff3fa3bb557e5625271688fad320fe5cd75fdb/images/test1.jpgraw=true" width="600" height="600" />
 
 <img src="https://github.com/YonSci/yon_academic/blob/94ff3fa3bb557e5625271688fad320fe5cd75fdb/images/test1.png" width="600" height="600" />
 
@@ -775,7 +784,6 @@ ET_basin.plot()
 <img src="https://github.com/YonSci/yon_academic/blob/1dd3bc1e547bd89c46756977b37d3393d627d6a1/files/Geopandas_data/Output/output_55_1.png" />
 
 <img src="https://github.com/YonSci/yon_academic/blob/240632a6787d7d334c969e67e62fd7c7673f76b9/images/b10.png?raw=true" width="600" height="600" />
-
     
 
 ### Let's colorize the map with the `cmap` function
