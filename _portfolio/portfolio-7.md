@@ -299,7 +299,17 @@ Inspect the attribute table of the data by typing:
 </table>
 </div> 
  
-
+Instead of displaying the entire dataframe, I recommend you displaying only the first & last 5 rows of the dataframe using the <b> <em>.head()</em> </b> & <b> <em>.tail()</em> </b> built-in functions. To display the first 5 rows of the dataframe, type: 
+<div class="language-python highlighter-rouge">
+ <div class="highlight">
+  <pre class="highlight">
+  <code>
+  <span style="font-size: 200%;color:#0000ff">ET_basin.head()</span> 
+</code>
+</pre>
+</div>
+</div> 
+ 
 <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -314,7 +324,7 @@ Inspect the attribute table of the data by typing:
         text-align: right;
     }
 </style>
-<table border="1" width="10px" class="dataframe">
+<table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -324,7 +334,6 @@ Inspect the attribute table of the data by typing:
       <th>RIVERBAS_1</th>
       <th>BASINNAME</th>
       <th>layer</th>
-      <th>path</th>
       <th>Basin_type</th>
       <th>geometry</th>
     </tr>
@@ -338,7 +347,6 @@ Inspect the attribute table of the data by typing:
       <td>4</td>
       <td>ABBAY</td>
       <td>Abby</td>
-      <td>/home/yoni/Desktop/Yaredo_Grads/Basemap_exampl...</td>
       <td>1</td>
       <td>POLYGON ((35.75669 12.67180, 35.75921 12.67317...</td>
     </tr>
@@ -350,7 +358,6 @@ Inspect the attribute table of the data by typing:
       <td>5</td>
       <td>AWASH</td>
       <td>Awash</td>
-      <td>/home/yoni/Desktop/Yaredo_Grads/Basemap_exampl...</td>
       <td>1</td>
       <td>POLYGON ((39.52930 11.72403, 39.52891 11.72624...</td>
     </tr>
@@ -362,7 +369,6 @@ Inspect the attribute table of the data by typing:
       <td>6</td>
       <td>AYSHA</td>
       <td>Aysha</td>
-      <td>/home/yoni/Desktop/Yaredo_Grads/Basemap_exampl...</td>
       <td>1</td>
       <td>POLYGON ((42.30811 10.99144, 42.32126 10.99586...</td>
     </tr>
@@ -374,7 +380,6 @@ Inspect the attribute table of the data by typing:
       <td>7</td>
       <td>BARO AKOBO</td>
       <td>Baro_akobo</td>
-      <td>/home/yoni/Desktop/Yaredo_Grads/Basemap_exampl...</td>
       <td>1</td>
       <td>POLYGON ((34.47938 10.83318, 34.48112 10.83473...</td>
     </tr>
@@ -386,111 +391,23 @@ Inspect the attribute table of the data by typing:
       <td>3</td>
       <td>DENAKIL</td>
       <td>Denakil</td>
-      <td>/home/yoni/Desktop/Yaredo_Grads/Basemap_exampl...</td>
       <td>1</td>
       <td>POLYGON ((39.37495 14.50856, 39.41100 14.52892...</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>1.722588e+11</td>
-      <td>2006366.812</td>
-      <td>13</td>
-      <td>12</td>
-      <td>GENALE DAWA</td>
-      <td>Genale_dawa1</td>
-      <td>/home/yoni/Desktop/Yaredo_Grads/Basemap_exampl...</td>
-      <td>1</td>
-      <td>POLYGON ((41.13743 6.94134, 41.14177 6.93580, ...</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>5.868187e+09</td>
-      <td>534670.622</td>
-      <td>2</td>
-      <td>1</td>
-      <td>MEREB GASH</td>
-      <td>Mereb1</td>
-      <td>/home/yoni/Desktop/Yaredo_Grads/Basemap_exampl...</td>
-      <td>1</td>
-      <td>POLYGON ((37.80309 14.70250, 37.91271 14.88540...</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>7.969898e+10</td>
-      <td>1613036.102</td>
-      <td>9</td>
-      <td>8</td>
-      <td>OGADEN</td>
-      <td>Ogaden</td>
-      <td>/home/yoni/Desktop/Yaredo_Grads/Basemap_exampl...</td>
-      <td>1</td>
-      <td>POLYGON ((43.31527 9.60498, 43.35539 9.58202, ...</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>7.871230e+10</td>
-      <td>1832234.370</td>
-      <td>11</td>
-      <td>10</td>
-      <td>OMO GIBE</td>
-      <td>Omo_gibe</td>
-      <td>/home/yoni/Desktop/Yaredo_Grads/Basemap_exampl...</td>
-      <td>1</td>
-      <td>POLYGON ((38.02335 8.93136, 38.03574 8.91034, ...</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>5.298484e+10</td>
-      <td>1381422.016</td>
-      <td>12</td>
-      <td>11</td>
-      <td>RIFT VALLY</td>
-      <td>Rift_valley</td>
-      <td>/home/yoni/Desktop/Yaredo_Grads/Basemap_exampl...</td>
-      <td>1</td>
-      <td>POLYGON ((38.40912 8.39296, 38.41411 8.39297, ...</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>8.367317e+10</td>
-      <td>1468016.695</td>
-      <td>3</td>
-      <td>2</td>
-      <td>TEKEZE</td>
-      <td>Tekeze</td>
-      <td>/home/yoni/Desktop/Yaredo_Grads/Basemap_exampl...</td>
-      <td>1</td>
-      <td>POLYGON ((39.40391 14.25409, 39.45916 14.23977...</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>2.017996e+11</td>
-      <td>2336905.978</td>
-      <td>10</td>
-      <td>9</td>
-      <td>WABI SHEBELE</td>
-      <td>Wabi_shebelle</td>
-      <td>/home/yoni/Desktop/Yaredo_Grads/Basemap_exampl...</td>
-      <td>1</td>
-      <td>POLYGON ((42.69533 9.58651, 42.69804 9.58040, ...</td>
     </tr>
   </tbody>
 </table>
 </div>
 
-
-
-### Instead of displaying the entire dataframe, I recommend displaying only the first & last 5 rows of the   dataframe using the `head()` & `.tail()` built-in functions
-
-### To display the first 5 rows of the dataframe, type
-
-
-```python
-ET_basin.head()
-```
-
-
-
+ Similarly, to display the last 5 rows of the dataframe, type:
+<div class="language-python highlighter-rouge">
+ <div class="highlight">
+  <pre class="highlight">
+  <code>
+  <span style="font-size: 200%;color:#0000ff">ET_basin.tail()</span> 
+</code>
+</pre>
+</div>
+</div> 
 
 <div>
 <style scoped>
@@ -516,113 +433,6 @@ ET_basin.head()
       <th>RIVERBAS_1</th>
       <th>BASINNAME</th>
       <th>layer</th>
-      <th>path</th>
-      <th>Basin_type</th>
-      <th>geometry</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>2.000141e+11</td>
-      <td>2836371.545</td>
-      <td>5</td>
-      <td>4</td>
-      <td>ABBAY</td>
-      <td>Abby</td>
-      <td>/home/yoni/Desktop/Yaredo_Grads/Basemap_exampl...</td>
-      <td>1</td>
-      <td>POLYGON ((35.75669 12.67180, 35.75921 12.67317...</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>1.121677e+11</td>
-      <td>2050391.912</td>
-      <td>6</td>
-      <td>5</td>
-      <td>AWASH</td>
-      <td>Awash</td>
-      <td>/home/yoni/Desktop/Yaredo_Grads/Basemap_exampl...</td>
-      <td>1</td>
-      <td>POLYGON ((39.52930 11.72403, 39.52891 11.72624...</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>4.755561e+09</td>
-      <td>318650.138</td>
-      <td>7</td>
-      <td>6</td>
-      <td>AYSHA</td>
-      <td>Aysha</td>
-      <td>/home/yoni/Desktop/Yaredo_Grads/Basemap_exampl...</td>
-      <td>1</td>
-      <td>POLYGON ((42.30811 10.99144, 42.32126 10.99586...</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>7.572123e+10</td>
-      <td>2128499.780</td>
-      <td>8</td>
-      <td>7</td>
-      <td>BARO AKOBO</td>
-      <td>Baro_akobo</td>
-      <td>/home/yoni/Desktop/Yaredo_Grads/Basemap_exampl...</td>
-      <td>1</td>
-      <td>POLYGON ((34.47938 10.83318, 34.48112 10.83473...</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>6.524619e+10</td>
-      <td>1228197.473</td>
-      <td>4</td>
-      <td>3</td>
-      <td>DENAKIL</td>
-      <td>Denakil</td>
-      <td>/home/yoni/Desktop/Yaredo_Grads/Basemap_exampl...</td>
-      <td>1</td>
-      <td>POLYGON ((39.37495 14.50856, 39.41100 14.52892...</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-
-
-### Similarly, to display the last 5 rows of the dataframe, type
-
-
-```python
-ET_basin.tail()
-```
-
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>AREA</th>
-      <th>PERIMETER</th>
-      <th>RIVERBASIN</th>
-      <th>RIVERBAS_1</th>
-      <th>BASINNAME</th>
-      <th>layer</th>
-      <th>path</th>
       <th>Basin_type</th>
       <th>geometry</th>
     </tr>
@@ -636,7 +446,6 @@ ET_basin.tail()
       <td>8</td>
       <td>OGADEN</td>
       <td>Ogaden</td>
-      <td>/home/yoni/Desktop/Yaredo_Grads/Basemap_exampl...</td>
       <td>1</td>
       <td>POLYGON ((43.31527 9.60498, 43.35539 9.58202, ...</td>
     </tr>
@@ -648,7 +457,6 @@ ET_basin.tail()
       <td>10</td>
       <td>OMO GIBE</td>
       <td>Omo_gibe</td>
-      <td>/home/yoni/Desktop/Yaredo_Grads/Basemap_exampl...</td>
       <td>1</td>
       <td>POLYGON ((38.02335 8.93136, 38.03574 8.91034, ...</td>
     </tr>
@@ -660,7 +468,6 @@ ET_basin.tail()
       <td>11</td>
       <td>RIFT VALLY</td>
       <td>Rift_valley</td>
-      <td>/home/yoni/Desktop/Yaredo_Grads/Basemap_exampl...</td>
       <td>1</td>
       <td>POLYGON ((38.40912 8.39296, 38.41411 8.39297, ...</td>
     </tr>
@@ -672,7 +479,6 @@ ET_basin.tail()
       <td>2</td>
       <td>TEKEZE</td>
       <td>Tekeze</td>
-      <td>/home/yoni/Desktop/Yaredo_Grads/Basemap_exampl...</td>
       <td>1</td>
       <td>POLYGON ((39.40391 14.25409, 39.45916 14.23977...</td>
     </tr>
@@ -684,7 +490,6 @@ ET_basin.tail()
       <td>9</td>
       <td>WABI SHEBELE</td>
       <td>Wabi_shebelle</td>
-      <td>/home/yoni/Desktop/Yaredo_Grads/Basemap_exampl...</td>
       <td>1</td>
       <td>POLYGON ((42.69533 9.58651, 42.69804 9.58040, ...</td>
     </tr>
@@ -692,9 +497,7 @@ ET_basin.tail()
 </table>
 </div>
 
-
-
-### Alternatively, you can view a specific section of the dataframe by defining the row numbers,  but keep in mind that Python always counts from zero. For example, to display only the 3rd and 4th rows, you can type
+Alternatively, you can view a specific section of the dataframe by defining the row numbers,  but keep in mind that Python always counts from zero. For example, to display only the 3rd and 4th rows, you can type:
 
 
 ```python
