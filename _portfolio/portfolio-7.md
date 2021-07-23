@@ -1251,7 +1251,7 @@ Now, let's plot the clipped Abbay basin:
 </pre>
 </div>
 </div>
-<img src="https://yonsci.github.io/yon_academic//files/Geopandas_data/Output/output_115_0.png" width="500" height="500" /> 
+<img src="https://yonsci.github.io/yon_academic//files/Geopandas_data/Output/output_115_0.png" width="400" height="400" /> 
 
 You can also use the `intersection` tool to clip data to a specified region, for instance, let's load the major world river shapefile, & clip it to the Ethiopian region.
 
