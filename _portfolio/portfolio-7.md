@@ -740,6 +740,11 @@ You may get a quick overview of the shape file by using the geometry values. For
 </div>
 </div>
 
+<img src="https://github.com/YonSci/yon_academic/blob/94ff3fa3bb557e5625271688fad320fe5cd75fdb/images/test1.jpg" width="600" height="600" />
+
+<img src="https://github.com/YonSci/yon_academic/blob/94ff3fa3bb557e5625271688fad320fe5cd75fdb/images/test1.png" width="600" height="600" />
+
+
 <img src="https://github.com/YonSci/yon_academic/blob/83e767630c6d223fb8e5c9e64cf70087252fba26/images/o5.jpg" width="600" height="600" />
 
 <a href="_images/output_55_1.png">
