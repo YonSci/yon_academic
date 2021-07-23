@@ -714,7 +714,7 @@ You can use the `geom type` function to get information about the geometry type 
     dtype: object
 As you can see, all of the vector types in the dataframe are polygons.
 
-To view the spatial extent or coverage of the shapefile use the `total_bounds` function: 
+To view the spatial extent or coverage of the shapefile, use the `total_bounds` function: 
 <div class="language-python highlighter-rouge">
  <div class="highlight">
   <pre class="highlight">
