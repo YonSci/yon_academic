@@ -750,8 +750,7 @@ You may get a quick overview of the shape file by using the geometry values. For
 ```python
 ET_basin.plot()
 ```
-<img src="https://github.com/YonSci/yon_academic/blob/1dd3bc1e547bd89c46756977b37d3393d627d6a1/files/Geopandas_data/Output/output_55_1.png
-" width="300" height="300" />
+<img src="https://github.com/YonSci/yon_academic/blob/1dd3bc1e547bd89c46756977b37d3393d627d6a1/files/Geopandas_data/Output/output_55_1.png"/>
     
 
 ### Let's colorize the map with the `cmap` function
