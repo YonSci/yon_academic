@@ -1,5 +1,6 @@
 ---
 title: "Python Geopandas package for shapefile management"
+header-img: "https://yonsci.github.io/yon_academic//images/cover3.jpg"
 collection: portfolio
 image: https://yonsci.github.io/yon_academic//images/cover3.jpg
 ---
