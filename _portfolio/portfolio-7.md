@@ -1,6 +1,7 @@
 ---
 title: "Python Geopandas package for shapefile management"
 collection: portfolio
+date: 2021-07-24
 image: https://yonsci.github.io/yon_academic//files/Geopandas_data/Output/output_73_0.png
 ---
 <img src="{{page.image}}" width="500" height="200" />
