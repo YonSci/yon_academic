@@ -4,7 +4,7 @@ collection: portfolio
 date: 2021-07-24
 image: https://yonsci.github.io/yon_academic//files/Geopandas_data/Output/output_73_0.png
 ---
-<img src="{{page.image}}" width="100px" height="150px" />
+<img src="{{page.image}}" width="500px" height="200px" />
 
 <div align="justify">Geopandas combines the ability of pandas & shapely for manipulating geographic data mainly vector data such as points, polylines, & polygons. Geopandas can read & write vector data in a variety of formats, including the ESRI shapefile format (.shp) & others such as KML, & GeoJSON. </div>
 * Table of contents
