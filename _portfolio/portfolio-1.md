@@ -1,10 +1,6 @@
 ---
 title: "Windows-10 Subsystem for Linux (WSL) installation"
 collection: portfolio
-toc: true
-toc_label: "Table of Contents"
-toc_sticky: true
-toc_icon: "heart" 
 ---
 <div align="justify"> It is widely acknowledged that configuring, installing, & running models on Linux-based platforms has more benefits for computational disciplines. Recently, Windows 10 has provided a <b> <em>lightweight Windows Linux Subsystem (WSL)</em> </b> tool that allows users to run various Linux distros such as Ubuntu, Debian, CentOS, and Mint on Windows-10. The WSL does not require any virtualization and much memory that makes it super useful. As a result, this tool enables users to explore the benefits of Linux distros alongside Windows without losing Windows OS. In this contest, the following steps can be used to install WSL on Windows. </div>
 
