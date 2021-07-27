@@ -51,6 +51,7 @@
 
 .sidebar__right {
   margin-bottom: 1em;
+  width: auto;
 
   @include breakpoint($large) {
     position: relative;
