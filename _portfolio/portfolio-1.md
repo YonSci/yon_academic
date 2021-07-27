@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: archive
 classes: wide
 title: "Windows-10 Subsystem for Linux (WSL) installation"
 collection: portfolio
