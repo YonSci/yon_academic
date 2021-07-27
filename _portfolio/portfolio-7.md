@@ -3,9 +3,6 @@ title: "Python Geopandas package for shapefile management"
 header-img: "https://yonsci.github.io/yon_academic//images/cover3.jpg"
 collection: portfolio
 image: https://yonsci.github.io/yon_academic//images/cover3.jpg
-toc: true
-toc_label: "Table of Contents"
-toc_icon: "heart" 
 ---
 <img src="{{page.image}}" width="500" height="100" />
 
