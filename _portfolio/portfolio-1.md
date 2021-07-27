@@ -1,4 +1,5 @@
 ---
+layout: single
 title: "Windows-10 Subsystem for Linux (WSL) installation"
 collection: portfolio
 toc: true
