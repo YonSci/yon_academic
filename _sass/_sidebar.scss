@@ -49,7 +49,10 @@
   }
 }
 
-@include breakpoint($large) {
+.sidebar__right {
+  margin-bottom: 1em;
+   
+  @include breakpoint($large) {
     position: absolute;
     top: 0;
     right: 0;
