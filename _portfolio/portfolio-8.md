@@ -15,41 +15,20 @@ To install the latest version of netCDF4, use the conda package manager. If you 
 
 Start an Ubuntu terminal or an Anaconda prompt & type the following command:
 
- ``` python
-conda install netcdf4
-  ```
+<div class="language-python highlighter-rouge">
+ <div class="highlight">
+  <pre class="highlight">
+  <code><span style="font-size: 200%;color:#0000ff">conda install netcdf4</span></code></pre>
+</div>
+</div>
+
 Or
 
-``` python
-conda install -c conda-forge netCDF4
-```
-
-<div class="language-python highlighter-rouge">
-<div class="highlight">
-<pre class="highlight">
-<code>
-<span style="font-size: 200% color:#0000ff">ET_basin[3:5]</span> </code> </pre>
-</div>
-</div> 
-
 <div class="language-python highlighter-rouge">
  <div class="highlight">
   <pre class="highlight">
-  <code>
-  <span style="font-size: 200%;color:#0000ff">conda create --name geopandas_stable</span> 
-</code>
-</pre>
+  <code><span style="font-size: 200%;color:#0000ff">conda install -c conda-forge netCDF4</span></code></pre>
 </div>
 </div>
-
-<div class="language-python highlighter-rouge">
- <div class="highlight">
-  <pre class="highlight">
-  <code><span style="font-size: 200%;color:#0000ff">conda create --name geopandas_stable</span></code></pre>
-</div>
-</div>
-
-To switch directories, type <kbd>cd</kbd> followed by the name of the directory
-
 
 ## Reading netCDF data using Python `netCDF4` package
