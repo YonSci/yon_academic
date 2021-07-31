@@ -2,16 +2,13 @@
 title: "NetCDF data with Python"
 collection: portfolio
 ---
+## Introduction
+
+**`netCDF`** is a scientific multidimensional data format designed to store geospatial data. If you work with climate, hydrology, or oceanography data, this data format is unavoidable. As a result, the purpuse of this tutorial is to provide relevant information on how to work with netCDF files. In this tutorial, we will use the <kbd>netCDF4</kbd> python module.
 
 📖 _**Learning objectives**_:
 * Table of contents
 {:toc}
-
-
-## Introduction
-
-**`netCDF`** is a scientific multidimensional data format designed to store geospatial data. If you work with climate, hydrology, or oceanography data, this data format is unavoidable. As a result, the purpuse of this tutorial is to provide relevant information on how to work with netCDF files. We will make use of the `netCDF4` python module.
-
 
 ## Installing netCDF4 package:
 
