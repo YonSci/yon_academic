@@ -11,7 +11,7 @@ collection: portfolio
 
 ## Installing netCDF4 package
 
-To install the latest version of netCDF4, use the conda package manager. If you haven't already  installed Anaconda on your PC, you can install it by following the previous <a href="https://yonsci.github.io/yon_academic//portfolio/portfolio-2/" target="_top">post</a>.  </div> <br> 
+To install the latest version of netCDF4, use the conda package manager. If you haven't already  installed Anaconda on your PC, you can install it by following the previous <a href="https://yonsci.github.io/yon_academic//portfolio/portfolio-2/" target="_top">post</a>.  <br> 
 
 Start an Ubuntu terminal or an Anaconda prompt & type the following command:
 
