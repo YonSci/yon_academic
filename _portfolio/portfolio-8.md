@@ -36,6 +36,15 @@ conda install -c conda-forge netCDF4
 </div>
 </div> 
 
+<div class="language-python highlighter-rouge">
+ <div class="highlight">
+  <pre class="highlight">
+  <code>
+  <span style="font-size: 200%;color:#0000ff">conda create --name geopandas_stable</span> 
+</code>
+</pre>
+</div>
+</div>
 
 
 To switch directories, type <kbd>cd</kbd> followed by the name of the directory
