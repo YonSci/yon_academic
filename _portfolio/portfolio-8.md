@@ -1,3 +1,8 @@
+---
+title: "NetCDF data with Python"
+collection: portfolio
+---
+
 # NetCDF data with Python
 
 📖 _**Learning objectives**_:
