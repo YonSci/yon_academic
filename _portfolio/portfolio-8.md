@@ -3,14 +3,12 @@ title: "NetCDF data with Python"
 collection: portfolio
 ---
 
-# NetCDF data with Python
-
 📖 _**Learning objectives**_:
 
-- [ ] Reading netCDF file
-- [ ] Extract data from netCDF file
-- [ ] Writing netCDF file
-- [ ] Create maps from netCDF data
+ [ ] Reading netCDF file
+ [ ] Extract data from netCDF file
+ [ ] Writing netCDF file
+ [ ] Create maps from netCDF data
 
 
 ## Introduction
