@@ -5,10 +5,10 @@ collection: portfolio
 
 📖 _**Learning objectives**_:
 
- [ ] Reading netCDF file
- [ ] Extract data from netCDF file
- [ ] Writing netCDF file
- [ ] Create maps from netCDF data
+  - [ ] Reading netCDF file
+  - [ ] Extract data from netCDF file
+  - [ ] Writing netCDF file
+  - [ ] Create maps from netCDF data
 
 
 ## Introduction
