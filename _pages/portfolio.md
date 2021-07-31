@@ -13,7 +13,7 @@ author_profile: true
 
 ## [Python Geopandas package for shapefile management](https://yonsci.github.io/yon_academic//portfolio/portfolio-7/) 
 
-## [NetCDF data with Python](https://yonsci.github.io/yon_academic//portfolio/sdsdsd/) 
+## [NetCDF data with Python](https://yonsci.github.io/yon_academic//portfolio/portfolio-8/) 
 
 
 {% include social-share.html %}
