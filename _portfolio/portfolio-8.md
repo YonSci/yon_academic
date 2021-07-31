@@ -7,11 +7,6 @@ collection: portfolio
 * Table of contents
 {:toc}
 
-  - [ ] Reading netCDF file
-  - [ ] Extract data from netCDF file
-  - [ ] Writing netCDF file
-  - [ ] Create maps from netCDF data
-
 
 ## Introduction
 
