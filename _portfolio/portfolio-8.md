@@ -4,6 +4,8 @@ collection: portfolio
 ---
 
 📖 _**Learning objectives**_:
+* Table of contents
+{:toc}
 
   - [ ] Reading netCDF file
   - [ ] Extract data from netCDF file
