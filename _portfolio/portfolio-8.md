@@ -10,11 +10,11 @@ image: https://yonsci.github.io/yon_academic//images/cover3.jpg
 ---
 Basemap is a matplotlib extension used to visualize and create geographical maps in python. The main purpuse of this tutorial is to provide basic information on how to plot and visualize geographical data with the help of Basemap package. If you need further imformation on basemap, please visit [basemap](https://matplotlib.org/basemap/index.html) page.
 
-
 Advanatge of Basemap:  
 * It employs the same plotting techniques as the Matplotlib library. If you are familiar with Matplotlib, it is very simple to use.
 * Basemap includes coastline, rivers, state, lakes, political/country boundaries dataset at several different resolutions. 
-* It provides high-resolution relief images.
+* It provides high-resolution relief images.  
+---
 
 * Table of contents
 {:toc}
@@ -323,8 +323,6 @@ The **`Basemap()`** function is used to set **`projection`**, **`bounding box`**
 m = Basemap(projection='aeqd')  
 m = Basemap(projection='cyl')
 ```
- > m = Basemap(projection='aeqd')  
- > m = Basemap(projection='cyl')
 
 |**Projection name**       |**Basemap syntax**|          |**Projection name**  |**Basemap syntax**  | 
 |--------------------------|------------------|          |---------------------|--------------------|
@@ -355,14 +353,17 @@ Some projections require setting **`bounding box`**, **`map center`**, & **`map 
   * `urcrnrlon`: upper-right corner geographical longitude
   
 * Example:
- > m = Basemap(projection='cyl', ,llcrnrlat=-80,urcrnrlat=80,llcrnrlon=-180,urcrnrlon=180)
-  
+```python 
+m = Basemap(projection='cyl', ,llcrnrlat=-80,urcrnrlat=80,llcrnrlon=-180,urcrnrlon=180)
+```
 **b) Map center**:  
   * lon_0: central longitude 
   * lat_0: central latitude
   
 * Example:
- > m = Basemap(projection='ortho', lon_0 = 25, lat_0 = 10)
+```python 
+m = Basemap(projection='ortho', lon_0 = 25, lat_0 = 10)
+```
      
 **c) Map resolution**: The map resolution argument determines the quality of vector layers such as `coastlines`, `lakes`, & `rivers` etc. The available options are:
 * c: crude
