@@ -82,7 +82,7 @@ import matplotlib.pyplot as plt
 
 ## Adding vector layers to a map
 
-### `Coastlines`
+**`Coastlines`**
 * First, let's initialize a map with `Basemap()` function
 * Then, use the `drawcoastlines()` function to add coastlines on the map
 
@@ -105,7 +105,7 @@ The `drawcoastlines` function has the following main arguments:
 * linestyle: solid, dashed...
 * color: black, red...
 
-### Let's apply some changes to the coastlines
+**Let's apply some changes to the coastlines**
 
 
 ```python
@@ -122,7 +122,7 @@ plt.show()
     
 
 
-### b) `Countries`
+**`Countries`**
 
 Use the `drawcountries()` function to add countries on the map 
 
@@ -160,7 +160,7 @@ plt.show()
     
 
 
-### c) `Draw major rivers`
+**`Draw major rivers`**
 
 * Use the `drawrivers()` function to add major rivers on the map
 
@@ -181,9 +181,7 @@ plt.show()
     
 ![png](output_16_0.png)
     
-
-
-### d) `Fill continents`
+**`Fill continents`**
 
 * This function is used to draw color filled continents 
 * Use `fillcontinents()` function to fill continents
@@ -230,7 +228,7 @@ plt.show()
     
 
 
-### e) `Draw map boundary`
+**e) `Draw map boundary`**
 
 * The `drawmapboundary()` function is used to draw the earth boundary on the map
 
@@ -259,7 +257,7 @@ plt.show()
     
 
 
-### f) `Draw and label longitude lines`
+**`Draw and label longitude lines`**
 
 * The `drawmeridians()` function is used to draw & label meridians/longitude lines
 * The `drawmeridians()`function can take the following arguments:
@@ -295,7 +293,7 @@ plt.show()
     
 
 
-### g) `Draw and label latitude lines`
+**`Draw and label latitude lines`**
 
 * The `drawparallels()` function is used to draw & label parallels/latitude lines
 
@@ -319,7 +317,7 @@ plt.show()
     
 
 
-### Let's put the `drawmeridians` and `drawparallels` functions together
+**Let's put the `drawmeridians` and `drawparallels` functions together**
 
 
 ```python
@@ -339,7 +337,6 @@ plt.show()
 ```
 
 
-    
 ![png](output_28_0.png)
     
 
