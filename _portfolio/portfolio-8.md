@@ -1,8 +1,8 @@
 ---
 title: "Mapping Geographical Data with Basemap Python Package"
-header-img: "https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_69_0.png"
+header-img: "https://yonsci.github.io/yon_academic//files/Basemap_data/Output/cover1"
 collection: portfolio
-image: https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_69_0.png
+image: https://yonsci.github.io/yon_academic//files/Basemap_data/Output/cover1
 ---
 
 <img src="{{page.image}}" width="500" height="100" />
