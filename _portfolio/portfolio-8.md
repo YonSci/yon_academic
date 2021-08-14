@@ -107,8 +107,8 @@ plt.title("Coastlines", fontsize=20)
 plt.show()
 ```
 
+<img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_10_0.png" />   
 
-    
 ![png](output_10_0.png)
     
 
@@ -126,9 +126,8 @@ m.drawcountries()
 plt.title("Country boundaries", fontsize=20)
 plt.show()
 ```
+<img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_12_0.png" />   
 
-
-    
 ![png](output_12_0.png)
     
 
@@ -145,6 +144,7 @@ plt.title("Country boundaries", fontsize=20)
 plt.show()
 ```
 
+<img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_14_0.png" />   
 
     
 ![png](output_14_0.png)
@@ -168,6 +168,7 @@ plt.title("Major rivers", fontsize=20)
 plt.show()
 ```
 
+<img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_16_0.png" />   
 
     
 ![png](output_16_0.png)
@@ -188,8 +189,9 @@ plt.title("Color filled continents", fontsize=20)
 plt.show()
 ```
 
+<img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_18_0.png" />   
 
-    
+  
 ![png](output_18_0.png)
     
 
@@ -212,6 +214,7 @@ m.fillcontinents(color='coral',lake_color='aqua', alpha=0.9)
 plt.title("Color filled continents", fontsize=20)
 plt.show()
 ```
+<img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_20_0.png" />   
 
 
     
@@ -242,8 +245,9 @@ plt.title("Filled map boundary", fontsize=20)
 plt.show()
 ```
 
+<img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_22_0.png" />   
 
-    
+ 
 ![png](output_22_0.png)
     
 
@@ -278,8 +282,8 @@ plt.title("Longitude lines", fontsize=20, pad=30)
 plt.show()
 ```
 
-
-    
+<img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_24_0.png" />   
+   
 ![png](output_24_0.png)
     
 
@@ -302,6 +306,7 @@ plt.title("Latitude lines", fontsize=20)
 plt.show()
 ```
 
+<img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_26_0.png" />   
 
     
 ![png](output_26_0.png)
@@ -326,6 +331,7 @@ plt.xlabel("Longitude", fontsize=15, labelpad=20)
 
 plt.show()
 ```
+<img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_28_0.png" />   
 
 
 ![png](output_28_0.png)
@@ -411,6 +417,7 @@ plt.title("Mercator Projection", fontsize=20)
     Text(0.5, 1.0, 'Mercator Projection')
 
 
+<img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_35_1.png" />   
 
 
     
@@ -438,6 +445,7 @@ plt.title(" Cylindrical Equidistant Projection", fontsize=20)
 
 
 
+<img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_37_1.png" />   
 
     
 ![png](output_37_1.png)
@@ -463,6 +471,7 @@ plt.title("Orthographic Projection", fontsize=18)
     Text(0.5, 1.0, 'Orthographic Projection')
 
 
+<img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_39_1.png" />   
 
 
     
@@ -489,6 +498,7 @@ plt.title(" Robinson Projection", fontsize=20)
     Text(0.5, 1.0, ' Robinson Projection')
 
 
+<img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_41_1.png" />   
 
 
     
@@ -513,6 +523,7 @@ m.drawcoastlines()
 plt.show()
 ```
 
+<img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_43_0.png" />   
 
     
 ![png](output_43_0.png)
@@ -533,6 +544,7 @@ m.drawcoastlines()
 plt.show()
 ```
 
+<img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_45_0.png" />   
 
     
 ![png](output_45_0.png)
@@ -561,6 +573,7 @@ plt.title("Make a regional map using the EPSG projection code", fontsize=18)
 
 
 
+<img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_47_1.png" />   
 
     
 ![png](output_47_1.png)
@@ -622,6 +635,7 @@ ax4.set_title("High resolution", fontsize=18)
 
 
 
+<img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_49_1.png" />   
 
     
 ![png](output_49_1.png)
@@ -665,6 +679,7 @@ plt.title("Land-sea mask image", fontsize=20)
 plt.show()
 ```
 
+<img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_52_0.png" />   
 
     
 ![png](output_52_0.png)
@@ -693,6 +708,7 @@ plt.title("NASA Blue Marble image as background map", fontsize=18)
 
 
 
+<img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_54_1.png" />   
 
     
 ![png](output_54_1.png)
@@ -720,6 +736,7 @@ plt.title("Shaded relief image as background map", fontsize=18)
 
 
 
+<img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_56_1.png" />   
 
     
 ![png](output_56_1.png)
@@ -746,7 +763,7 @@ plt.title("Shaded relief image as background map", fontsize=18)
     Text(0.5, 1.0, 'Shaded relief image as background map')
 
 
-
+<img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_58_1.png" />   
 
     
 ![png](output_58_1.png)
@@ -836,6 +853,7 @@ plt.title('2-meter temperature filled contour map', fontsize=15)
 
 plt.show()
 ```
+<img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_69_0.png" />   
 
 
     
@@ -878,6 +896,7 @@ plt.title('2-meter temperature contour map', fontsize=15)
 plt.show()
 ```
 
+<img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_71_0.png" />   
 
     
 ![png](output_71_0.png)
@@ -919,14 +938,8 @@ plt.title('2-meter temperature pseudo-color map', fontsize=15)
 plt.show()
 ```
 
+<img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_73_0.png" />   
 
     
 ![png](output_73_0.png)
     
-
-
-
-```python
-
-```
-
