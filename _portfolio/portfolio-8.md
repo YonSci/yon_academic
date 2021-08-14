@@ -21,8 +21,7 @@ Advanatge of Basemap:
 
 ## Installing Basemap package
 ---
-<div align="justify"> To install Basemap, the conda package manager will be utilized. If you haven't already installed Anacond/conda package manager on your PC , there is a blog post on how to install <a href="https://yonsci.github.io/yon_academic//portfolio/portfolio-2/" target="_top">Anaconda/conda package manager </a>  </div> <br>
-
+<div align="justify"> To install Basemap, the conda package manager will be utilized. If you haven't already installed Anacond/conda package manager on your PC , there is a blog post on how to install <a href="https://yonsci.github.io/yon_academic//portfolio/portfolio-2/" target="_top">Anaconda/conda package manager. </a> After you've installed conda package manager, follow the steps below to install basemap package. </div> <br> 
 1) Start an Ubuntu terminal or an Anaconda prompt
 
 2) Add a new environment variable named `basemap_stable`
