@@ -8,7 +8,7 @@ image: https://yonsci.github.io/yon_academic//files/Basemap_data/Output/cover1
 <img src="{{page.image}}" width="500" height="100" />
 
 ---
-Basemap is a matplotlib extension used to visualize and create geographical maps in python. The main purpuse of this tutorial is to provide basic information on how to plot and visualize geographical data with the help of Basemap package. If you need further imformation on basemap, please visit [basemap](https://matplotlib.org/basemap/index.html) page.
+Basemap is a matplotlib extension used to visualize and create geographical maps in python. The main purpose of this tutorial is to provide basic information on how to plot and visualize geographical data with the help of Basemap package. If you need further information on basemap, please visit [basemap](https://matplotlib.org/basemap/index.html) page.
 
 * Table of contents
 {:toc}
@@ -43,7 +43,7 @@ Basemap is a matplotlib extension used to visualize and create geographical maps
 </div>
 </div>
 
-5) View list of python dependencies by typing `conda list` 
+5) View a list of python dependencies by typing `conda list` 
 
 <div class="language-python highlighter-rouge">
 <div class="highlight">
@@ -121,7 +121,7 @@ plt.show()</span></code></pre>
 
 <img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_12_0.png" />   
 
-The `drawcountries()` function uses similar arguments like `drawcountries()` as shown bellow:
+The `drawcountries()` function uses similar arguments like `drawcountries()` as shown below:
 
 <div class="language-python highlighter-rouge">
 <div class="highlight">
@@ -139,7 +139,7 @@ plt.show()</span></code></pre>
 
 **`Draw major rivers`**
 
-* Use the `drawrivers()` function to add major rivers on the map
+* Use the `drawrivers()`function to add major rivers on the map
 
 * The `drawrivers()` function can take `linewidth`, `linestyle`, `color` arguments 
 
@@ -208,7 +208,7 @@ plt.show()</span></code></pre>
 * The `drawmapboundary()` function can take the following arguments:
   * `linewidth`: sets line width for boundary line (default: 1)
   
-  * `color`: sets color of boundary line (default: black)
+  * `color`: sets the color of the boundary line (default: black)
   
   * `fill_color`:	fills the map background region 
 
@@ -309,7 +309,7 @@ The **`Basemap()`** function is used to set **`projection`**, **`bounding box`**
 
 **Map projection**: 
 
-* Inside the **`Basemap()`** function, the **`projection="`** argument can take several pre-defined projections listed in the table bellow or visit this [site](https://matplotlib.org/basemap/users/mapsetup.html) to get more information.  
+* Inside the **`Basemap()`** function, the **`projection="`** argument can take several pre-defined projections listed in the table below or visit this [site](https://matplotlib.org/basemap/users/mapsetup.html) to get more information.  
 
 * To specify the desired projection, use the general syntax shown below:
 
@@ -402,7 +402,7 @@ plt.title(" Cylindrical Equidistant Projection", fontsize=20)</span></code></pre
 
 <img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_37_1.png" />   
 
-**Create a global map with a Orthographic Projection**
+**Create a global map with Orthographic Projection**
 
 <div class="language-python highlighter-rouge">
 <div class="highlight">
@@ -438,7 +438,7 @@ plt.title(" Robinson Projection", fontsize=20)</span></code></pre>
 
 ## Plotting a specific region   
 
-**a) By passing a bounding box information (llcrnrlon, llcrnrlat, urcrnrlon,urcrnrlat)**
+**a) By passing bounding box information (llcrnrlon, llcrnrlat, urcrnrlon,urcrnrlat)**
 
 <div class="language-python highlighter-rouge">
 <div class="highlight">
