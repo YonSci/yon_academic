@@ -1,9 +1,12 @@
 ---
-title: "NetCDF data with Python"
+title: "Mapping Geographical Data with Basemap Python Package"
+header-img: "https://yonsci.github.io/yon_academic//images/cover3.jpg"
 collection: portfolio
+image: https://yonsci.github.io/yon_academic//images/cover3.jpg
 ---
 
-# Basemap
+<img src="{{page.image}}" width="500" height="100" />
+
 ---
 Basemap is a matplotlib extension used to visualize and create geographical maps in python. The main purpuse of this tutorial is to provide basic information on how to plot and visualize geographical data with the help of `Basemap` package. If you need further imformation on basemap, please visit [basemap](https://matplotlib.org/basemap/index.html) page.
 
@@ -401,7 +404,7 @@ Some projections require setting **`bounding box`**, **`map center`**, & **`map 
 
 Let's see some examples  on how the `map projection`, `bounding box`, `map center`, & `map resolution` arguments used to create and modify maps:
 
-### Create a global map with a Mercator Projection 
+**Create a global map with a Mercator Projection**
 
 
 ```python
@@ -427,7 +430,7 @@ plt.title("Mercator Projection", fontsize=20)
     
 
 
-### Create a global map with a Cylindrical Equidistant Projection
+**Create a global map with a Cylindrical Equidistant Projection**
 
 
 ```python
@@ -453,7 +456,7 @@ plt.title(" Cylindrical Equidistant Projection", fontsize=20)
     
 
 
-### Create a global map with a Orthographic Projection
+**Create a global map with a Orthographic Projection**
 
 
 ```python
@@ -479,7 +482,7 @@ plt.title("Orthographic Projection", fontsize=18)
     
 
 
-### Create a global map with a Robinson Projection
+**Create a global map with a Robinson Projection**
 
 
 ```python
@@ -576,7 +579,7 @@ plt.title("Make a regional map using the EPSG projection code", fontsize=18)
     
 
 
-### Let's see how the `resolution argument` affects `coastlines`, `lakes`, `country boundary lines`
+**Let's see how the `resolution argument` affects `coastlines`, `lakes`, `country boundary lines`**
 
 The available options are:    
 * c: crude
@@ -646,7 +649,7 @@ b) `NASA blue marble`
 c) `NOAA etopo`  
 d) `Shaded relief`
 
-### a) Draw land-sea mask image
+**a) Draw land-sea mask image**
 
 * The `drawlsmask()` function used to draw `lakes`, `land`, & `oceans` at once
 
@@ -680,7 +683,7 @@ plt.show()
     
 
 
-### b) NASA Blue Marble image
+**b) NASA Blue Marble image**
 
 * Use the `bluemarble()` argument to apply the NASA blue marble image as a background map 
 * To downgrade or upgrade image resolution use the scale argument
@@ -708,7 +711,7 @@ plt.title("NASA Blue Marble image as background map", fontsize=18)
     
 
 
-### c) Shaded relief image
+**c) Shaded relief image**
 
 Use `shadedrelief()` argument to apply shaded relief image as a background map
 
@@ -735,7 +738,7 @@ plt.title("Shaded relief image as background map", fontsize=18)
     
 
 
-### d) NOAA`etopo` relief image
+**d) NOAA`etopo` relief image**
 
 Use `etopo()` argument to apply shaded relief image as a background map
 
@@ -764,7 +767,7 @@ plt.title("Shaded relief image as background map", fontsize=18)
 
 ## Plotting netCDF data using Basemap
 
-### Reading ECMWF temperature data 
+**Reading ECMWF temperature data**
 
 To read the netcdf data, we'll use the `Dataset` class from the `netcdf4-python` library
 
@@ -796,7 +799,7 @@ print(nc)
         groups: 
 
 
-### Let's read the coordinate variables (latitude, longitude, & time) & data variables (2-meter temperature)
+**Let's read the coordinate variables (latitude, longitude, & time) & data variables (2-meter temperature)**
 
 
 ```python
@@ -806,7 +809,7 @@ time = nc.variables['time'][:]
 t2 = nc.variables['p2t'][:] 
 ```
 
-### Plotting filled contour maps:
+**Plotting filled contour maps:**
 
  * Use the `contourf()` function to draw filled contour maps 
  
@@ -852,7 +855,7 @@ plt.show()
     
 
 
-### Plotting contour maps:
+**Plotting contour maps:**
 
 * Use the `contour()` function to draw contour maps 
 
@@ -893,7 +896,7 @@ plt.show()
     
 
 
-### Plotting pseudo color maps:
+**Plotting pseudo color maps:**
 
 * Use the `pcolor()` or `pcolormesh()` function to draw  pseudo color maps 
 
