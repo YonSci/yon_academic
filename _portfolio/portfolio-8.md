@@ -86,11 +86,6 @@ plt.show()
 ```
 <img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_7_0.png" />   
 
-    
-![png](output_7_0.png)
-    
-
-
 The `drawcoastlines` function has the following main arguments:
 * linewidth: 1.0, 2.0, 3.0...
 * linestyle: solid, dashed...
@@ -109,14 +104,9 @@ plt.show()
 
 <img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_10_0.png" />   
 
-![png](output_10_0.png)
-    
-
-
 **`Countries`**
 
 Use the `drawcountries()` function to add countries on the map 
-
 
 ```python
 fig = plt.figure(figsize = (12,12))
@@ -128,12 +118,7 @@ plt.show()
 ```
 <img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_12_0.png" />   
 
-![png](output_12_0.png)
-    
-
-
 The `drawcountries()' function uses similar arguments like `drawcountries()` as shown bellow:
-
 
 ```python
 fig = plt.figure(figsize = (12,12))
@@ -143,21 +128,14 @@ m.drawcountries(linewidth=1.0, linestyle='solid', color='k')
 plt.title("Country boundaries", fontsize=20)
 plt.show()
 ```
-
 <img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_14_0.png" />   
-
-    
-![png](output_14_0.png)
-    
-
 
 **`Draw major rivers`**
 
 * Use the `drawrivers()` function to add major rivers on the map
 
 * The `drawrivers()` function can take `linewidth`, `linestyle`, `color` arguments 
-
-
+* 
 ```python
 fig = plt.figure(figsize = (12,12))
 m = Basemap()
@@ -169,15 +147,11 @@ plt.show()
 ```
 
 <img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_16_0.png" />   
-
-    
-![png](output_16_0.png)
     
 **`Fill continents`**
 
 * This function is used to draw color filled continents 
 * Use `fillcontinents()` function to fill continents
-
 
 ```python
 fig = plt.figure(figsize = (12,12))
@@ -188,13 +162,7 @@ m.fillcontinents()
 plt.title("Color filled continents", fontsize=20)
 plt.show()
 ```
-
 <img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_18_0.png" />   
-
-  
-![png](output_18_0.png)
-    
-
 
 The `fillcontinents()` function can take the following arguments:
 
@@ -203,7 +171,6 @@ The `fillcontinents()` function can take the following arguments:
 * `lake_color`: fills inland lakes
 
 * `alpha`: sets transparency for continents
-
 
 ```python
 fig = plt.figure(figsize = (12,12))
@@ -216,12 +183,6 @@ plt.show()
 ```
 <img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_20_0.png" />   
 
-
-    
-![png](output_20_0.png)
-    
-
-
 **e) `Draw map boundary`**
 
 * The `drawmapboundary()` function is used to draw the earth boundary on the map
@@ -233,7 +194,6 @@ plt.show()
   
   * `fill_color`:	fills the map background region 
 
-
 ```python
 fig = plt.figure(figsize = (12,12))
 m = Basemap()
@@ -244,13 +204,7 @@ m.drawmapboundary(color='b', linewidth=2.0, fill_color='aqua')
 plt.title("Filled map boundary", fontsize=20)
 plt.show()
 ```
-
 <img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_22_0.png" />   
-
- 
-![png](output_22_0.png)
-    
-
 
 **`Draw and label longitude lines`**
 
@@ -269,8 +223,6 @@ plt.show()
    
    * `labels`: sets the label's position with four values [0,0,0,0] representing left, right, top, & bottom. Change these values to 1 where you want the labels to appear
    
-
-
 ```python
 fig = plt.figure(figsize = (12,12))
 m = Basemap()
@@ -281,19 +233,13 @@ m.drawmeridians(range(0, 360, 20), color='k', linewidth=1.0, dashes=[4, 4], labe
 plt.title("Longitude lines", fontsize=20, pad=30)
 plt.show()
 ```
-
 <img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_24_0.png" />   
    
-![png](output_24_0.png)
-    
-
-
 **`Draw and label latitude lines`**
 
 * The `drawparallels()` function is used to draw & label parallels/latitude lines
 
 * The `drawparallels()`function uses similar arguments like `drawmeridians()`
-
 
 ```python
 fig = plt.figure(figsize = (12,12))
@@ -305,16 +251,9 @@ m.drawparallels(range(-90, 100, 10), color='k', linewidth=1.0, dashes=[4, 4], la
 plt.title("Latitude lines", fontsize=20)
 plt.show()
 ```
-
 <img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_26_0.png" />   
 
-    
-![png](output_26_0.png)
-    
-
-
 **Let's put the `drawmeridians` and `drawparallels` functions together**
-
 
 ```python
 fig = plt.figure(figsize = (12,12))
@@ -332,11 +271,6 @@ plt.xlabel("Longitude", fontsize=15, labelpad=20)
 plt.show()
 ```
 <img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_28_0.png" />   
-
-
-![png](output_28_0.png)
-    
-
 
 ## Projection, bounding box, & resolution 
 
@@ -400,7 +334,6 @@ Let's see some examples  on how the `map projection`, `bounding box`, `map cente
 
 **Create a global map with a Mercator Projection**
 
-
 ```python
 fig = plt.figure(figsize = (10,8))
 m = Basemap(projection='merc',llcrnrlat=-80,urcrnrlat=80,llcrnrlon=-180,urcrnrlon=180)
@@ -410,23 +343,11 @@ m.drawcountries(linewidth=1, linestyle='solid', color='k' )
 m.drawmapboundary(fill_color='lightblue')
 plt.title("Mercator Projection", fontsize=20)
 ```
-
-
-
-
-    Text(0.5, 1.0, 'Mercator Projection')
-
+Text(0.5, 1.0, 'Mercator Projection')
 
 <img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_35_1.png" />   
 
-
-    
-![png](output_35_1.png)
-    
-
-
 **Create a global map with a Cylindrical Equidistant Projection**
-
 
 ```python
 fig = plt.figure(figsize = (10,8))
@@ -437,23 +358,11 @@ m.drawcountries(linewidth=1, linestyle='solid', color='k' )
 m.drawmapboundary(fill_color='lightblue')
 plt.title(" Cylindrical Equidistant Projection", fontsize=20)
 ```
-
-
-
-
-    Text(0.5, 1.0, ' Cylindrical Equidistant Projection')
-
-
+Text(0.5, 1.0, ' Cylindrical Equidistant Projection')
 
 <img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_37_1.png" />   
 
-    
-![png](output_37_1.png)
-    
-
-
 **Create a global map with a Orthographic Projection**
-
 
 ```python
 fig = plt.figure(figsize = (10,8))
@@ -465,22 +374,11 @@ m.drawmapboundary(fill_color='lightblue')
 plt.title("Orthographic Projection", fontsize=18)
 ```
 
-
-
-
-    Text(0.5, 1.0, 'Orthographic Projection')
-
+Text(0.5, 1.0, 'Orthographic Projection')
 
 <img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_39_1.png" />   
 
-
-    
-![png](output_39_1.png)
-    
-
-
 **Create a global map with a Robinson Projection**
-
 
 ```python
 fig = plt.figure(figsize = (10,8))
@@ -491,20 +389,9 @@ m.drawcountries(linewidth=1, linestyle='solid', color='k' )
 m.drawmapboundary(fill_color='lightblue')
 plt.title(" Robinson Projection", fontsize=20)
 ```
+Text(0.5, 1.0, ' Robinson Projection')
 
-
-
-
-    Text(0.5, 1.0, ' Robinson Projection')
-
-
-<img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_41_1.png" />   
-
-
-    
-![png](output_41_1.png)
-    
-
+<img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_41_1.png" />       
 
 ## Plotting a specific region   
 
@@ -522,17 +409,10 @@ m.drawmapboundary(fill_color='lightblue')
 m.drawcoastlines()
 plt.show()
 ```
-
 <img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_43_0.png" />   
-
     
-![png](output_43_0.png)
-    
-
-
 **b) By passing the `central longitude` & `central latitude`, as well as the `width`, & `height` values.  
 Here, the `width` and `height` are given in meters.**
-
 
 ```python
 fig = plt.figure(num=None, figsize=(12, 8) ) 
@@ -543,18 +423,11 @@ m.drawcountries(linewidth=1, linestyle='solid', color='k' )
 m.drawcoastlines()
 plt.show()
 ```
-
 <img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_45_0.png" />   
-
-    
-![png](output_45_0.png)
-    
-
 
 **c) Make a regional map using the EPSG projection code**
 
 **To find out more about the EPSG projection code, visit [spatialreference.org](https://spatialreference.org/ref/epsg/)**
-
 
 ```python
 fig = plt.figure(figsize = (10,8))
@@ -565,20 +438,9 @@ m.drawcountries(linewidth=1, linestyle='solid', color='k' )
 m.drawmapboundary(fill_color='lightblue')
 plt.title("Make a regional map using the EPSG projection code", fontsize=18) 
 ```
-
-
-
-
-    Text(0.5, 1.0, 'Make a regional map using the EPSG projection code')
-
-
+Text(0.5, 1.0, 'Make a regional map using the EPSG projection code')
 
 <img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_47_1.png" />   
-
-    
-![png](output_47_1.png)
-    
-
 
 **Let's see how the `resolution argument` affects `coastlines`, `lakes`, `country boundary lines`**
 
@@ -627,20 +489,9 @@ m4.drawcountries(linewidth=1, linestyle='solid', color='k' )
 m4.drawmapboundary(fill_color='lightblue')
 ax4.set_title("High resolution", fontsize=18)
 ```
-
-
-
-
-    Text(0.5, 1.0, 'High resolution')
-
-
+Text(0.5, 1.0, 'High resolution')
 
 <img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_49_1.png" />   
-
-    
-![png](output_49_1.png)
-    
-
 
 ## Background relief maps
 
@@ -678,19 +529,12 @@ m.drawcountries(linewidth=1, linestyle='solid', color='k' )
 plt.title("Land-sea mask image", fontsize=20)
 plt.show()
 ```
-
 <img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_52_0.png" />   
-
-    
-![png](output_52_0.png)
-    
-
 
 **b) NASA Blue Marble image**
 
 * Use the `bluemarble()` argument to apply the NASA blue marble image as a background map 
 * To downgrade or upgrade image resolution use the scale argument
-
 
 ```python
 fig = plt.figure(figsize = (10,8))
@@ -700,20 +544,9 @@ m.drawcoastlines()
 m.drawcountries(linewidth=1, linestyle='solid', color='k' ) 
 plt.title("NASA Blue Marble image as background map", fontsize=18) 
 ```
-
-
-
-
-    Text(0.5, 1.0, 'NASA Blue Marble image as background map')
-
-
+Text(0.5, 1.0, 'NASA Blue Marble image as background map')
 
 <img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_54_1.png" />   
-
-    
-![png](output_54_1.png)
-    
-
 
 **c) Shaded relief image**
 
@@ -728,25 +561,13 @@ m.drawcoastlines()
 m.drawcountries(linewidth=1, linestyle='solid', color='k' ) 
 plt.title("Shaded relief image as background map", fontsize=18) 
 ```
-
-
-
-
     Text(0.5, 1.0, 'NASA Blue Marble image as background')
 
-
-
 <img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_56_1.png" />   
-
-    
-![png](output_56_1.png)
-    
-
 
 **d) NOAA`etopo` relief image**
 
 Use `etopo()` argument to apply shaded relief image as a background map
-
 
 ```python
 fig = plt.figure(figsize = (10,8))
@@ -756,19 +577,10 @@ m.drawcoastlines()
 m.drawcountries(linewidth=1, linestyle='solid', color='k' ) 
 plt.title("Shaded relief image as background map", fontsize=18) 
 ```
-
-
-
-
     Text(0.5, 1.0, 'Shaded relief image as background map')
 
 
 <img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_58_1.png" />   
-
-    
-![png](output_58_1.png)
-    
-
 
 ## Plotting netCDF data using Basemap
 
@@ -776,22 +588,18 @@ plt.title("Shaded relief image as background map", fontsize=18)
 
 To read the netcdf data, we'll use the `Dataset` class from the `netcdf4-python` library
 
-
 ```python
 from netCDF4 import Dataset as dataset
 ```
-
 
 ```python
 nc = dataset('/home/yoni/Documents/Tutorials/Basemap/ECMWF_temp2m.nc')
 ```
 
-
 ```python
 import warnings
 warnings.filterwarnings('ignore')
 ```
-
 
 ```python
 print(nc)
@@ -855,18 +663,11 @@ plt.show()
 ```
 <img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_69_0.png" />   
 
-
-    
-![png](output_69_0.png)
-    
-
-
 **Plotting contour maps:**
 
 * Use the `contour()` function to draw contour maps 
 
 * The `contour()` function uses similar arguments like `contourf()`
-
 
 ```python
 fig = plt.figure(num=None, figsize=(7, 7)) 
@@ -895,18 +696,11 @@ plt.title('2-meter temperature contour map', fontsize=15)
 
 plt.show()
 ```
-
 <img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_71_0.png" />   
-
-    
-![png](output_71_0.png)
-    
-
 
 **Plotting pseudo color maps:**
 
 * Use the `pcolor()` or `pcolormesh()` function to draw  pseudo color maps 
-
 
 ```python
 fig = plt.figure(figsize=(7, 7) ) 
@@ -937,9 +731,4 @@ plt.title('2-meter temperature pseudo-color map', fontsize=15)
 
 plt.show()
 ```
-
-<img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_73_0.png" />   
-
-    
-![png](output_73_0.png)
-    
+<img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_73_0.png" />      
