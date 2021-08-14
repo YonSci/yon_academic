@@ -319,6 +319,10 @@ The **`Basemap()`** function is used to set **`projection`**, **`bounding box`**
 
 * To specify the desired projection, use the general syntax shown below:
 
+```python 
+m = Basemap(projection='aeqd')  
+m = Basemap(projection='cyl')
+```
  > m = Basemap(projection='aeqd')  
  > m = Basemap(projection='cyl')
 
@@ -655,7 +659,7 @@ To read the netcdf data, we'll use the `Dataset` class from the `netcdf4-python`
 </div>
 </div>
 
-The netCDF data used in this tutorial have been saved at this <a href="https://yonsci.github.io/yon_academic//files/Basemap_data/ECMWF_temp2m.nc" target="_top">URL</a> 
+The netCDF data used in this tutorial have been saved at this <a href="https://yonsci.github.io/yon_academic//files/Basemap_data/ECMWF_temp2m.nc" target="_top">URL.</a> The netCDF file has 2-meter air temperature reanalysis data for the entire globe.
 
 <div class="language-python highlighter-rouge">
 <div class="highlight">
@@ -792,3 +796,9 @@ plt.show()</span></code></pre>
 </div>
 
 <img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_73_0.png" />      
+
+Well done! 🥇🥇🥇
+
+I hope this tutorial has taught you the basics of Basemap plotting; if you found it useful, please leave your feedback in the comments!
+
+{% include comments.html %}
