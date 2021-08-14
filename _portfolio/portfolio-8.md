@@ -10,13 +10,6 @@ image: https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_6
 ---
 Basemap is a matplotlib extension used to visualize and create geographical maps in python. The main purpuse of this tutorial is to provide basic information on how to plot and visualize geographical data with the help of Basemap package. If you need further imformation on basemap, please visit [basemap](https://matplotlib.org/basemap/index.html) page.
 
-Advanatge of Basemap:  
-1) It employs the same plotting techniques as the Matplotlib library. If you are familiar with Matplotlib, it is very simple to use.
-2) Basemap includes coastline, rivers, state, lakes, political/country boundaries dataset at several different resolutions. 
-3) It provides high-resolution relief images, & 
-4) many more...
----
-
 * Table of contents
 {:toc}
 
