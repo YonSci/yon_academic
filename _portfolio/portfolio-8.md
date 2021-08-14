@@ -16,7 +16,7 @@ Advanatge of Basemap:
 * It provides high-resolution relief images.  
 ---
 
-* Table of contents
+Table of contents
 {:toc}
 
 ## Installing Basemap package
@@ -669,7 +669,7 @@ The netCDF data used in this tutorial have been saved at this <a href="https://y
 </div>
 </div>
 
-**Let's read the coordinate variables (latitude, longitude, & time) & data variables (2-meter temperature)**
+Let's read the coordinate variables (latitude, longitude, & time) & data variable (2-meter temperature) of the netCDF file.
 
 <div class="language-python highlighter-rouge">
 <div class="highlight">
