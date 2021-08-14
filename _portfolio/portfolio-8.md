@@ -655,10 +655,12 @@ To read the netcdf data, we'll use the `Dataset` class from the `netcdf4-python`
 </div>
 </div>
 
+The netCDF data used in this tutorial have been saved at this <a href="https://yonsci.github.io/yon_academic//files/Basemap_data/ECMWF_temp2m.nc" target="_top">URL</a> 
+
 <div class="language-python highlighter-rouge">
 <div class="highlight">
 <pre class="highlight">
-<code><span style="font-size: 200%;color:#0000ff">nc = dataset('/home/yoni/Documents/Tutorials/Basemap/ECMWF_temp2m.nc')</span></code></pre>
+<code><span style="font-size: 200%;color:#0000ff">nc = dataset('.../ECMWF_temp2m.nc')</span></code></pre>
 </div>
 </div>
 
