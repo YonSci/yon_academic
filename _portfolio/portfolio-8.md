@@ -8,10 +8,10 @@ image: https://yonsci.github.io/yon_academic//images/cover3.jpg
 <img src="{{page.image}}" width="500" height="100" />
 
 ---
-Basemap is a matplotlib extension used to visualize and create geographical maps in python. The main purpuse of this tutorial is to provide basic information on how to plot and visualize geographical data with the help of `Basemap` package. If you need further imformation on basemap, please visit [basemap](https://matplotlib.org/basemap/index.html) page.
+Basemap is a matplotlib extension used to visualize and create geographical maps in python. The main purpuse of this tutorial is to provide basic information on how to plot and visualize geographical data with the help of Basemap package. If you need further imformation on basemap, please visit [basemap](https://matplotlib.org/basemap/index.html) page.
 
 
-Advanatge of Basemap
+Advanatge of Basemap:  
 * It employs the same plotting techniques as the Matplotlib library. If you are familiar with Matplotlib, it is very simple to use.
 * Basemap includes coastline, rivers, state, lakes, political/country boundaries dataset at several different resolutions. 
 * It provides high-resolution relief images.
@@ -21,7 +21,6 @@ Advanatge of Basemap
 
 ## Installing Basemap package
 ---
-
 <div align="justify"> To install Basemap, the conda package manager will be utilized. If you haven't already installed Anacond/conda package manager on your PC , there is a blog post on how to install <a href="https://yonsci.github.io/yon_academic//portfolio/portfolio-2/" target="_top">Anaconda/conda package manager </a>  </div> <br>
 
 1) Start an Ubuntu terminal or an Anaconda prompt
@@ -71,12 +70,6 @@ Advanatge of Basemap
 import matplotlib.pyplot as plt</span></code></pre>
 </div>
 </div>
-
-
-```python
-from mpl_toolkits.basemap import Basemap
-import matplotlib.pyplot as plt
-```
 
 ## Adding vector layers to a map
 
