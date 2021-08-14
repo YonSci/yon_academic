@@ -77,13 +77,17 @@ import matplotlib.pyplot as plt</span></code></pre>
 * First, let's initialize a map with `Basemap()` function
 * Then, use the `drawcoastlines()` function to add coastlines on the map
 
-```python
-fig = plt.figure(figsize = (12,12))
+<div class="language-python highlighter-rouge">
+<div class="highlight">
+<pre class="highlight">
+<code><span style="font-size: 200%;color:#0000ff">fig = plt.figure(figsize = (12,12)) 
 m = Basemap()
 m.drawcoastlines()
 plt.title("Coastlines", fontsize=20)
-plt.show()
-```
+plt.show()</span></code></pre>
+</div>
+</div>
+
 <img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_7_0.png" />   
 
 The `drawcoastlines` function has the following main arguments:
@@ -93,14 +97,16 @@ The `drawcoastlines` function has the following main arguments:
 
 **Let's apply some changes to the coastlines**
 
-
-```python
-fig = plt.figure(figsize = (12,12))
+<div class="language-python highlighter-rouge">
+<div class="highlight">
+<pre class="highlight">
+<code><span style="font-size: 200%;color:#0000ff">fig = plt.figure(figsize = (12,12))
 m = Basemap()
 m.drawcoastlines(linewidth=1.0, linestyle='dashed', color='red')
 plt.title("Coastlines", fontsize=20)
-plt.show()
-```
+plt.show()</span></code></pre>
+</div>
+</div>
 
 <img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_10_0.png" />   
 
