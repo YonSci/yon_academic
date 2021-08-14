@@ -16,11 +16,6 @@ Advanatge of Basemap
 * Basemap includes coastline, rivers, state, lakes, political/country boundaries dataset at several different resolutions. 
 * It provides high-resolution relief images.
 
-
-```python
-Creating geographical maps with Basemap python package
-```
-
 * Table of contents
 {:toc}
 
