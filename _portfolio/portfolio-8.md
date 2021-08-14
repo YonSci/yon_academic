@@ -82,10 +82,9 @@ import matplotlib.pyplot as plt
 
 ## Adding vector layers to a map
 
-### a) `Coastlines`
+### `Coastlines`
 * First, let's initialize a map with `Basemap()` function
 * Then, use the `drawcoastlines()` function to add coastlines on the map
-
 
 ```python
 fig = plt.figure(figsize = (12,12))
@@ -94,7 +93,7 @@ m.drawcoastlines()
 plt.title("Coastlines", fontsize=20)
 plt.show()
 ```
-
+<img src="https://yonsci.github.io/yon_academic//files/Geopandas_data/Output/output_57_1.png" width="400" height="400" />   
 
     
 ![png](output_7_0.png)
