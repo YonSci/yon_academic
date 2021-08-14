@@ -93,7 +93,7 @@ m.drawcoastlines()
 plt.title("Coastlines", fontsize=20)
 plt.show()
 ```
-<img src="https://yonsci.github.io/yon_academic//files/Geopandas_data/Output/output_57_1.png" width="400" height="400" />   
+<img src="https://yonsci.github.io/yon_academic//files/Basemap_data/Output/output_7_0.png" />   
 
     
 ![png](output_7_0.png)
