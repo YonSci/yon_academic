@@ -1,8 +1,8 @@
 ---
 title: "CDO, NCL, & NCO Installation"
-header-img: "https://yonsci.github.io/yon_academic//images/cover3.jpg"
+header-img: "https://yonsci.github.io/yon_academic//images/p2.png"
 collection: portfolio
-image: https://yonsci.github.io/yon_academic//images/cover3.jpg
+image: https://yonsci.github.io/yon_academic//images/p2.png
 ---
 
 <img src="{{page.image}}" width="500" height="100" />
