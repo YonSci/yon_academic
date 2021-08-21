@@ -10,7 +10,7 @@ redirect_from:
 This page provides: 
 
 - [Installation instructions](https://yonsci.github.io/yon_academic//portfolio/) for weather & climate processing tools such as [NCL](https://yonsci.github.io/yon_academic//portfolio/portfolio-9/), [NCO](https://yonsci.github.io/yon_academic//portfolio/portfolio-9/), [CDO](https://yonsci.github.io/yon_academic//portfolio/portfolio-9/), `Grads`, `Panoply`, & `MeteoInfo`, among others.
-- [Tutorials](https://yonsci.github.io/yon_academic//portfolio/portfolio-7/) on data analysis & visualization methods mainly using `Python` & `R` programming languages (with some practical examples).
+- [Tutorials](https://yonsci.github.io/yon_academic//portfolio/) on data analysis & visualization methods mainly using `Python` & `R` programming languages (with some practical examples).
 - Links to different [scientific datasets](https://yonsci.github.io/yon_academic//datasets/)
 - [Lecture notes](https://yonsci.github.io/yon_academic//teaching/) 
 - Some [blogs](https://yonsci.github.io/yon_academic//year-archive/) to share the recent knowledge & whatever comes to my mind 😎 ...
