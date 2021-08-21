@@ -9,8 +9,6 @@ author_profile: true
  
 ## [Anaconda Installation](https://yonsci.github.io/yon_academic//portfolio/portfolio-2/)
 
-## [CDO, NCO, & NCL Installation](https://yonsci.github.io/yon_academic//portfolio/portfolio-3/)  
-
 ## [Python Geopandas package for shapefile management](https://yonsci.github.io/yon_academic//portfolio/portfolio-7/) 
 
 ## [Mapping Geographical Data with Basemap Python Package](https://yonsci.github.io/yon_academic//portfolio/portfolio-8/) 
