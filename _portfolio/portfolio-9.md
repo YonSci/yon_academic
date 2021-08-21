@@ -172,6 +172,6 @@ When you have completed your work with your CDO, type:
 
 Follow the same procedure to work with other packages.
 
-**Well done! 🥇🥇🥇 Good luck!!!** 
+**Well done! 🥇🥇🥇 Your feedback is greatly appreciated!!!** 
 
 {% include comments.html %}
