@@ -5,7 +5,7 @@ permalink: /Projects-Research/
 author_profile: true
 ---
 
-<div><video src="https://i.windy.com/a/1v0pl/5efs1k.mp4" controls autoplay loop muted></video><div>Source: <a href="https://www.windy.com">Windy.com</a></div></div>
+<div><video src="https://i.windy.com/a/1v0pl/5efs1k.mp4" controls autoplay loop muted></video><div></div></div>
 
 
 {% include social-share.html %}
