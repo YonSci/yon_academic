@@ -5,6 +5,11 @@ permalink: /Projects-Research/
 author_profile: true
 ---
 
+<head>
+<script src="https://github.com/YonSci/yon_academic/blob/e5527b64a5321032a66d062cb7a8c5440ee6eafb/assets/js/plugins/jquery.fitvids.js"></script>
+</head>
+
+
 <input type="image" src="https://github.com/YonSci/yon_academic/blob/master/images/day19.png?raw=true" onMouseOver="this.src='https://github.com/YonSci/yon_academic/blob/master/images/day19.png?raw=true'" onMouseOut="this.src='derp.png'">
 
 
