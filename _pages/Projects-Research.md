@@ -67,12 +67,11 @@ $('#div'+myvar).show();
 
 <a id="home"><img class="image_on" src="https://github.com/YonSci/yon_academic/blob/master/images/day19.png?raw=true" width="300" height="300" alt="logo" /><img class="image_off" src="https://github.com/YonSci/yon_academic/blob/master/images/day19.png?raw=true" width="300" height="300" alt="logo" /></a>
 
-.image_off, #home:hover .image_on{
-   display:none
-}
-.image_on, #home:hover .image_off{
-   display:block
-}
+ <div class="responsive">
+      <div class="gallery">
+        <a>
+          <img src="https://github.com/YonSci/yon_academic/blob/master/images/day19.png?raw=true" alt="Cinque Terre" width="600" height="400">
+        </a>
 
 
 {% include social-share.html %}
