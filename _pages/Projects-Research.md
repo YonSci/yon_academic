@@ -52,16 +52,16 @@ $('#div'+myvar).show();
 <h2 class="text-center heading">Hover Below list Buttons to display div</h2>
 <div class="text-center">
 <ul class="list-inline">
-<li class="mymultiplediv" id="one">Show Manager</li>
-<li class="mymultiplediv" id="two">Show HR</li>
-<li class="mymultiplediv" id="three">Show Developer</li>
-<li class="mymultiplediv" id="fore">Show Designer</li>
+<li class="mymultiplediv" id="one">Date: 18-01-2022</li>
+<li class="mymultiplediv" id="two">Date: 19-01-2022</li>
+<li class="mymultiplediv" id="three">Date: 20-01-2022</li>
+<li class="mymultiplediv" id="fore">Date: 21-01-2022</li>
 </ul>
 </div>
-<div class="mydiv" id="divone"><img src="/images/user1.jpg" alt="Manager" class="img-responsive img-thumbnail"/><span>Manager</span></div>
-<div class="mydiv" id="divtwo"><img src="/images/user2.jpg" alt="HR" class="img-responsive img-thumbnail"/><span>HR</span></div>
-<div class="mydiv" id="divthree"><img src="/images/user3.jpg" alt="Developer" class="img-responsive img-thumbnail"/><span>Developer</span></div>
-<div class="mydiv" id="divfore"><img src="/images/user4.jpg" alt="Designer" class="img-responsive img-thumbnail"/><span>Designer</span></div>
+<div class="mydiv" id="divone"><img src="https://github.com/YonSci/yon_academic/blob/22312f43733f3b9e910941e2cbb1b2a984e4958a/images/day18.png" alt="Manager" class="img-responsive img-thumbnail"/><span>Manager</span></div>
+<div class="mydiv" id="divtwo"><img src="https://github.com/YonSci/yon_academic/blob/22312f43733f3b9e910941e2cbb1b2a984e4958a/images/day19.png" alt="HR" class="img-responsive img-thumbnail"/><span>HR</span></div>
+<div class="mydiv" id="divthree"><img src="https://github.com/YonSci/yon_academic/blob/22312f43733f3b9e910941e2cbb1b2a984e4958a/images/day20.png" alt="Developer" class="img-responsive img-thumbnail"/><span>Developer</span></div>
+<div class="mydiv" id="divfore"><img src="https://github.com/YonSci/yon_academic/blob/22312f43733f3b9e910941e2cbb1b2a984e4958a/images/day21.png" alt="Designer" class="img-responsive img-thumbnail"/><span>Designer</span></div>
 
 
 {% include social-share.html %}
