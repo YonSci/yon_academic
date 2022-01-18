@@ -13,7 +13,7 @@ author_profile: true
 <script src="https://github.com/YonSci/yon_academic/blob/e41365ae3f22fb2df522c19bb705a801616eea99/assets/js/plugins/jquery-3.6.0.min.js"></script>
 </head>
 
-<input type="image" src="https://github.com/YonSci/yon_academic/blob/master/images/day19.png?raw=true" onMouseOver="this.src='https://github.com/YonSci/yon_academic/blob/master/images/day19.png?raw=true'" onMouseOut="this.src='derp.png'" width="300" height="300" >
+<input type="image" src="https://github.com/YonSci/yon_academic/blob/master/images/day19.png?raw=true" width="300" height="300" onMouseOver="this.src='https://github.com/YonSci/yon_academic/blob/master/images/day19.png?raw=true'" onMouseOut="this.src='derp.png'" width="300" height="300" >
 
 
 <style>
