@@ -4,9 +4,6 @@ title: "Project & Research"
 permalink: /Projects-Research/
 author_profile: true
 ---
-Low cloud 6-hour (7:40am-1:40pm) animation from the EUMETSAT product over Ethiopia on  Wednesday, September 29th
-<div><video src="https://i.windy.com/a/1v0pl/5efs1k.mp4" controls autoplay loop muted></video><div></div></div>
-
 <style>
 .mymultiplediv{
 cursor:pointer;
@@ -58,10 +55,10 @@ $('#div'+myvar).show();
 <li class="mymultiplediv" id="fore">Date: 21-01-2022</li>
 </ul>
 </div>
-<div class="mydiv" id="divone"><img src="https://github.com/YonSci/yon_academic/blob/22312f43733f3b9e910941e2cbb1b2a984e4958a/images/day18.png" alt="Manager" class="img-responsive img-thumbnail"/><span>Manager</span></div>
-<div class="mydiv" id="divtwo"><img src="https://github.com/YonSci/yon_academic/blob/22312f43733f3b9e910941e2cbb1b2a984e4958a/images/day19.png" alt="HR" class="img-responsive img-thumbnail"/><span>HR</span></div>
-<div class="mydiv" id="divthree"><img src="https://github.com/YonSci/yon_academic/blob/22312f43733f3b9e910941e2cbb1b2a984e4958a/images/day20.png" alt="Developer" class="img-responsive img-thumbnail"/><span>Developer</span></div>
-<div class="mydiv" id="divfore"><img src="https://github.com/YonSci/yon_academic/blob/22312f43733f3b9e910941e2cbb1b2a984e4958a/images/day21.png" alt="Designer" class="img-responsive img-thumbnail"/><span>Designer</span></div>
+<div class="mydiv" id="divone"><img src="https://github.com/YonSci/yon_academic/blob/master/images/day19.png?raw=true width="300" height="300" " alt="Date: 18-01-2022" class="img-responsive img-thumbnail"/><span>Manager</span></div>
+<div class="mydiv" id="divtwo"><img src="https://github.com/YonSci/yon_academic/blob/22312f43733f3b9e910941e2cbb1b2a984e4958a/images/day19.png width="300" height="300" " alt="Date: 19-01-2022" class="img-responsive img-thumbnail"/><span>HR</span></div>
+<div class="mydiv" id="divthree"><img src="https://github.com/YonSci/yon_academic/blob/22312f43733f3b9e910941e2cbb1b2a984e4958a/images/day20.png width="300" height="300" " alt="Date: 20-01-2022" class="img-responsive img-thumbnail"/><span>Developer</span></div>
+<div class="mydiv" id="divfore"><img src="https://github.com/YonSci/yon_academic/blob/22312f43733f3b9e910941e2cbb1b2a984e4958a/images/day21.png width="300" height="300" " alt="Date: 21-01-2022" class="img-responsive img-thumbnail"/><span>Designer</span></div>
 
 
 {% include social-share.html %}
