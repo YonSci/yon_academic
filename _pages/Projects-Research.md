@@ -70,7 +70,7 @@ $('#div'+myvar).show();
  <div class="responsive">
       <div class="gallery">
         <a>
-          <img src="https://github.com/YonSci/yon_academic/blob/master/images/day19.png?raw=true" alt="Cinque Terre" width="600" height="600">
+          <img src="https://github.com/YonSci/yon_academic/blob/master/images/day19.png?raw=true" alt="Cinque Terre" width="600" height="600" caption="This is a sample caption" >
         </a>
 
 
