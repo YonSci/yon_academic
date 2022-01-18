@@ -80,11 +80,7 @@ $('#div'+myvar).show();
 <div class="mydiv" id="divfour"><img src="https://github.com/YonSci/yon_academic/blob/22312f43733f3b9e910941e2cbb1b2a984e4958a/images/day21.png?raw=true" width="300" height="300" alt="Date: 21-01-2022" class="img-responsive img-thumbnail"/><span>Date: 21-01-2022</span></div>  
 <div class="mydiv" id="divfive"><img src="https://github.com/YonSci/yon_academic/blob/22312f43733f3b9e910941e2cbb1b2a984e4958a/images/day22.png?raw=true" width="300" height="300" alt="Date: 22-01-2022" class="img-responsive img-thumbnail"/><span>Date: 22-01-2022</span></div>  
 
-<li>
-      <input type="button" ID="button_1" value="Button 1" /> &nbsp; 
-      <input type="button" ID="button_2" value="Button 2" /> &nbsp; 
-      <input type="button" ID="button_3" value="Button 3" /> &nbsp; 
-</li>
+
   
   
   <h2 class="text-center heading">Hover on the buttons to display the forecast map for each day</h2>
@@ -100,5 +96,74 @@ $('#div'+myvar).show();
 <div class="mydiv" id="divthree"><img src="https://github.com/YonSci/yon_academic/blob/22312f43733f3b9e910941e2cbb1b2a984e4958a/images/day20.png?raw=true" width="300" height="300" alt="Date: 20-01-2022" class="img-responsive img-thumbnail"/><Date: 20-01-2022</span></div>
 
   
+ <style>
+.mymultiplediv{
+cursor:pointer;
+}
+.mymultiplediv{
+width: 120px;
+border: 1px solid #ccc;
+margin: 8px;
+padding: 8px;
+color: #fff;
+border-radius: 2px;
+border: 1px solid #000;
+background: #7d7474;
+text-align: center;
+}
+.mydiv{
+display:none;
+padding:8px;
+text-align:center;
+}
+.mydiv img{
+margin: 0 auto;
+}
+.mydiv span{
+text-align: center;
+background: #ffdede;
+padding: 6px 10px;
+display: block;
+width: 100px;
+border: 1px solid #d47c7c;
+margin: 8px auto;
+}
+</style>
+
+<script>
+$(document).ready(function(){
+$('.mymultiplediv').mouseover(function() {
+myvar = this.id;
+$("div.mydiv").hide();
+$('#div'+myvar).show();
+});
+});
+</script>
+  
+<h2 class="text-center heading">Hover on the buttons to display the forecast map for each day</h2>
+<div class="text-center">
+  
+<li>
+  <class="mymultiplediv" id="one">18-01-2022 /> &nbsp; 
+  <class="mymultiplediv" id="two">19-01-2022/> &nbsp; 
+  <class="mymultiplediv" id="three">20-01-2022 /> &nbsp; 
+  <class="mymultiplediv" id="four">21-01-2022 /> &nbsp; 
+  <class="mymultiplediv" id="five">22-01-2022 /> &nbsp; 
+</li>
+  
+</div>
+<div class="mydiv" id="divone"><img src="https://github.com/YonSci/yon_academic/blob/22312f43733f3b9e910941e2cbb1b2a984e4958a/images/day18.png?raw=true" width="300" height="300" alt="Date: 18-01-2022" class="img-responsive img-thumbnail"/><span>Date: 18-01-2022</span></div>
+<div class="mydiv" id="divtwo"><img src="https://github.com/YonSci/yon_academic/blob/22312f43733f3b9e910941e2cbb1b2a984e4958a/images/day19.png?raw=true" width="300" height="300" alt="Date: 19-01-2022" class="img-responsive img-thumbnail"/><Date: 19-01-2022></div>
+<div class="mydiv" id="divthree"><img src="https://github.com/YonSci/yon_academic/blob/22312f43733f3b9e910941e2cbb1b2a984e4958a/images/day20.png?raw=true" width="300" height="300" alt="Date: 20-01-2022" class="img-responsive img-thumbnail"/><Date: 20-01-2022</span></div>
+<div class="mydiv" id="divfour"><img src="https://github.com/YonSci/yon_academic/blob/22312f43733f3b9e910941e2cbb1b2a984e4958a/images/day21.png?raw=true" width="300" height="300" alt="Date: 21-01-2022" class="img-responsive img-thumbnail"/><span>Date: 21-01-2022</span></div>  
+<div class="mydiv" id="divfive"><img src="https://github.com/YonSci/yon_academic/blob/22312f43733f3b9e910941e2cbb1b2a984e4958a/images/day22.png?raw=true" width="300" height="300" alt="Date: 22-01-2022" class="img-responsive img-thumbnail"/><span>Date: 22-01-2022</span></div>  
+ 
+  
+  
+ <li>
+      <input type="button" ID="button_1" value="Button 1" /> &nbsp; 
+      <input type="button" ID="button_2" value="Button 2" /> &nbsp; 
+      <input type="button" ID="button_3" value="Button 3" /> &nbsp; 
+</li> 
   
 </body>
