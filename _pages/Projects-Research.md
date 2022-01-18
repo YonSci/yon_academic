@@ -65,5 +65,8 @@ $('#div'+myvar).show();
 <div class="mydiv" id="divfore"><img src="https://github.com/YonSci/yon_academic/blob/22312f43733f3b9e910941e2cbb1b2a984e4958a/images/day21.png width="300" height="300" " alt="Date: 21-01-2022" class="img-responsive img-thumbnail"/><span>Designer</span></div>
 
 
+<a id="home"><img class="image_on" src="https://github.com/YonSci/yon_academic/blob/master/images/day19.png?raw=true" width="300" height="300" alt="logo" /><img class="image_off" src="https://github.com/YonSci/yon_academic/blob/master/images/day19.png?raw=true" width="300" height="300" alt="logo" /></a>
+
+
 {% include social-share.html %}
 {% include comments.html %}
