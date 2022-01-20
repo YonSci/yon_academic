@@ -5,34 +5,29 @@ permalink: /teaching/
 author_profile: true
 ---
 
-
-
-
-
-
-from urllib.request import urlopen
 import json
-with urlopen('https://raw.githubusercontent.com/plotly/datasets/master/geojson-counties-fips.json') as response:
-    counties = json.load(response)
 
-import pandas as pd
-df = pd.read_csv("https://raw.githubusercontent.com/plotly/datasets/master/fips-unemp-16.csv",
-                   dtype={"fips": str})
+from bokeh.io import output_file, show
+from bokeh.models import GeoJSONDataSource
+from bokeh.plotting import figure
+from bokeh.sampledata.sample_geojson import geojson
 
-import plotly.express as px
+output_file("geojson.html")
 
-fig = px.choropleth_mapbox(df, geojson=counties, locations='fips', color='unemp',
-                           color_continuous_scale="Viridis",
-                           range_color=(0, 12),
-                           mapbox_style="carto-positron",
-                           zoom=3, center = {"lat": 37.0902, "lon": -95.7129},
-                           opacity=0.5,
-                           labels={'unemp':'unemployment rate'}
-                          )
-fig.update_layout(margin={"r":0,"t":0,"l":0,"b":0})
-fig.show()
+data = json.loads(geojson)
+for i in range(len(data['features'])):
+    data['features'][i]['properties']['Color'] = ['blue', 'red'][i%2]
 
+geo_source = GeoJSONDataSource(geojson=json.dumps(data))
 
+TOOLTIPS = [
+    ('Organisation', '@OrganisationName')
+]
+
+p = figure(background_fill_color="lightgrey", tooltips=TOOLTIPS)
+p.circle(x='x', y='y', size=15, color='Color', alpha=0.7, source=geo_source)
+
+show(p)
 
 {% include base_path %}
 {% for post in site.teaching reversed %}
