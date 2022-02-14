@@ -17,10 +17,10 @@ author_profile: true
 - [Climate Prediction center](https://www.cpc.ncep.noaa.gov/data/indices/)
 
 ### Land Reanalysis
-- [ERA5-Land climate data dtore](https://cds.climate.copernicus.eu/cdsapp#!/home)
+- [ERA5-Land climate data store](https://cds.climate.copernicus.eu/cdsapp#!/home)
 
 ### Topographic datasets 
-- https://www.ngdc.noaa.gov/mgg/topo/topo.html
+- [Topographic data 1](https://www.ngdc.noaa.gov/mgg/topo/topo.html)
 
 {% include social-share.html %} 
 {% include comments.html %}
