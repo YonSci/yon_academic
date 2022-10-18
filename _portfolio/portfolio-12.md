@@ -595,3 +595,8 @@ If you get this output:
 Displaying the global surface temperature in Kelvin @ January 2001 00:00:00
 
 <img src="file:///home/yoni/Downloads/model_out.png" title="" alt="" data-align="center">
+
+
+**Well done! 🥇🥇🥇 Your feedback is greatly appreciated!!!** 
+
+{% include comments.html %}
