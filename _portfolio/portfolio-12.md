@@ -1,3 +1,13 @@
+---
+title: "Installing, Porting & Running Community Earth System Model"
+header-img: "https://yonsci.github.io/yon_academic//images/p3.png"
+collection: portfolio
+image: https://yonsci.github.io/yon_academic//images/p3.png
+---
+
+<img src="{{page.image}}" width="500" height="100" />
+
+
 # Installing, Porting & Running Community Earth System Model
 
 ## Required libraries & packages
