@@ -1,4 +1,4 @@
-# Installing, Building, Porting & Running Community Earth System Model
+# Installing, Porting & Running Community Earth System Model
 
 ## Required libraries & packages
 
