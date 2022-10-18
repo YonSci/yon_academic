@@ -15,9 +15,7 @@ author_profile: true
 
 ## [CDO, NCL, & NCO Installation](https://yonsci.github.io/yon_academic//portfolio/portfolio-9/) 
 
-## [bbbbbbbbb](https://yonsci.github.io/yon_academic//portfolio/portfolio-12/) 
-
-## [aaaaaa](https://github.com/YonSci/yon_academic/blob/master/_portfolio/aaa.html)
+## [CESM Installation](https://yonsci.github.io/yon_academic//portfolio/portfolio-12/) 
 
 
 {% include social-share.html %}
