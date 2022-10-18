@@ -1,14 +1,11 @@
 ---
 title: "Installing, Porting & Running Community Earth System Model"
-header-img: "https://yonsci.github.io/yon_academic//images/p3.png"
+header-img: "https://yonsci.github.io/yon_academic//images/cesm1.jpg"
 collection: portfolio
-image: https://yonsci.github.io/yon_academic//images/p3.png
+image: https://yonsci.github.io/yon_academic//images/cesm1.jpg
 ---
 
 <img src="{{page.image}}" width="500" height="100" />
-
-
-# Installing, Porting & Running Community Earth System Model
 
 ## Required libraries & packages
 
@@ -594,7 +591,7 @@ If you get this output:
 
 Displaying the global surface temperature in Kelvin @ January 2001 00:00:00
 
-<img src="file:///home/yoni/Downloads/model_out.png" title="" alt="" data-align="center">
+<img src="https://yonsci.github.io/yon_academic//images/model_out.png" title="" alt="" data-align="center">
 
 
 **Well done! 🥇🥇🥇 Your feedback is greatly appreciated!!!** 
