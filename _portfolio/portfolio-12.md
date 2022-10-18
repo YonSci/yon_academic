@@ -1,8 +1,8 @@
 ---
 title: "Installing, Porting & Running Community Earth System Model"
-header-img: "https://yonsci.github.io/yon_academic//images/cesm1.jpg"
+header-img: "https://yonsci.github.io/yon_academic//images/cesm1.png"
 collection: portfolio
-image: https://yonsci.github.io/yon_academic//images/cesm1.jpg
+image: https://yonsci.github.io/yon_academic//images/cesm1.png
 ---
 
 <img src="{{page.image}}" width="500" height="100" />
