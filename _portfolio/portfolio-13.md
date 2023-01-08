@@ -19,11 +19,15 @@ Detail information on the `GIS4WRF` can be found at the <https://gis4wrf.github.
 
 The installation of GIS4WRF is a straightforward. Go to `Plugins` ➡️ `Manage and Install Plugins...`, on the left side you will see list of all plugins available for QGIS, search for `GIS4WRF` and press the `Install Plugin` button.
 
-![](/home/yoni/Pictures/Screenshots/GISWRF_plugin1.png)
+![](https://yonsci.github.io/yon_academic//images/GISWRF_plugin1.png)
 
 ## Configuration of GIS4WRF QGIS Plugin
 
-To configure `GIS4WRF` within QGIS: Go to the `Settings`➡️ `Option...&rarr️ `GIS4WRF` menu in QGIS. ![](/home/yoni/Pictures/Screenshots/setting.png) Here you can configure:
+To configure `GIS4WRF` within QGIS: Go to the `Settings`➡️ `Option...➡️ `GIS4WRF` menu in QGIS. 
+
+![](https://yonsci.github.io/yon_academic//images/setting.png)
+
+Here you can configure:
 
 1)  Working directory for your GIS4WRF projects.
 
@@ -45,7 +49,7 @@ The GIS4WRF working directory is used for
 
 Make sure that you have enough space and have set the correct permissions for the default working directory.
 
-![](/home/yoni/Pictures/Screenshots/gis4wrf_options_working_dir.png)
+![](https://yonsci.github.io/yon_academic//images/gis4wrf_options_working_dir.png)
 
 ### Enable integration with WPS and WRF
 
@@ -95,7 +99,7 @@ This can be done in the WPS/WRF distribution section and first you have to insta
 
 -   To use the pre-compiled WPS and WRF binaries prepared by GISWRF plugin first click the `Download Pre-Compiled WPS Distribution...` and when completed click the `Download Pre-Compiled WRF Distribution...` button.
 
-![](/home/yoni/Pictures/Screenshots/gis4wrf_options_wps_wrf_distro.png)
+![](https://yonsci.github.io/yon_academic//images/gis4wrf_options_wps_wrf_distro.png)
 
 ### Integration with NCAR's Research Data Archive
 
@@ -105,7 +109,7 @@ The integration with  [NCAR's Research Data Archive](https://rda.ucar.edu/) th
 
 2.  Meteorological data used to create initial and boundary conditions.
 
-    ![](/home/yoni/Pictures/Screenshots/gis4wrf_options_rda.png)
+    ![](https://yonsci.github.io/yon_academic//images/gis4wrf_options_rda.png)
 
 First you need to create account at the <https://rda.ucar.edu/index.html?hash=data_user&action=register> and put these login information (`username` and `password`) at the NCAR's Research Data Archive section as shown in the above image. Finally click OK to save all changes and restart the QGIS.
 
@@ -119,15 +123,15 @@ The GIS4WRF has three main tabs `Datasets`, `Simulation`, and `View`. To success
 
 Start by launching `QGIS` &rarr️ `Plugins`&rarr️ `GIS4WRF`.
 
-![](/home/yoni/Pictures/Screenshots/Screenshot%20from%202023-01-07%2011-51-54.png)
+![](https://yonsci.github.io/yon_academic//images/Screenshot%20from%202023-01-07%2011-51-54.png)
 
 Create a new GIS4WRF project by going to `Simulation`➡️ `General`&rarr `Create a GIS4WRF Project`.
 
-![](/home/yoni/Pictures/Screenshots/Screenshot%20from%202023-01-07%2011-33-57.png)
+![](https://yonsci.github.io/yon_academic//images/Screenshot%20from%202023-01-07%2011-33-57.png)
 
 The General tab is used to create a new project or open an existing GIS4WRF project. By default a project is created inside the GIS4WRF default working directory. This will open a new window. Create a new folder named `arba_minch_2020_07_08_09` and click on `Choose`.
 
-![](/home/yoni/Pictures/Screenshots/Screenshot%20from%202023-01-08%2006-42-20.png)
+![](https://yonsci.github.io/yon_academic//images/Screenshot%20from%202023-01-08%2006-42-20.png)
 
 **Define domain**
 
@@ -147,7 +151,7 @@ Select coordinate System (GCS) or Projection
 
 -   Click on `Set Map CRS`
 
-![](/home/yoni/Pictures/Screenshots/Screenshot%20from%202023-01-07%2012-38-12.png)
+![](https://yonsci.github.io/yon_academic//images/Screenshot%20from%202023-01-07%2012-38-12.png)
 
 **Set the Horizontal Grid Spacing:** `1000 m`:
 
@@ -161,7 +165,7 @@ Select coordinate System (GCS) or Projection
 -   Grid Extent (Horizontal): `21`
 -   Grid Extent (Vertical): `21`
 
-![](/home/yoni/Pictures/Screenshots/Screenshot%20from%202023-01-08%2006-47-30.png)
+![](https://yonsci.github.io/yon_academic//images/Screenshot%20from%202023-01-08%2006-47-30.png)
 
 **Enable (tick) Parenting**
 
@@ -171,11 +175,11 @@ Select coordinate System (GCS) or Projection
 -   `Parent 2`: Child-to-Parent Ratio:`3`
 -   Padding (Top, Right, Bottom, Left): `10`
 
-![](/home/yoni/Pictures/Screenshots/Screenshot%20from%202023-01-08%2007-20-28.png)
+![](https://yonsci.github.io/yon_academic//images/Screenshot%20from%202023-01-08%2007-20-28.png)
 
 You can view the domain layers individually by clicking and expanding the WRF domain vector and grid groups in the QGIS panel. The WRF Domain Vector layers with 2 domains. ![](/home/yoni/Pictures/Screenshots/Screenshot%20from%202023-01-08%2007-35-09.png)
 
-The WRF Domain Raster layers with 2 domains. ![](/home/yoni/Pictures/Screenshots/Screenshot%20from%202023-01-08%2007-38-43.png)
+The WRF Domain Raster layers with 2 domains. ![](https://yonsci.github.io/yon_academic//images/Screenshot%20from%202023-01-08%2007-38-43.png)
 
 **Download input data**
 
@@ -183,7 +187,7 @@ The WRF Domain Raster layers with 2 domains. ![](/home/yoni/Pictures/Screenshots
 
 Navigate to `Dataset`  ➡️  `Geo`. Click on `Select Mandatory Fields in Lowest Resolution` and `Download Selected Datasets`. The lowest resolution fields are useful for model testing and educational purposes.
 
-![](/home/yoni/Pictures/Screenshots/Screenshot%20from%202023-01-07%2013-33-36.png)
+![](https://yonsci.github.io/yon_academic//images/Screenshot%20from%202023-01-07%2013-33-36.png)
 
 When the process is complete, you will receive a message indicating that the data was successfully downloaded.
 
@@ -198,7 +202,7 @@ To download the meteorological data navigate to `Dataset`➡️ `Met` and sel
 
 Under `Extent` click on `subset`, then select `Domain 2` on the `Layers` panel of QGIS and click on `Set from Active Layer`  to subset your request. Finally, click `Download` to submit and download your request. 
 
-![](/home/yoni/Pictures/Screenshots/Screenshot%20from%202023-01-07%2019-03-12.png) 
+![](https://yonsci.github.io/yon_academic//images/Screenshot%20from%202023-01-07%2019-03-12.png) 
 
 When the process is complete, you will receive a message indicating that the data was successfully downloaded.
 
@@ -208,9 +212,11 @@ GIS4WRF automatically pre-populates WPS and WRF namelists based on your domain c
 
 Go to `Simulation`➡️ `Data`. As you already have downloaded geographical and meteorological data, simply type `lowres` in the `Domain 1` and  `Domain 2` fields.
 
-![](/home/yoni/Pictures/Screenshots/Screenshot%20from%202023-01-08%2007-47-55.png) click on `2020-07-08 12:00 - 2020-07-09 06:00` and `Use Dataset Selection from List` to select the meteorological data. It will show the current configuration period
+![](https://yonsci.github.io/yon_academic//images/Screenshot%20from%202023-01-08%2007-47-55.png) 
 
-![](/home/yoni/Pictures/Screenshots/Screenshot%20from%202023-01-07%2019-21-01.png)
+Click on `2020-07-08 12:00 - 2020-07-09 06:00` and `Use Dataset Selection from List` to select the meteorological data. It will show the current configuration period
+
+![](https://yonsci.github.io/yon_academic//images/Screenshot%20from%202023-01-07%2019-21-01.png)
 
 **Configure and run**
 
@@ -219,17 +225,17 @@ There are two main processes involved in running a real-case simulation:
 To view the default configuration, Go to `Simulation`➡️ `Run`, and click on `Open configuration` and it will display the general setting of the`namelist.wps`.
 
 
-![](/home/yoni/Pictures/Screenshots/Screenshot%20from%202023-01-08%2007-53-34.png)
+![](https://yonsci.github.io/yon_academic//images/Screenshot%20from%202023-01-08%2007-53-34.png)
 
-![](/home/yoni/Pictures/Screenshots/Screenshot%20from%202023-01-08%2007-52-28.png)
+![](https://yonsci.github.io/yon_academic//images/Screenshot%20from%202023-01-08%2007-52-28.png)
 
 1) To configure and run the WRF Preprocessing System (WPS), the following three programs must be successfully run: `Geogrid`,  `Ungrib`, and `Metgrid`.
 
 Go to `Simulation`➡️ `Run` and click on the `Geogrid`&rarr️  `Ungrib` &rarr️ `Metgrid` buttons individually.
 
-![](/home/yoni/Pictures/Screenshots/Screenshot%20from%202023-01-07%2019-42-46.png) All the programs must finish without errors.
+![](https://yonsci.github.io/yon_academic//images/Screenshot%20from%202023-01-07%2019-42-46.png) All the programs must finish without errors.
 
-![](/home/yoni/Pictures/Screenshots/wps_outputs.png)
+![](https://yonsci.github.io/yon_academic//images//wps_outputs.png)
 
 2)  To configure and run the WRF: there are two programs you will need to run:
 
@@ -239,27 +245,27 @@ Go to `Simulation`➡️ `Run` and click on the `Geogrid`&rarr️  `Ungrib`
 
 GIS4WRF already pre-populates most of the namelist used by Real and WRF (`namelist.input`) for you, however it will not select physics and dynamics options for you by design, as a result you need to set the correct physics and dynamics options for your particular experiment. You can click on `Open configuration`  and replace all values in the configuration with your own `namelist.input`.
 
-![](/home/yoni/Pictures/Screenshots/Screenshot%20from%202023-01-07%2020-49-01.png) 
+![](https://yonsci.github.io/yon_academic//images/Screenshot%20from%202023-01-07%2020-49-01.png) 
 
 **Time Control**  
 
-![](/home/yoni/Pictures/Screenshots/Screenshot%20from%202023-01-08%2007-59-35.png)
+![](https://yonsci.github.io/yon_academic//images/Screenshot%20from%202023-01-08%2007-59-35.png)
 
 **Domains**
 
-![](/home/yoni/Pictures/Screenshots/Screenshot%20from%202023-01-08%2007-59-50.png) \|
+![](https://yonsci.github.io/yon_academic//images/Screenshot%20from%202023-01-08%2007-59-50.png) \|
 
 **Physics and Dynamics**
 
-![](/home/yoni/Pictures/Screenshots/Screenshot%20from%202023-01-08%2008-00-27.png)
+![](https://yonsci.github.io/yon_academic//images//Screenshot%20from%202023-01-08%2008-00-27.png)
 
 Now you are good to go, run `Real` and `WRF` .
 
-![](/home/yoni/Pictures/Screenshots/Screenshot%20from%202023-01-08%2008-16-34.png) 
+![](https://yonsci.github.io/yon_academic//images/Screenshot%20from%202023-01-08%2008-16-34.png) 
 
 First click on `Run Real` and `Run WRF`. The Run program creates the initial condition for the both domains and boundary condition data for the outer domain. Both program should complete without errors. To run this case it takes 708 seconds (11.8 min) in my laptop it may differ on other machines.
 
-![](/home/yoni/Pictures/Screenshots/Screenshot%20from%202023-01-08%2008-23-13.png)
+![](https://yonsci.github.io/yon_academic//images/Screenshot%20from%202023-01-08%2008-23-13.png)
 
 **View results**
 
@@ -267,19 +273,19 @@ After the simulation is complete, click on `Visualize Output` to select the the
 
 |                                   Visualize Open                                   |                                Open WRF NetCDF File                                |
 |:----------------------------------:|:----------------------------------:|
-| ![](/home/yoni/Pictures/Screenshots/Screenshot%20from%202023-01-08%2011-52-54.png) | ![](/home/yoni/Pictures/Screenshots/Screenshot%20from%202023-01-08%2011-54-26.png) |
+| ![](https://yonsci.github.io/yon_academic//images/Screenshot%20from%202023-01-08%2011-52-54.png) | ![](https://yonsci.github.io/yon_academic//images/Screenshot%20from%202023-01-08%2011-54-26.png) |
 
 WRF NetCDF datasets can also be opened under `QGIS`➡️ `Layers `&rarr
 `Add Layer` &rarr `Add WRF NetCDF Layer`. Variables included in WRF NetCDF datasets are shown as a list in the *View* tab. You can view the simulation output as follow:
 
-![](/home/yoni/Pictures/Screenshots/Screenshot%20from%202023-01-08%2011-49-34.png)
+![](https://yonsci.github.io/yon_academic//images/Screenshot%20from%202023-01-08%2011-49-34.png)
 
 The time slider at the end of the list of variables provides a fast way to slice through different time stamps. For variables that include vertical levels, the vertical level drop down menu will become selectable.
 
-![](/home/yoni/Pictures/Screenshots/Screenshot%20from%202023-01-08%2012-12-34.png) 
+![](https://yonsci.github.io/yon_academic//images/Screenshot%20from%202023-01-08%2012-12-34.png) 
 
 
-**You have successfully run the WPS and WRF programs on your personal machine using the QGIS-GISWRF plugin.**
+🥇**You have successfully run the WPS and WRF programs on your personal machine using the QGIS-GISWRF plugin.** 🥇
 
 ### Reference:
 
