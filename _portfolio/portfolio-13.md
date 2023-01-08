@@ -193,7 +193,7 @@ Select coordinate System (GCS) or Projection
 
 ![](https://yonsci.github.io/yon_academic//images/Screenshot%20from%202023-01-08%2007-20-28.png)
 
-You can view the domain layers individually by clicking and expanding the WRF domain vector and grid groups in the QGIS panel. The WRF Domain Vector layers with 2 domains. ![](/home/yoni/Pictures/Screenshots/Screenshot%20from%202023-01-08%2007-35-09.png)
+You can view the domain layers individually by clicking and expanding the WRF domain vector and grid groups in the QGIS panel. The WRF Domain Vector layers with 2 domains. ![](https://yonsci.github.io/yon_academic//images/Screenshot%20from%202023-01-08%2007-35-09.png)
 
 The WRF Domain Raster layers with 2 domains. ![](https://yonsci.github.io/yon_academic//images/Screenshot%20from%202023-01-08%2007-38-43.png)
 
