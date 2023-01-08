@@ -247,7 +247,7 @@ To view the default configuration, Go to `Simulation`➡️ `Run`, and click o
 
 1) To configure and run the WRF Preprocessing System (WPS), the following three programs must be successfully run: `Geogrid`,  `Ungrib`, and `Metgrid`.
 
-Go to `Simulation`➡️ `Run` and click on the `Geogrid`&rarr️  `Ungrib` &rarr️ `Metgrid` buttons individually.
+Go to `Simulation`➡️ `Run` and click on the `Geogrid`➡️  `Ungrib` ➡️ `Metgrid` buttons individually.
 
 ![](https://yonsci.github.io/yon_academic//images/Screenshot%20from%202023-01-07%2019-42-46.png) All the programs must finish without errors.
 
@@ -291,8 +291,8 @@ After the simulation is complete, click on `Visualize Output` to select the the
 |:----------------------------------:|:----------------------------------:|
 | ![](https://yonsci.github.io/yon_academic//images/Screenshot%20from%202023-01-08%2011-52-54.png) | ![](https://yonsci.github.io/yon_academic//images/Screenshot%20from%202023-01-08%2011-54-26.png) |
 
-WRF NetCDF datasets can also be opened under `QGIS`➡️ `Layers `&rarr
-`Add Layer` &rarr `Add WRF NetCDF Layer`. Variables included in WRF NetCDF datasets are shown as a list in the *View* tab. You can view the simulation output as follow:
+WRF NetCDF datasets can also be opened under `QGIS`➡️ `Layers `➡️
+`Add Layer` ➡️ `Add WRF NetCDF Layer`. Variables included in WRF NetCDF datasets are shown as a list in the *View* tab. You can view the simulation output as follow:
 
 ![](https://yonsci.github.io/yon_academic//images/Screenshot%20from%202023-01-08%2011-49-34.png)
 
