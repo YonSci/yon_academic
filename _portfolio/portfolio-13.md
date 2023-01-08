@@ -1,8 +1,12 @@
 ---
 title: "GIS4WRF QGIS Plugin"
-author: "Yonas M."
-date: "`r format(Sys.Date(),'%eth %B, %Y')`"
+header-img: "https://yonsci.github.io/yon_academic//images/cesm3.jpg"
+collection: portfolio
+image: https://yonsci.github.io/yon_academic//images/cesm3.jpg
 ---
+
+<img src="{{page.image}}" width="500" height="100" />
+
 # Installation, configuration, and running the WPS and WRF programs using the GIS4WRF-QGIS Plugin
 
 `GIS4WRF` is an opensource [QGIS](https://qgis.org/) plug-in used to pre-process input data, run simulations, and post-process results of the  [Advanced Research Weather Research and Forecasting](https://www.mmm.ucar.edu/weather-research-and-forecasting-model) (WRF) modelling workflows.
