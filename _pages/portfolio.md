@@ -17,7 +17,7 @@ author_profile: true
 
 ## [CESM Installation](https://yonsci.github.io/yon_academic//portfolio/portfolio-12/) 
 
-## [GIS4WRF-QGIS Plugin]()
+## [GIS4WRF-QGIS Plugin](https://yonsci.github.io/yon_academic//portfolio/portfolio-13/)
 
 
 {% include social-share.html %}
