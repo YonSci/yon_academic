@@ -137,11 +137,11 @@ The GIS4WRF has three main tabs `Datasets`, `Simulation`, and `View`. To success
 
 1)  **Create project**
 
-Start by launching `QGIS` &rarr️ `Plugins`&rarr️ `GIS4WRF`.
+Start by launching `QGIS` ➡️ `Plugins`➡️ `GIS4WRF`.
 
 ![](https://yonsci.github.io/yon_academic//images/Screenshot%20from%202023-01-07%2011-51-54.png)
 
-Create a new GIS4WRF project by going to `Simulation`➡️ `General`&rarr `Create a GIS4WRF Project`.
+Create a new GIS4WRF project by going to `Simulation`➡️ `General`➡️ `Create a GIS4WRF Project`.
 
 ![](https://yonsci.github.io/yon_academic//images/Screenshot%20from%202023-01-07%2011-33-57.png)
 
@@ -157,7 +157,7 @@ It is advisable to set the extent of the datasets  first in-order to reduce the
 
 This configuration will be used to generate the relevant sections in `namelist.wps` and `namelist.wrf`. `Namelist` are inputs to the main programs.
 
-Navigate to `Simulation` &rarr `Domain`➡️ `Map Type` and fill the sections as follows:
+Navigate to `Simulation` ➡️ `Domain`➡️ `Map Type` and fill the sections as follows:
 
 Select coordinate System (GCS) or Projection
 
