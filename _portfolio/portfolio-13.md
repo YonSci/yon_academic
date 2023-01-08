@@ -7,23 +7,24 @@ image: https://yonsci.github.io/yon_academic//images/qgis_wrf.jpeg
 
 <img src="{{page.image}}" width="400" height="400" />
 
+---
+<div align="justify">   
+In this blog, I'd like to introduce you to a fantastic tool known as **GIS4WRF**. It is a **[QGIS](https://qgis.org/)** plugin used to implment the **[Advanced Research Weather Research and Forecasting](https://www.mmm.ucar.edu/weather-research-and-forecasting-model)** model workflow on our personal   machines. WRF is a state-of-the-art mesoscale numerical weather prediction system designed for both atmospheric research and operational forecasting applications. </div> <br>
 
-In this blog, I'd like to introduce you to a fantastic tool known as **GIS4WRF**. It is a **QGIS** plugin that lets us use the **Advanced Research Weather Research and Forecasting (WRF)** model on our own computers. WRF is a state-of-the-art mesoscale numerical weather prediction system designed for both atmospheric research and operational forecasting applications. 
+<div align="justify">  
+GIS4WRF can be used to configure and run **WRF Pre-Processing System (WPS)** and **WRF** programs interactively. It is very helpful for **pre-processing**, **configuring domains**, **running WPS** and **WRF**, and **visualizing simulation** results on your local machine. It provides pre-compiled **binaries**. It allows us to easily **download geographical** data and **meteorological** data used by the WRF Model. It also populates the **namelists** from the dataset. </div> <br>
 
-GIS4WRF can be used to configure and run **WRF Pre-Processing System (WPS)** and **WRF** programs interactively. It is very helpful for **pre-processing**, **configuring domains**, **running WPS** and **WRF**, and **visualizing simulation** results on your local machine. It provides pre-compiled **binaries**. It allows us to easily **download geographical** data and **meteorological** data used by the WRF Model. It also populates the **namelists** from the dataset. 
+<div align="justify">  
+It incorporates QGIS mapping functionality to visualize the **WPS (geogrid, ungrid, and metgrid)** and **WRF (real and WRF)** workflow processes. I found it useful for conducting simulation experiments, and testing physics and dynamics options that didn't require a lot of computational power. </div> <br>
 
-It incorporates QGIS mapping functionality to visualize the **WPS (geogrid, ungrid, and metgrid)** and **WRF (real and WRF)** workflow processes. I found it useful for conducting simulation experiments, and testing physics and dynamics options that didn't require a lot of computational power. 
+<div align="justify">  
+In this example, we run the WRF model for a **24-hour period (7/8/2020:12:00 PM–7/9/2020:7:00 AM)** centered at **Arba Minch, Ethiopia**, using the default physics and dynamic options. The initial and boundary conditions for the simulation are provided by the **NCEP GDAS/FNL 6-hour dataset**. To run this case, it takes 708 seconds (11.8 minutes) on my personal laptop (4 CPUs at 3.000 GHz), but it may differ on other machines. </div> <br>
 
-In this example, we run the WRF model for a **24-hour period (7/8/2020:12:00 PM–7/9/2020:7:00 AM)** centered at **Arba Minch, Ethiopia**, using the default physics and dynamic options. The initial and boundary conditions for the simulation are provided by the **NCEP GDAS/FNL 6-hour dataset**. To run this case, it takes 708 seconds (11.8 minutes) on my personal laptop (4 CPUs at 3.000 GHz), but it may differ on other machines.
-
+Detail information on the `GIS4WRF` can be found at the <https://gis4wrf.github.io/>
 
 # Installation, configuration, and running the WPS and WRF programs using the GIS4WRF-QGIS Plugin
 
-`GIS4WRF` is an opensource [QGIS](https://qgis.org/) plug-in used to pre-process input data, run simulations, and post-process results of the  [Advanced Research Weather Research and Forecasting](https://www.mmm.ucar.edu/weather-research-and-forecasting-model) (WRF) modelling workflows.
-
-`GIS4WRF` can be used to pre-process data, configure domains, run WPS and WRF, and visualize your simulation results in your local machine. It provides pre-compiled binaries. It also allow to download geographical data and meteorological data used by the WRF Model.
-
-Detail information on the `GIS4WRF` can be found at the <https://gis4wrf.github.io/>
+---
 
 ## Installation of GIS4WRF QGIS Plugin
 
