@@ -9,7 +9,7 @@ image: https://yonsci.github.io/yon_academic//images/qgis_wrf.jpeg
 
 ---
 <div align="justify">   
-In this blog, I'd like to introduce you to a fantastic tool known as GIS4WRF. It is a [QGIS](https://qgis.org/) plugin used to implment the [Advanced Research Weather Research and Forecasting](https://www.mmm.ucar.edu/weather-research-and-forecasting-model) model workflow on our personal machines. WRF is a state-of-the-art mesoscale numerical weather prediction system designed for both atmospheric research and operational forecasting applications. </div> <br>
+In this blog, I'd like to introduce you to a fantastic tool known as GIS4WRF. It is a <a href=https://qgis.org/>QGIS</a> plugin used to implment the <a href=https://www.mmm.ucar.edu/weather-research-and-forecasting-model>Advanced Research Weather Research and Forecasting</a> model workflow on our personal machines. WRF is a state-of-the-art mesoscale numerical weather prediction system designed for both atmospheric research and operational forecasting applications. </div> <br>
 
 <div align="justify">  
 GIS4WRF can be used to configure and run WRF Pre-Processing System (WPS) and WRF programs interactively. It is very helpful for pre-processing, configuring domains, running WPS and WRF, and visualizing simulation results on your local machine. It provides pre-compiled binaries. It allows us to easily download geographical data and meteorological data used by the WRF Model. It also populates the namelists from the dataset. </div> <br>
