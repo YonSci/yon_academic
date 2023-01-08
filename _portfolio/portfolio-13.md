@@ -9,13 +9,14 @@ image: https://yonsci.github.io/yon_academic//images/qgis_wrf.jpeg
 
 ---
 <div align="justify">   
-In this blog, I'd like to introduce you to a fantastic tool known as GIS4WRF. It is a <a href=https://qgis.org/>QGIS</a> plugin used to implment the <a href=https://www.mmm.ucar.edu/weather-research-and-forecasting-model>Advanced Research Weather Research and Forecasting</a> model workflow on our personal machines. WRF is a state-of-the-art mesoscale numerical weather prediction system designed for both atmospheric research and operational forecasting applications. 
+ 
+In this blog, I'd like to introduce you to a fantastic tool known as GIS4WRF. It is a QGIS plugin used to implment the Advanced Research Weather Research and Forecasting model workflow on our personal machines. WRF is a state-of-the-art mesoscale numerical weather prediction system designed for both atmospheric research and operational forecasting applications. <br>
 
 
-GIS4WRF can be used to configure and run WRF Pre-Processing System (WPS) and WRF programs interactively. It is very helpful for pre-processing, configuring domains, running WPS and WRF, and visualizing simulation results on your local machine. It provides pre-compiled binaries. It allows us to easily download geographical data and meteorological data used by the WRF Model. It also populates the namelists from the dataset.
+GIS4WRF can be used to configure and run WRF Pre-Processing System (WPS) and WRF programs interactively. It is very helpful for pre-processing, configuring domains, running WPS and WRF, and visualizing simulation results on your local machine. It provides pre-compiled binaries. It allows us to easily download geographical data and meteorological data used by the WRF Model. It also populates the namelists from the dataset. <br>
 
 
-It incorporates QGIS mapping functionality to visualize the WPS (geogrid, ungrid, and metgrid) and WRF (real and WRF) workflow processes. I found it useful for conducting simulation experiments, and testing physics and dynamics options that didn't require a lot of computational power. 
+It incorporates QGIS mapping functionality to visualize the WPS (geogrid, ungrid, and metgrid) and WRF (real and WRF) workflow processes. I found it useful for conducting simulation experiments, and testing physics and dynamics options that didn't require a lot of computational power. <br>
 
  
 In this example, we run the WRF model for a 24-hour period (7/8/2020:12:00 PM–7/9/2020:7:00 AM) centered at Arba Minch, Ethiopia, using the default physics and dynamic options. The initial and boundary conditions for the simulation are provided by the NCEP GDAS/FNL 6-hour dataset. To run this case, it takes 708 seconds (11.8 minutes) on my personal laptop (4 CPUs at 3.000 GHz), but it may differ on other machines. </div> <br>
