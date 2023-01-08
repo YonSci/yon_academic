@@ -223,7 +223,7 @@ To view the default configuration, Go to `Simulation`➡️ `Run`, and click o
 
 ![](/home/yoni/Pictures/Screenshots/Screenshot%20from%202023-01-08%2007-52-28.png)
 
-1)  To configure and run the WRF Preprocessing System (WPS), the following three programs must be successfully run: `Geogrid`,  `Ungrib`, and `Metgrid`.
+1) To configure and run the WRF Preprocessing System (WPS), the following three programs must be successfully run: `Geogrid`,  `Ungrib`, and `Metgrid`.
 
 Go to `Simulation`➡️ `Run` and click on the `Geogrid`&rarr️  `Ungrib` &rarr️ `Metgrid` buttons individually.
 
@@ -286,3 +286,5 @@ The time slider at the end of the list of variables provides a fast way to slice
 Meyer, D., & Riechert, M. (2019). Open source QGIS toolkit for the Advanced Research WRF modelling system. Environmental Modelling & Software, 112, 166--178. <https://doi.org/10.1016/j.envsoft.2018.10.018>
 
 Meyer, D., & Riechert, M. (2018). The GIS4WRF Plugin. Zenodo. <https://doi.org/10.5281/zenodo.1288569>
+
+{% include comments.html %}
