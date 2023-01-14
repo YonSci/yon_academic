@@ -44,7 +44,7 @@ High-resolution Digital Elevation Models (DEMS) can be obtained from the Earth E
 
 ### OpenTopography DEM Downloader
 
-The OpenTopography QGIS-plugin facilitates access to high-resolution DEM from `OpenTopography.org`. The available global high-resolution topographic DEMs are:
+The OpenTopography QGIS-plugin facilitates access to high-resolution DEM from `OpenTopography.org`. The available global high-resolution topographic DEMs includes:
 
 -   SRTM 30m
 
