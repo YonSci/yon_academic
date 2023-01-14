@@ -1,8 +1,8 @@
 ---
 title: "High-resolution Digital Elevation Model Data for WRF-Hydro Mode"
-header-img: "https://yonsci.github.io/yon_academic//images/qgis_wrf.jpeg"
+header-img: "https://yonsci.github.io/yon_academic//images/logo.png"
 collection: portfolio
-image: https://yonsci.github.io/yon_academic//images/qgis_wrf.jpeg
+image: https://yonsci.github.io/yon_academic//images/logo.png
 ---
 
 <img src="{{page.image}}" width="400" height="400" />
