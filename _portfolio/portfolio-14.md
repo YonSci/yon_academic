@@ -1,5 +1,5 @@
 ---
-title: "High-resolution Digital Elevation Model Data for WRF-Hydro Mode"
+title: "High-resolution Digital Elevation Model Data for WRF-Hydro Model"
 header-img: "https://yonsci.github.io/yon_academic//images/logo.png"
 collection: portfolio
 image: https://yonsci.github.io/yon_academic//images/logo.png
@@ -15,22 +15,30 @@ High-resolution Digital Elevation Models (DEMS) can be obtained from the Earth E
 
 ## Datasets
 
-1)  **NASA SRTM Digital Elevation 30m (SRTM V3)**:
+1)  **NASA SRTM Digital Elevation 30m (SRTM V3)**:     
+
     -   Provider: NASA/USGS/JPL-Caltech: Shuttle Radar Topography Mission
     -   Resolution: approximately 30 meters (1 arcsec )
     -   Source: <https://developers.google.com/earth-engine/datasets/catalog/USGS_SRTMGL1_003>
+   
 2)  **ALOS DSM Global 30m v3.2 dataset**:
+
     -   Provider: JAXA Earth Observation Research Center
     -   Resolution: approximately 30 meters (1 arcsec )
     -   Source: <https://developers.google.com/earth-engine/datasets/catalog/JAXA_ALOS_AW3D30_V3_2>
+   
 3)  **NASADEM: NASA NASADEM Digital Elevation 30m**
+
     -   Provider: NASA / USGS / JPL-Caltech
     -   Resolution: approximately 30 meters (1 arcsec )
     -   Source: <https://developers.google.com/earth-engine/datasets/catalog/NASA_NASADEM_HGT_001>
+   
 4)  **Copernicus Global Digital Elevation Models**
+
     -   Provider: European Space Agency, Copernicus Programme
     -   Resolution: approximately 30 meters (1 arcsec )
     -   Source: <https://portal.opentopography.org/datasetMetadata?otCollectionID=OT.032021.4326.1>
+
 
 ## Tool for downloading high-resolution DEM
 
