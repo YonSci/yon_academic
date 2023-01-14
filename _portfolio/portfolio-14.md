@@ -80,7 +80,9 @@ Click on request `API KEY`
 
 ![](https://yonsci.github.io/yon_academic//images/apikey.png)
 
-This will give you the API KEY for downloading DEM data from `OpenTopography` repository. Copy the KEY and save it somewhere for later use. ![](images/key.png)
+This will give you the API KEY for downloading DEM data from `OpenTopography` repository. Copy the KEY and save it somewhere for later use. 
+
+![](https://yonsci.github.io/yon_academic//images/key.png)
 
 ### Downloading High resolution DEM
 
