@@ -47,13 +47,9 @@ High-resolution Digital Elevation Models (DEMS) can be obtained from the Earth E
 The OpenTopography QGIS-plugin facilitates access to high-resolution DEM from `OpenTopography.org`. The available global high-resolution topographic DEMs includes:
 
 -   SRTM 30m
-
 -   ALOS World 3D 30m
-
 -   SRTM GL1 Ellipsoidal 30m
-
 -   Copernicus Global DSM 30m
-
 -   NASADEM Global DEM
 
 The plugin's detailed information can be found at <https://opentopography.org/> or <https://github.com/OpenTopography>
@@ -74,7 +70,7 @@ Step-3: Once the installation is complete, open to the following URL: <https://p
 
 Step-4: Get an API Key from OpenTopography.org. Login to your new OpenTopography account via [https://portal.opentopography.org](https://portal.opentopography.org/myopentopo) and click on the `myopentopo` tab.
 
-![](https://yonsci.github.io/yon_academic//images/myopentopo.png){width="701"}
+![](https://yonsci.github.io/yon_academic//images/myopentopo.png)
 
 Go the bottom of the page on `My Account` and click the following link `myOpenTops Authorizations and API Key` <https://portal.opentopography.org/lidarAuthorizationInfo> to create API Key.
 
