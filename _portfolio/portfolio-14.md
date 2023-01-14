@@ -44,7 +44,7 @@ High-resolution Digital Elevation Models (DEMS) can be obtained from the Earth E
 
 ### OpenTopography DEM Downloader
 
-The OpenTopography QGIS-plugin facilitates access to high-resolution DEM from `OpenTopography.org`. The available global high-resolution topographic DEMs includes:
+The OpenTopography QGIS-plugin facilitates access to high-resolution DEM from `OpenTopography.org`. The available global high-resolution topographic DEMs include:
 
 -   SRTM 30m
 -   ALOS World 3D 30m
@@ -64,7 +64,7 @@ Step-2: Click on `All`, in the search bar type `opentopography` plugin, and when
 
 ![](https://yonsci.github.io/yon_academic//images/plugin2.png)
 
-Step-3: Once the installation is complete, open to the following URL: <https://portal.opentopography.org/newUser> and create account on `OpenTopography` site. You need to conform your registration via your email.
+Step-3: Once the installation is complete, open the following URL: <https://portal.opentopography.org/newUser> and create account on `OpenTopography` site. You need to conform your registration via your email.
 
 ![](https://yonsci.github.io/yon_academic//images/fill_form.png)
 
@@ -98,7 +98,7 @@ This will bring up the `OpenTopography DEM Downloader` dialog box. In the `Param
 
 -   **Enter your API Key or use the existing one bellow** Paste the API Key you get from previous step.
 
--   **Output Raster**: Give output name for the DEM and finllay Click the `Run` button.
+-   **Output Raster**: Give output name for the DEM and finally Click the `Run` button.
 
 ![](https://yonsci.github.io/yon_academic//images/download.png)
 
