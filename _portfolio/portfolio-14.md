@@ -1,5 +1,5 @@
 ---
-title: "High-resolution Digital Elevation Model Data for WRF-Hydro Model"
+title: "High-Resolution Digital Elevation Model Data for WRF-Hydro Model"
 header-img: "https://yonsci.github.io/yon_academic//images/logo.png"
 collection: portfolio
 image: https://yonsci.github.io/yon_academic//images/logo.png
