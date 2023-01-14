@@ -54,27 +54,27 @@ The plugin's detailed information can be found at <https://opentopography.org/> 
 
 Step-1: Open `QGIS` and go to `Plugins` menu then `Manage and Install Plugins…`
 
-![](plugin1.png)
+![](https://yonsci.github.io/yon_academic//images/plugin1.png)
 
 Step-2: Click on `All`, in the search bar type `opentopography` plugin, and when the `OpenTopography DEM Downloader` appears click on the `Install Plugin`
 
-![](plugin2.png)
+![](https://yonsci.github.io/yon_academic//images/plugin2.png)
 
 Step-3: Once the installation is complete, open to the following URL: <https://portal.opentopography.org/newUser> and create account on `OpenTopography` site. You need to conform your registration via your email.
 
-![](images/fill_form.png)
+![](https://yonsci.github.io/yon_academic//images/fill_form.png)
 
 Step-4: Get an API Key from OpenTopography.org. Login to your new OpenTopography account via [https://portal.opentopography.org](https://portal.opentopography.org/myopentopo) and click on the `myopentopo` tab.
 
-![](images/myopentopo.png){width="701"}
+![](https://yonsci.github.io/yon_academic//images/myopentopo.png){width="701"}
 
 Go the bottom of the page on `My Account` and click the following link `myOpenTops Authorizations and API Key` <https://portal.opentopography.org/lidarAuthorizationInfo> to create API Key.
 
-![](images/account.png)
+![](https://yonsci.github.io/yon_academic//images/account.png)
 
 Click on request `API KEY`
 
-![](images/apikey.png)
+![](https://yonsci.github.io/yon_academic//images/apikey.png)
 
 This will give you the API KEY for downloading DEM data from `OpenTopography` repository. Copy the KEY and save it somewhere for later use. ![](images/key.png)
 
@@ -82,7 +82,7 @@ This will give you the API KEY for downloading DEM data from `OpenTopography` re
 
 Let's use `QGIS` and `OpenTopography` to download high resolution DEM. Click on the `OpenTopography DEM Downloader` button as shown in the following figure.
 
-![](images/open.png)
+![](https://yonsci.github.io/yon_academic//images/open.png)
 
 This will bring up the `OpenTopography DEM Downloader` dialog box. In the `Parameters` tab fill the following information:
 
@@ -94,15 +94,15 @@ This will bring up the `OpenTopography DEM Downloader` dialog box. In the `Param
 
 -   **Output Raster**: Give output name for the DEM and finllay Click the `Run` button.
 
-![](images/download.png)
+![](https://yonsci.github.io/yon_academic//images/download.png)
 
 When the data download is complete, the QGIS Layer will be automatically loaded, as shown below. Here we downloaded a 30 meter SRTM high resolution DEM for Dire Dawa city and its surrounding areas.
 
-![](images/data.png)
+![](https://yonsci.github.io/yon_academic//images/data.png)
 
 Finally, we should re-project the DEM in order to use it in the WRF-Hydro model for hydrological applications. Go to `Raster` then `Projection`, and `Warp (Projection...)` . This will open the projection dialog box:
 
-![](images/reproject1.png)
+![](https://yonsci.github.io/yon_academic//images/reproject1.png)
 
 -   In the **Input Layer** select the DEM data you downloaded. In this case the `Dem_Dire_Dawa.tif`
 
@@ -114,18 +114,18 @@ Finally, we should re-project the DEM in order to use it in the WRF-Hydro model 
 
 -   **ReProjected**: Output name: `projected_dire_dem.tif` and finally click `Run`
 
-![](images/reproject2.png)
+![](https://yonsci.github.io/yon_academic//images/reproject2.png)
 
-![](images/reproject3.png)
+![](https://yonsci.github.io/yon_academic//images/reproject3.png)
 
 This will load the re-pojected DEM data in the QGIS Layer Panel.
 
-![](images/final.png)
+![](https://yonsci.github.io/yon_academic//images/final.png)
 
 This DEM can be used as input for building hydrological routing grids in the WRF-Hydro GIS pre-processing tool.
 
 
-🥇**Happy WRF-Hydro Modelling.** 🥇
+                                 🥇**Happy WRF-Hydro Modelling.** 🥇
 
 
 
