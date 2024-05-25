@@ -83,7 +83,7 @@ analytics:
 author:
   name             : ""
   avatar           : "photo_2022-01-18_21-11-04.jpg"
-  bio              : "PhD candidate at Ethiopian Institute of Water Resources (EIWR), Addis Ababa University(AAU)"
+  # bio              : "PhD candidate at Ethiopian Institute of Water Resources (EIWR), Addis Ababa University(AAU)"
   location         : " Addis Ababa,Ethiopian"
   employer         :
  # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
